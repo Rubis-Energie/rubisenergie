@@ -1,0 +1,1208 @@
+# Translation of Plugins - Visualizer: Tables and Charts Manager for WordPress - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Visualizer: Tables and Charts Manager for WordPress - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-18 14:49:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Visualizer: Tables and Charts Manager for WordPress - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://madpixels.net"
+msgstr "http://madpixels.net"
+
+#. Author of the plugin/theme
+msgid "Madpixels"
+msgstr "Madpixels"
+
+#. Description of the plugin/theme
+msgid "A simple, easy to use and quite powerful tool to create, manage and embed interactive charts into your WordPress posts and pages. The plugin uses Google Visualization API to render charts, which supports cross-browser compatibility (adopting VML for older IE versions) and cross-platform portability to iOS and new Android releases."
+msgstr "Простой, легкий в использовании и довольно мощный инструмент для создания, управления и встраивания интерактивных диаграмм в ваши записи и на страницы WordPress. Плагин использует Google Visualization API для визуализации диаграмм, который совместим с различными браузерами (использует VML для более старых версий IE), а также с iOS и новыми версиями Android."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/madpixelslabs/visualizer"
+msgstr "https://github.com/madpixelslabs/visualizer"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Visualizer"
+msgstr "WordPress Visualizer"
+
+#: classes/Visualizer/Render/Templates.php:70
+msgid "Insert"
+msgstr "Вставить"
+
+#: classes/Visualizer/Render/Sidebar.php:541
+msgid "Enter custom format pattern to apply to this series value, similar to the %sICU date and time format%s."
+msgstr "Создайте собственный шаблон формата для различных повторяющихся значений, подобно %sформату даты и времени ICU%s."
+
+#: classes/Visualizer/Render/Sidebar.php:538
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: classes/Visualizer/Render/Sidebar.php:530
+msgid "Enter custom format pattern to apply to this series value, similar to the %sICU pattern set%s. Use something like #,### to get 1,234 as output, or $# to add dollar sign before digits. Pay attention that if you use #%% percentage format then your values will be multiplied by 100."
+msgstr "Создайте собственный шаблон формата для различных повторяющихся значений, подобно %sформату даты и времени ICU%s. Например, используйте #,### чтобы получить 1,234 на выходе или $# для вставки символа доллара перед цифрами. Обратите внимание, если Вы используете #%% в качестве процентного формата, то значения будут умножены на 100."
+
+#: classes/Visualizer/Render/Sidebar.php:414
+msgid "Hex Value"
+msgstr "Цвет в шестнадцатиричном коде (HEX)"
+
+#: classes/Visualizer/Render/Sidebar.php:363
+msgid "Determines the width and hight of the chart area."
+msgstr "Определяет ширину и высоту области диаграммы."
+
+#: classes/Visualizer/Render/Sidebar.php:349
+msgid "Width And Height Of Chart Area"
+msgstr "Ширина и высота области диаграммы"
+
+#: classes/Visualizer/Render/Sidebar.php:343
+msgid "Determines how far to draw the chart from the left and top borders."
+msgstr "Определяет отступ диаграммы от левой и верхней границ."
+
+#: classes/Visualizer/Render/Sidebar.php:329
+msgid "Left And Top Margins"
+msgstr "Левый и верхний отступы"
+
+#: classes/Visualizer/Render/Sidebar.php:325
+msgid "Configure the placement and size of the chart area (where the chart itself is drawn, excluding axis and legends). Two formats are supported: a number, or a number followed by %. A simple number is a value in pixels; a number followed by % is a percentage."
+msgstr "Настройте положение и размер диаграммы (исключая ось и легенды) Поддерживаются два формата: числовой и число, оканчивающееся символом %. Это будут значения в пикселях и в процентах, соответственно."
+
+#: classes/Visualizer/Render/Sidebar.php:324
+msgid "Chart Area"
+msgstr "Диаграмма с областями"
+
+#: classes/Visualizer/Render/Sidebar.php:319
+msgid "Transparent background"
+msgstr "Прозрачный фон"
+
+#: classes/Visualizer/Render/Sidebar.php:266
+msgid "Layout"
+msgstr "Разметка"
+
+#: classes/Visualizer/Render/Sidebar.php:253
+msgid "If set to yes, will show colored squares next to the slice information in the tooltip."
+msgstr "Если да, во всплывающей подсказке с информацией будут цветовые метки."
+
+#: classes/Visualizer/Render/Sidebar.php:249
+msgid "Show Color Code"
+msgstr "Показать код цвета"
+
+#: classes/Visualizer/Render/Sidebar.php:242
+msgid "The tooltip will be displayed when the user selects an element"
+msgstr "Подсказка будет выведена, когда пользователь выберет элемент"
+
+#: classes/Visualizer/Render/Sidebar.php:214
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: classes/Visualizer/Render/Sidebar.php:210
+msgid "Determines the alignment of the legend."
+msgstr "Определяет выравнивание легенды."
+
+#: classes/Visualizer/Render/Sidebar.php:206
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: classes/Visualizer/Render/Sidebar.php:202
+msgid "Determines where to place the legend, compared to the chart area."
+msgstr "Определяет, куда поместить легенду относительно диаграммы."
+
+#: classes/Visualizer/Render/Sidebar.php:198
+msgid "Position"
+msgstr "Позиция"
+
+#: classes/Visualizer/Render/Sidebar.php:196
+msgid "Legend"
+msgstr "Легенда"
+
+#: classes/Visualizer/Render/Sidebar.php:191
+msgid "The default font family and size for all text in the chart."
+msgstr "Название шрифта и размер по умолчанию для всех надписей в диаграмме."
+
+#: classes/Visualizer/Render/Sidebar.php:165
+msgid "Family And Size"
+msgstr "Семейство и размер"
+
+#: classes/Visualizer/Render/Sidebar.php:162
+msgid "Font Styles"
+msgstr "Стили шрифта"
+
+#: classes/Visualizer/Render/Sidebar.php:158
+msgid "Title"
+msgstr "Заголовок"
+
+#: classes/Visualizer/Render/Sidebar.php:155
+msgid "Configure title, font styles, tooltip, legend and else settings for the chart."
+msgstr "Настройте заголовок, стили шрифта, всплывающие подсказки, легенду и другие настройки для диаграммы."
+
+#: classes/Visualizer/Render/Sidebar.php:112
+msgid "Aligned to the end of the allocated area"
+msgstr "Выравнивание по концу выделенной области"
+
+#: classes/Visualizer/Render/Sidebar.php:111
+msgid "Centered in the allocated area"
+msgstr "По центру выделенной области"
+
+#: classes/Visualizer/Render/Sidebar.php:110
+msgid "Aligned to the start of the allocated area"
+msgstr "Выравнивается по началу выделенного области"
+
+#: classes/Visualizer/Render/Sidebar.php:105
+msgid "Omit the legend"
+msgstr "Опустить легенду"
+
+#: classes/Visualizer/Render/Sidebar.php:103
+msgid "Below the chart"
+msgstr "Ниже диаграммы"
+
+#: classes/Visualizer/Render/Sidebar.php:102
+msgid "Above the chart"
+msgstr "Над диаграммой"
+
+#: classes/Visualizer/Render/Sidebar.php:101
+msgid "Right of the chart"
+msgstr "Справа от диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:202
+msgid "Determines what information to display when the user hovers over a pie slice."
+msgstr "Определяет, какая информация будет выведена, когда пользователь наведёт указатель на сегмент."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:200
+msgid "Display only the percentage of the whole represented by the slice"
+msgstr "Отображать только процент от общего значения"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:199
+msgid "Display only the absolute value of the slice"
+msgstr "Отображать только абсолютное значение сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:198
+msgid "Display both the absolute value of the slice and the percentage of the whole"
+msgstr "Отображать абсолютное и процентное значение сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:193
+msgid "Text"
+msgstr "Текст"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:172
+msgid "Slice Color"
+msgstr "Цвет сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:167
+msgid "How far to separate the slice from the rest of the pie, from 0.0 (not at all) to 1.0 (the pie's radius)."
+msgstr "Как далеко отодвинуть сегмент от остальной диаграммы, от 0.0 (не отодвигать) до 1.0 (на радиус диаграммы)."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:164
+msgid "Slice Offset"
+msgstr "Смещение сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:160
+msgid "Slices Settings"
+msgstr "Настройки сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:143
+msgid "Residue Slice Color"
+msgstr "Цвет остаточного сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:139
+msgid "Other"
+msgstr "Другие"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:138
+msgid "A label for the combination slice that holds all slices below slice visibility threshold."
+msgstr "Метка для комбинированного сегмента, который содержит все сегменты ниже порога видимости сегмента."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:135
+msgid "Residue Slice Label"
+msgstr "Метка остаточного сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:130
+msgid "The slice relative part, below which a slice will not show individually. All slices that have not passed this threshold will be combined to a single slice, whose size is the sum of all their sizes. Default is not to show individually any slice which is smaller than half a degree."
+msgstr "Относительный порог видимости, ниже которого сегмент не будет виден отдельно. Все сегменты, не прошедшие порог будут объединены в общий сегмент, размер которого будет составлять сумму всех таких сегментов. По умолчанию группируются сегменты, которые занимают меньше половины градуса."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:127
+msgid "Visibility Threshold"
+msgstr "Порог видимости"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:124
+msgid "Residue Settings"
+msgstr "Остальные настройки"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:107
+msgid "Slice Border Color"
+msgstr "Цвет границы сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:102
+msgid "The angle, in degrees, to rotate the chart by. The default of 0 will orient the leftmost edge of the first slice directly up."
+msgstr "Угол поворота диаграммы в процентах. По умолчанию 0, левый край первого сегмента будет ориентирован строго вверх."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:99
+msgid "Start Angle"
+msgstr "Начальный угол"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:94
+msgid "If between 0 and 1, displays a donut chart. The hole with have a radius equal to number times the radius of the chart. Only applicable when the chart is two-dimensional."
+msgstr "Отображает кольцевую диаграмму, если значение от 0 до 1. Радиус отверстия кратен радиусу диаграммы. Применяется только тогда, когда диаграмма двумерная."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:91
+msgid "Pie Hole"
+msgstr "Отверстие диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:87
+msgid "The content of the text displayed on the slice."
+msgstr "Содержимое текста, отображаемого на сегменте."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:85
+msgid "No text is displayed"
+msgstr "Текст не отображается"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:84
+msgid "The name of the slice"
+msgstr "Название сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:83
+msgid "The quantitative value of the slice"
+msgstr "Количественное значение сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:82
+msgid "The percentage of the slice size out of the total"
+msgstr "Процентный размер сегмента от общего"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:77
+msgid "Slice Text"
+msgstr "Тест сегмента"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:73
+msgid "If set to yes, will draw slices counterclockwise."
+msgstr "Если да, то прорисовка будет против часовой стрелки."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:69
+msgid "Reverse Categories"
+msgstr "Обратные (reverse) рубрики"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:65
+msgid "If set to yes, displays a three-dimensional chart."
+msgstr "Если да, то отобразит трёхмерную диаграмму."
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:61
+msgid "Is 3D"
+msgstr "Это 3D"
+
+#: classes/Visualizer/Render/Sidebar/Type/Pie.php:58
+msgid "Pie Settings"
+msgstr "Настройки диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Line.php:67
+msgid "Whether to guess the value of missing points. If yes, it will guess the value of any missing data based on neighboring points. If no, it will leave a break in the line at the unknown point."
+msgstr "Нужно ли заполнять пропущенные точки. Если да, то пропущенные точки будут рассчитываться по соседним. Если нет, то в этих точках будет разрыв линии."
+
+#: classes/Visualizer/Render/Sidebar/Type/Line.php:63
+msgid "Interpolate Nulls"
+msgstr "Интерполировать нули"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:377
+#: classes/Visualizer/Render/Sidebar.php:310
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:365
+#: classes/Visualizer/Render/Sidebar.php:297
+msgid "The chart border width in pixels."
+msgstr "Ширина границы диаграммы в пикселях."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:359
+#: classes/Visualizer/Render/Sidebar.php:291
+msgid "Configure the background color for the main area of the chart and the chart border width and color."
+msgstr "Настройте цвет фона для основной области диаграммы, а также ширину и цвет границы диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:354
+msgid "If no, the map will be stretched to the exact size of the chart as specified by the width and height options."
+msgstr "Если нет, то карта будет растянута до ширины и высоты, указанной в настройках."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:353
+msgid "If yes, the map will be drawn at the largest size that can fit inside the chart area at its natural aspect ratio. If only one of the width and height options is specified, the other one will be calculated according to the aspect ratio."
+msgstr "Если да, карта будет нарисована с максимальным размером, который может поместиться внутри области диаграммы с ее естественным соотношением сторон. Если указан только один из вариантов ширины и высоты, другой будет рассчитан в соответствии с соотношением сторон."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:349
+msgid "Keep Aspect Ratio"
+msgstr "Сохранить соотношение сторон"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:324
+msgid "Layout Settings"
+msgstr "Настройки разметки"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:309
+msgid "The zoom factor of the magnifying glass. Can be any number greater than 0."
+msgstr "Коэффициент масштабирования лупы. Может быть любым числом больше 0."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:306
+msgid "Zoom Factor"
+msgstr "Коэффициент увеличения"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:302
+msgid "If yes, when the user lingers over a cluttered marker, a magnifiying glass will be opened."
+msgstr "Если да, то когда пользователь задержится над загроможденным маркером, будет открываться лупа."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:298
+msgid "Enabled"
+msgstr "Включено"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:295
+msgid "Configure magnifying glass settings, which appears, when the user lingers over a cluttered marker. Note: this feature is not supported in browsers that do not support SVG, i.e. Internet Explorer version 8 or earlier."
+msgstr "Настройка параметров лупы, которое появляется, когда пользователь задержится на загромождённом участке. Примечание: эта функция не поддерживается в браузерах, которые не поддерживают SVG, т.е. Internet Explorer версии 8 или более ранней."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:293
+msgid "Magnifying Glass"
+msgstr "Лупа"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:275
+msgid "The opacity of the markers, where 0.0 is fully transparent and 1.0 is fully opaque."
+msgstr "Прозрачность маркеров, где 0.0 - это полностью прозрачные, а 1.0 - непрозрачные."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:272
+msgid "Marker Opacity"
+msgstr "Прозрачность маркера"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:267
+msgid "Determines the radius of the smallest and largest possible bubbles, in pixels."
+msgstr "Определяет наименьший и наибольший радиус пузырьков, в пикселях."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:253
+msgid "Minimum And Maximum Marker Radius"
+msgstr "Мин. и макс. радиус маркера"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:247
+msgid "Determines the minimum and maximum values of size axis."
+msgstr "Определяет мин. и макс. значение на оси."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:229
+msgid "Configure how values are associated with bubble size, minimum and maximun values and marker opacity setting."
+msgstr "Настройте, как значения связаны с размером пузырька, мин. и мак. значение, а также прозрачность маркера."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:227
+msgid "Size Axis"
+msgstr "Размер оси"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:209
+msgid "Dateless Region"
+msgstr "Регион без данных"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:195
+msgid "Intermediate Value"
+msgstr "Промежуточное значение"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:183
+msgid "Determines the minimum and maximum values of color axis."
+msgstr "Определяет мин. и макс. значение цветовой оси."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:169
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:233
+msgid "Minimum And Maximum Values"
+msgstr "Мин. и макс. значения"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:165
+msgid "Configure color axis gradient scale, minimum and maximun values and a color of the dateless regions."
+msgstr "Настройте шкалу градиента цветовой оси, мин. и макс. значения и цвет областей без даты."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:163
+msgid "Color Axis"
+msgstr "Цветовая ось"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:151
+#: classes/Visualizer/Render/Sidebar.php:245
+msgid "Determines the user interaction that causes the tooltip to be displayed."
+msgstr "Определяет взаимодействие с пользователем, которое вызывает всплывающую подсказку."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:149
+#: classes/Visualizer/Render/Sidebar.php:243
+msgid "The tooltip will not be displayed"
+msgstr "Подсказка не отображается"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:148
+#: classes/Visualizer/Render/Sidebar.php:241
+msgid "The tooltip will be displayed when the user hovers over an element"
+msgstr "Всплывающая подсказка не отображается, когда пользователь наводит указатель на элемент"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:143
+#: classes/Visualizer/Render/Sidebar.php:236
+msgid "Trigger"
+msgstr "Триггер"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:128
+#: classes/Visualizer/Render/Sidebar.php:221
+msgid "Tooltip"
+msgstr "Подсказка"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:123
+msgid "Markers"
+msgstr "Маркеры"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:122
+msgid "Regions"
+msgstr "Регионы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:121
+msgid "Auto"
+msgstr "Авто"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:111
+msgid "'markers' - This is a marker map."
+msgstr "'маркеры' - это карта маркеров."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:110
+msgid "'regions' - This is a region map."
+msgstr "'регионы' - это карта региона."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:109
+msgid "'auto' - Choose based on the format of the data."
+msgstr "'авто' - выбор на основе формата данных."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:107
+msgid "Determines which type of map this is. The following values are supported:"
+msgstr "Определяет, какой это тип карты. Поддерживаются следующие значения:"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:104
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:116
+msgid "Display Mode"
+msgstr "Режим отображения"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:98
+msgid "Metros"
+msgstr "Метро"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:97
+msgid "Provinces"
+msgstr "Провинции"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:96
+msgid "Countries"
+msgstr "Страны"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:86
+msgid "'metros' - Supported for the US country region and US state regions only."
+msgstr "'метро' - поддерживается только для США и регионов США ."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:85
+msgid "'provinces' - Supported only for country regions and US state regions. Not supported for all countries; please test a country to see whether this option is supported."
+msgstr "'провинции' - поддерживается только для близлежащих стран и штатов США. Не поддерживается для всех стран; пожалуйста, выберите страну, чтобы увидеть, поддерживается ли эта опция."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:84
+msgid "'countries' - Supported for all regions, except for US state regions."
+msgstr "\"страны\" - поддерживается для всех регионов, кроме регионов штатов США."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:82
+msgid "The resolution of the map borders. Choose one of the following values:"
+msgstr "Разрешение для границ карты. Выберите одно из следующих значений:"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:79
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:91
+msgid "Resolution"
+msgstr "Разрешение"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:66
+msgid "A state in the United States, specified by its %s code, e.g., 'US-AL' for Alabama. Note that the resolution option must be set to either 'provinces' or 'metros'."
+msgstr "Штат в Соединенных Штатах, определяется его кодом %s, например, 'US-AL' для Алабамы. Обратите внимание, что для параметра разрешения должна быть указана 'область' или 'метро'."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:65
+msgid "A country, specified by its %s code, e.g., 'AU' for Australia."
+msgstr "Страна, определяемая её кодом %s, напр., 'AU' для Австралии."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:64
+msgid "A continent or a sub-continent, specified by its %s code, e.g., '011' for Western Africa."
+msgstr "Континент или субконтинент, определенный его кодом %s, например, '011' для Западной Африки."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:63
+msgid "'world' - A map of the entire world."
+msgstr "'мир' - карта всего мира."
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:61
+msgid "Configure the region area to display on the map. (Surrounding areas will be displayed as well.) Can be one of the following:"
+msgstr "Настройте область региона для отображения на карте. (Также будут отображаться окружающие области.) Может быть одним из следующих:"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:59
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:71
+msgid "Region"
+msgstr "Регион"
+
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:58
+msgid "Map Settings"
+msgstr "Настройки карты"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:249
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:344
+#: classes/Visualizer/Render/Sidebar.php:285
+msgid "Determines the total width and height of the chart."
+msgstr "Определяет общую ширину и высоту диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:235
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:330
+#: classes/Visualizer/Render/Sidebar.php:271
+msgid "Width And Height Of Chart"
+msgstr "Ширина и высота диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:231
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:326
+#: classes/Visualizer/Render/Sidebar.php:267
+msgid "Configure the total size of the chart. Two formats are supported: a number, or a number followed by %. A simple number is a value in pixels; a number followed by % is a percentage."
+msgstr "Настройте общий размер диаграммы. Поддерживаются два формата: число или число, за которым следует %. Простое число - это значение в пикселях; число, за которым следует %, - это процент."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:229
+#: classes/Visualizer/Render/Sidebar.php:265
+msgid "Layout & Chart Area"
+msgstr "Разметка и область диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:207
+msgid "The lowest and highest values for a range marked by a red color."
+msgstr "Наименьшее и максимальное значения для диапазона отмечены красным цветом."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:189
+msgid "Configure the red section of the gauge chart."
+msgstr "Настройте красную часть диаграммы датчика."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:187
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:212
+msgid "Red Color"
+msgstr "Красный цвет"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:165
+msgid "The lowest and highest values for a range marked by a yellow color."
+msgstr "Наименьшее и максимальное значения для диапазона отмечены желтым цветом."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:147
+msgid "Configure the yellow section of the gauge chart."
+msgstr "Настройте желтую часть диаграммы датчика."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:145
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:170
+msgid "Yellow Color"
+msgstr "Жёлтый цвет"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:123
+msgid "The lowest and highest values for a range marked by a green color."
+msgstr "Наименьшее и максимальное значения для диапазона отмечены зеленым цветом."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:109
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:151
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:193
+msgid "From And To Range"
+msgstr "Диапазон \"от и до\""
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:105
+msgid "Configure the green section of the gauge chart."
+msgstr "Настройте зеленую часть диаграммы датчиков."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:103
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:128
+msgid "Green Color"
+msgstr "Зелёный цвет"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:85
+msgid "The number of minor tick section in each major tick section."
+msgstr "Количество вспомогательных делений в каждом основном делении."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:82
+msgid "Minor Ticks"
+msgstr "Незначительные тики"
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:77
+msgid "The maximal and minimal values of the gauge."
+msgstr "Макс. и мин. значения датчика."
+
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:63
+msgid "Min And Max Values"
+msgstr "Мин. и макс. значения"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:130
+msgid "The stroke width of rising candles."
+msgstr "Ширина stroke для растущих свечей."
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:125
+msgid "Rising Candles"
+msgstr "Свечи с восходящим потоком"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:118
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:142
+msgid "Fill Color"
+msgstr "Цвет заливки"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:111
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:135
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:370
+#: classes/Visualizer/Render/Sidebar.php:302
+msgid "Stroke Color"
+msgstr "Цвет контура"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:106
+msgid "The stroke width of falling candles."
+msgstr "Ширина stroke падающих свечей."
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:103
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:127
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:362
+#: classes/Visualizer/Render/Sidebar.php:294
+msgid "Stroke Width"
+msgstr "Толщина контура"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:101
+msgid "Failing Candles"
+msgstr "Неудачные свечи"
+
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:58
+msgid "Candles Settings"
+msgstr "Настройки свечей"
+
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:141
+msgid "The opacity of the colored area, where 0.0 is fully transparent and 1.0 is fully opaque."
+msgstr "Прозрачность цветной области, где 0.0 является полностью прозрачной и 1.0 является полностью непрозрачной."
+
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:77
+msgid "The default opacity of the colored area under an area chart series, where 0.0 is fully transparent and 1.0 is fully opaque. To specify opacity for an individual series, set the area opacity value in the series property."
+msgstr "Прозрачность по умолчанию цветной области под серией диаграмм с областями, где 0,0 - полностью прозрачная, а 1,0 - полностью непрозрачная. Чтобы указать непрозрачность для отдельной серии, установите значение непрозрачности области в свойстве серии."
+
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:74
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:138
+msgid "Area Opacity"
+msgstr "Прозрачность области"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:256
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:131
+msgid "Overrides the global line width and point size values for this series."
+msgstr "Переопределяет значения глобальной ширины линии и размера точки для этой серии."
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:210
+msgid "Lines Settings"
+msgstr "Настройки линий"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:197
+msgid "The transparency of data points, with 1.0 being completely opaque and 0.0 fully transparent."
+msgstr "Прозрачность точек данных, при этом 1,0 - полностью непрозрачные, а 0,0 - полностью прозрачные."
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:194
+msgid "Point Opacity"
+msgstr "Прозрачность точки"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:188
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:97
+msgid "Determines how multiple data selections are rolled up into tooltips. To make it working you need to set multiple selection mode and tooltip trigger to display it when an user selects an element."
+msgstr "Определяет способ свертки нескольких выбранных данных в подсказки. Чтобы сделать его работоспособным, необходимо задать режим множественного выбора и триггер всплывающей подсказки для его отображения при выборе элемента пользователем."
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:186
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:95
+msgid "Show only one tooltip per selection"
+msgstr "Показывать только одну всплывающую подсказку для каждого выделения"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:185
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:94
+msgid "Group selected data by x-value if all selections have the same x-value, and by series otherwise"
+msgstr "Группировка выбранных данных по x-значению, если все выбранные данные имеют одинаковое x-значение, и по серии в противном случае"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:184
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:93
+msgid "Group selected data by series"
+msgstr "Группировать выбранные данные по сериям"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:183
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:92
+msgid "Group selected data by x-value"
+msgstr "Группировать выбранные данные по x-значению"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:178
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:87
+msgid "Aggregation Target"
+msgstr "Цель объединения"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:174
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:83
+msgid "Determines how many data points an user can select on a chart."
+msgstr "Определяет, сколько точек данных пользователь может выбрать на диаграмме."
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:172
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:81
+msgid "Multiple data points"
+msgstr "Несколько точек данных"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:171
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:80
+msgid "Single data point"
+msgstr "Одиночная точка данных"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:166
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:75
+msgid "Selection Mode"
+msgstr "Режим выбора"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:141
+#: classes/Visualizer/Render/Sidebar/Linear.php:264
+msgid "Curve Type"
+msgstr "Тип изгиба"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:135
+msgid "Data line width and diameter of displayed points in pixels. Use zero to hide all lines or points."
+msgstr "Ширина линии данных и диаметр отображаемых точек в пикселях. Используйте ноль, чтобы скрыть все линии или точки."
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:121
+#: classes/Visualizer/Render/Sidebar/Linear.php:240
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:115
+msgid "Line Width And Point Size"
+msgstr "Ширина линии и размер точки"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:83
+msgid "The angles of the line will be smoothed"
+msgstr "Углы линии будут сглажены"
+
+#: classes/Visualizer/Render/Sidebar/Linear.php:82
+msgid "Straight line without curve"
+msgstr "Прямая линия без изгибов"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:458
+msgid "Enter custom format pattern to apply to vertical axis labels."
+msgstr "Введите шаблон пользовательского формата для применения к меткам вертикальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:436
+#: classes/Visualizer/Render/Sidebar/Graph.php:465
+msgid "For date axis labels, this is a subset of the date formatting %sICU date and time format%s."
+msgstr "Для меток оси дат это подмножество формата даты %sформат даты и времени ICU%s."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:431
+#: classes/Visualizer/Render/Sidebar/Graph.php:460
+msgid "For number axis labels, this is a subset of the decimal formatting %sICU pattern set%s. For instance, $#,###.## will display values $1,234.56 for value 1234.56. Pay attention that if you use #%% percentage format then your values will be multiplied by 100."
+msgstr "Для меток числовой оси это подмножество десятичного форматирования %sНабор шаблонов ICU%s. Например, $#,###,## отобразит значения $1,234.56 для значения 1234.56. Обратите внимание, что если вы используете процентный формат #%%, то ваши значения будут умножены на 100."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:429
+msgid "Enter custom format pattern to apply to horizontal axis labels."
+msgstr "Введите шаблон пользовательского формата для применения к меткам горизонтальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:424
+#: classes/Visualizer/Render/Sidebar/Graph.php:453
+#: classes/Visualizer/Render/Sidebar.php:527
+msgid "Number Format"
+msgstr "Формат числа"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:402
+#: classes/Visualizer/Render/Sidebar/Linear.php:145
+#: classes/Visualizer/Render/Sidebar/Linear.php:235
+#: classes/Visualizer/Render/Sidebar/Linear.php:268
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:110
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:169
+msgid "Determines whether the series has to be presented in the legend or not."
+msgstr "Определяет, должна ли серия быть представлена в легенде или нет."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:400
+#: classes/Visualizer/Render/Sidebar/Linear.php:233
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:108
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:167
+#: classes/Visualizer/Render/Sidebar.php:117
+msgid "Yes"
+msgstr "Да"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:399
+#: classes/Visualizer/Render/Sidebar/Linear.php:232
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:107
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:166
+#: classes/Visualizer/Render/Sidebar.php:118
+msgid "No"
+msgstr "Нет"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:394
+#: classes/Visualizer/Render/Sidebar/Linear.php:227
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:102
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:161
+msgid "Visible In Legend"
+msgstr "Видимый в легенде"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:373
+msgid "Series Settings"
+msgstr "Настройки серий"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:320
+msgid "The number of vertical minor gridlines between two regular gridlines."
+msgstr "Количество вертикальных вспомогательных линий сетки между двумя обычными линиями сетки."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:303
+msgid "The number of vertical gridlines inside the chart area. Minimum value is 2. Specify -1 to automatically compute the number of gridlines."
+msgstr "Количество вертикальных линий сетки внутри области диаграммы. Минимальное значение - 2. Укажите -1 для автоматического вычисления количества линий сетки."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:292
+msgid "Vertical Axis Settings"
+msgstr "Настройки вертикальной оси"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:273
+msgid "The direction in which the values along the vertical axis grow."
+msgstr "Направление роста значений по вертикальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:261
+msgid "Position of the vertical axis text, relative to the chart area."
+msgstr "Положение текста вертикальной оси относительно области диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:253
+msgid "The title of the vertical axis."
+msgstr "Заголовок вертикальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:231
+#: classes/Visualizer/Render/Sidebar/Graph.php:343
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:188
+msgid "Minimum Value"
+msgstr "Мин. значение"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:224
+#: classes/Visualizer/Render/Sidebar/Graph.php:336
+#: classes/Visualizer/Render/Sidebar/Type/Geo.php:202
+msgid "Maximum Value"
+msgstr "Макс. значение"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:222
+#: classes/Visualizer/Render/Sidebar/Graph.php:334
+msgid "View Window"
+msgstr "Окно просмотра"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:208
+msgid "The number of horizontal minor gridlines between two regular gridlines."
+msgstr "Количество горизонтальных вспомогательных линий сетки между двумя обычными линиями сетки."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:203
+#: classes/Visualizer/Render/Sidebar/Graph.php:315
+msgid "Minor Grid Lines"
+msgstr "Вспомогательные линии сетки"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:196
+#: classes/Visualizer/Render/Sidebar/Graph.php:213
+#: classes/Visualizer/Render/Sidebar/Graph.php:308
+#: classes/Visualizer/Render/Sidebar/Graph.php:325
+#: classes/Visualizer/Render/Sidebar/Graph.php:408
+#: classes/Visualizer/Render/Sidebar/Linear.php:273
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:146
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:173
+msgid "Color"
+msgstr "Цвет"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:191
+msgid "The number of horizontal gridlines inside the chart area. Minimum value is 2. Specify -1 to automatically compute the number of gridlines."
+msgstr "Количество горизонтальных линий сетки внутри области диаграммы. Минимальное значение - 2. Укажите -1, чтобы автоматически рассчитать количество линий сетки."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:188
+#: classes/Visualizer/Render/Sidebar/Graph.php:205
+#: classes/Visualizer/Render/Sidebar/Graph.php:300
+#: classes/Visualizer/Render/Sidebar/Graph.php:317
+msgid "Count"
+msgstr "Счётчик"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:186
+#: classes/Visualizer/Render/Sidebar/Graph.php:298
+msgid "Grid Lines"
+msgstr "Линии сетки"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:181
+#: classes/Visualizer/Render/Sidebar/Graph.php:293
+#: classes/Visualizer/Render/Sidebar/Type/Gauge.php:58
+#: classes/Visualizer/Render/Sidebar.php:153
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:180
+msgid "Horizontal Axis Settings"
+msgstr "Настройки горизонтальной оси"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:165
+#: classes/Visualizer/Render/Sidebar/Graph.php:277
+msgid "Base Line Color"
+msgstr "Цвет базовой линии"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:161
+msgid "The direction in which the values along the horizontal axis grow."
+msgstr "Направление роста значений по горизонтальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:159
+#: classes/Visualizer/Render/Sidebar/Graph.php:271
+msgid "Reverse Direction"
+msgstr "Обратное направление"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:158
+#: classes/Visualizer/Render/Sidebar/Graph.php:270
+msgid "Identical Direction"
+msgstr "Идентичное направление"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:153
+#: classes/Visualizer/Render/Sidebar/Graph.php:265
+msgid "Direction"
+msgstr "Направление"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:149
+msgid "Position of the horizontal axis text, relative to the chart area."
+msgstr "Положение текста горизонтальной оси относительно области диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:145
+#: classes/Visualizer/Render/Sidebar/Graph.php:257
+msgid "Text Position"
+msgstr "Расположение текста"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:141
+msgid "The title of the horizontal axis."
+msgstr "Заголовок горизонтальной оси."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:138
+#: classes/Visualizer/Render/Sidebar/Graph.php:250
+msgid "Axis Title"
+msgstr "Заголовок оси"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:125
+msgid "Determines where to place the axis titles, compared to the chart area."
+msgstr "Определяет, где разместить заголовки осей по сравнению с областью диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:121
+msgid "Axes Titles Position"
+msgstr "Позиция заголовков осей"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:112
+#: classes/Visualizer/Render/Sidebar.php:138
+msgid "Chart Title Color"
+msgstr "Цвет заголовка диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:108
+msgid "Where to place the chart title, compared to the chart area."
+msgstr "Где разместить заголовок диаграммы по сравнению с областью диаграммы."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:104
+msgid "Chart Title Position"
+msgstr "Позиция заголовка диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:100
+#: classes/Visualizer/Render/Sidebar.php:134
+msgid "Text to display above the chart."
+msgstr "Текст, отображаемый над диаграммой."
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:97
+#: classes/Visualizer/Render/Sidebar.php:131
+msgid "Chart Title"
+msgstr "Заголовок диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:84
+msgid "None"
+msgstr "Отсутствует"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:83
+msgid "Outside the chart"
+msgstr "За пределами диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Graph.php:82
+#: classes/Visualizer/Render/Sidebar.php:104
+msgid "Inside the chart"
+msgstr "Внутри диаграммы"
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:74
+msgid "Bars transparency, with 1.0 being completely opaque and 0.0 fully transparent."
+msgstr "Прозрачность полисы, при этом 1.0 - полностью непрозрачный, а 0.0 - полностью прозрачный."
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:71
+msgid "Bars Opacity"
+msgstr "Прозрачность полос"
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:65
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:88
+msgid "If set to yes, series elements are stacked."
+msgstr "Если установлено значение \"да\", элементы серии складываются в стопку."
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:61
+#: classes/Visualizer/Render/Sidebar/Type/Area.php:84
+msgid "Is Stacked"
+msgstr "Укладывается в стопку"
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:55
+#: classes/Visualizer/Render/Sidebar/Linear.php:161
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:69
+msgid "The type of the entity that receives focus on mouse hover. Also affects which entity is selected by mouse click."
+msgstr "Тип объекта, получающего фокус на наведении курсора мыши. Также влияет на то, какой объект выбран щелчком мыши."
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:53
+#: classes/Visualizer/Render/Sidebar/Linear.php:159
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:67
+msgid "Focus on a grouping of all data points along the major axis."
+msgstr "Сосредоточьтесь на группировке всех точек данных вдоль главной оси."
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:52
+#: classes/Visualizer/Render/Sidebar/Linear.php:158
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:66
+msgid "Focus on a single data point."
+msgstr "Сосредоточьтесь на одной точке данных."
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:47
+#: classes/Visualizer/Render/Sidebar/Linear.php:153
+#: classes/Visualizer/Render/Sidebar/Type/Candlestick.php:61
+msgid "Focus Target"
+msgstr "Цель фокусировки"
+
+#: classes/Visualizer/Render/Sidebar/Columnar.php:44
+msgid "Bars Settings"
+msgstr "Настройки полос"
+
+#: classes/Visualizer/Render/Page.php:77
+msgid "Rate it on WordPress.org"
+msgstr "Оцените на WordPress.org"
+
+#: classes/Visualizer/Render/Page.php:74
+msgid "Like the plugin? Show us your love!"
+msgstr "Понравился плагин? Покажи нам свою любовь!"
+
+#: classes/Visualizer/Render/Page/Data.php:105
+#: classes/Visualizer/Render/Page/Types.php:84
+msgid "Next"
+msgstr "Далее"
+
+#: classes/Visualizer/Render/Page/Data.php:102
+#: classes/Visualizer/Render/Page/Settings.php:56
+msgid "Back"
+msgstr "Назад"
+
+#: classes/Visualizer/Render/Page/Data.php:85
+msgid "From Web"
+msgstr "Из Интернета"
+
+#: classes/Visualizer/Render/Page/Data.php:81
+msgid "From Computer"
+msgstr "С компьютера"
+
+#: classes/Visualizer/Render/Page/Data.php:73
+msgid "or read how you can add Google spreadsheet in following %sarticle%s."
+msgstr "или прочитайте, как добавить электронную таблицу Google в следующей %sстатье%s."
+
+#: classes/Visualizer/Render/Page/Data.php:71
+msgid "If you are unsure about how to format your data CSV then please take a look at this sample:"
+msgstr "Если вы не знаете, как оформить данные в формате CSV, посмотрите, этот образец:"
+
+#: classes/Visualizer/Render/Page/Data.php:67
+msgid "Select and upload your data CSV file here. The first row of the CSV file should contain the column headings. The second one should contain series type (string, number, boolean, date, datetime, timeofday)."
+msgstr "Выберите и загрузите сюда CSV-файл с вашими данными. Первая строка CSV-файла должна содержать заголовки столбцов. Вторая должна содержать тип серии (string, number, boolean, date, datetime, timeofday)."
+
+#: classes/Visualizer/Render/Page/Data.php:62
+msgid "Upload CSV File"
+msgstr "Загрузить CSV-файл"
+
+#: classes/Visualizer/Render/Library.php:165
+msgid "%s option is disabled in your php.ini config. Please, enable it by change its value to 1. This option increases the speed of remote CSV uploading."
+msgstr "Опция %s отключена в конфигурации php.ini. Пожалуйста, включите ее, изменив ее значение на 1. Эта опция увеличивает скорость удаленной загрузки CSV."
+
+#: classes/Visualizer/Render/Library.php:146
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: classes/Visualizer/Render/Library.php:118
+#: classes/Visualizer/Render/Templates.php:86
+msgid "No charts found"
+msgstr "Диаграммы не найдены"
+
+#: classes/Visualizer/Render/Library.php:67
+#: classes/Visualizer/Render/Templates.php:72
+msgid "Click to select"
+msgstr "Щёлкните, чтобы выбрать"
+
+#: classes/Visualizer/Render/Library.php:65
+msgid "Edit"
+msgstr "Изменить"
+
+#: classes/Visualizer/Render/Library.php:64
+msgid "Clone"
+msgstr "Клонировать"
+
+#: classes/Visualizer/Render/Library.php:63
+#: classes/Visualizer/Render/Templates.php:69
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/Visualizer/Module/Chart.php:459
+msgid "CSV file is broken or invalid. Please, try again."
+msgstr "CSV-файл поврежден или недействителен. Попробуйте еще раз."
+
+#: classes/Visualizer/Module/Chart.php:444
+msgid "CSV file with chart data was not uploaded. Please, try again."
+msgstr "CSV-файл с данными диаграммы не был загружен. Попробуйте еще раз."
+
+#: classes/Visualizer/Module/Chart.php:384
+msgid "Insert Chart"
+msgstr "Вставить диаграмму"
+
+#: classes/Visualizer/Module/Chart.php:382
+msgid "Create Chart"
+msgstr "Создать диаграмму"
+
+#: classes/Visualizer/Module/Chart.php:381
+msgid "Save Chart"
+msgstr "Сохранить диаграмму"
+
+#: classes/Visualizer/Module/Chart.php:319
+msgid "You have entered invalid URL. Please, insert proper URL."
+msgstr "Вы ввели неверный URL. Введите правильный URL."
+
+#: classes/Visualizer/Module/Chart.php:318
+msgid "Please, enter the URL of CSV file:"
+msgstr "Введите URL-адрес CSV-файла:"
+
+#: classes/Visualizer/Module/Admin.php:352
+msgid "Donate"
+msgstr "Поддержать разработку"
+
+#: classes/Visualizer/Module/Admin.php:347
+msgid "Knowledge Base"
+msgstr "База знаний"
+
+#: classes/Visualizer/Module/Admin.php:324
+msgid "Library"
+msgstr "Библиотека"
+
+#: classes/Visualizer/Module/Admin.php:213
+#: classes/Visualizer/Render/Library.php:145
+msgid "Visualizer Library"
+msgstr "Библиотека визуализаторов"
+
+#: classes/Visualizer/Module/Admin.php:136
+msgid "Create New"
+msgstr "Создать новый"
+
+#: classes/Visualizer/Module/Admin.php:135
+msgid "From Library"
+msgstr "Из библиотеки"
+
+#: classes/Visualizer/Module/Admin.php:132
+msgid "Visualizations"
+msgstr "Визуализации"
+
+#: classes/Visualizer/Module/Admin.php:87
+msgid "Candelstick"
+msgstr "График \"японские свечи\""
+
+#: classes/Visualizer/Module/Admin.php:86
+msgid "Scatter"
+msgstr "Точечная диаграмма"
+
+#: classes/Visualizer/Module/Admin.php:85
+msgid "Gauge"
+msgstr "Диаграмма датчика"
+
+#: classes/Visualizer/Module/Admin.php:84
+msgid "Column"
+msgstr "Столбчатая диаграмма"
+
+#: classes/Visualizer/Module/Admin.php:83
+msgid "Bar"
+msgstr "Линейчатая диаграмма"
+
+#: classes/Visualizer/Module/Admin.php:82
+msgid "Geo"
+msgstr "Географическая диаграмма"
+
+#: classes/Visualizer/Module/Admin.php:81
+msgid "Area"
+msgstr "Диаграмма с областями"
+
+#: classes/Visualizer/Module/Admin.php:80
+msgid "Line"
+msgstr "Линейный график"
+
+#: classes/Visualizer/Module/Admin.php:79
+msgid "Pie"
+msgstr "Круговая диаграмма"
+
+#: classes/Visualizer/Module/Admin.php:78
+msgid "All"
+msgstr "Все"

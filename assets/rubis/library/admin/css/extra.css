@@ -1,0 +1,30 @@
+.acf-field-object-tab-language tr[data-name="name"], .acf-field-object-tab-language tr[data-name="instructions"], .acf-field-object-tab-language tr[data-name="required"] {
+	display:none !important;
+}
+
+.theme-overlay .screenshot::after {
+	padding-top: 50%;
+}
+.infoField {
+    color: #F00;
+}
+
+#toplevel_page_chirurgie-men-settings .dashicons-admin-generic::before {
+	content: "\f483" !important;
+}
+
+#toplevel_page_ad_mail .dashicons-admin-generic::before {
+	content: "\f466" !important;
+}
+.acf-field .acf-label label {
+	font-size: 13px;
+} 
+
+.alert-msg-menu {
+	background: #f5caca;
+}
+.alert-msg-menu label {
+	line-height: 1.5 !important;
+	margin: 1em 0 !important;
+	padding-left: 15px !important;
+}

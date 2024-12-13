@@ -1,0 +1,9 @@
+.button-wrap {
+	padding:0 8px;
+	background:#73c2af;
+	font-weight:bold;
+	border:solid 1px grey;
+}
+a .button-wrap {
+	color:#FFFFFF;
+}

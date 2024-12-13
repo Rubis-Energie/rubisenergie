@@ -1,0 +1,3 @@
+AuthName "Identification"
+AuthType Basic
+Require valid-user
