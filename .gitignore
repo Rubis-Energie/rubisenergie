@@ -1,2 +1,5 @@
 
 wp-config.php
+dumps/
+.DS_Store
+dumps/.htaccess
