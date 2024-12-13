@@ -7,10 +7,10 @@ define( 'DISALLOW_FILE_EDIT', true ); // Désactivez l’éditeur de code - Soli
 
 /** Définition des nouveaux PATHS de WordPress. */
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ));
-define( 'WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] );
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] );
 
 define( 'WP_PLUGIN_DIR', $_SERVER['DOCUMENT_ROOT'] . '/lib' );
-define( 'WP_PLUGIN_URL', 'https://' . $_SERVER['HTTP_HOST'] .'/lib' );
+define( 'WP_PLUGIN_URL', 'http://' . $_SERVER['HTTP_HOST'] .'/lib' );
 
 /**
  * La configuration de base de votre installation WordPress.
@@ -32,13 +32,13 @@ define( 'WP_PLUGIN_URL', 'https://' . $_SERVER['HTTP_HOST'] .'/lib' );
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define('DB_NAME', 'rubisenergie-webmaster_prod');
+define('DB_NAME', 'rubisenergie');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'rubisenergie-webmaster_db');
+define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'i6my39z1wTev1Bq1');
+define('DB_PASSWORD', 'root');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
@@ -102,7 +102,6 @@ define('WP_POST_REVISIONS', false);
 define('AUTOSAVE_INTERVAL', 9999 );
 define('WP_AUTO_UPDATE_CORE', false);
 define('WP_MEMORY_LIMIT', '96M');
-define('DISALLOW_FILE_EDIT', true);
 define('FORCE_SSL_ADMIN', true);
 
 $wp_theme_directories = array(__DIR__ . '/assets');
