@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.6
-	Tested up to: 6.5
-	Stable tag: 20240308
-	Version:    20240308
+	Tested up to: 6.7
+	Stable tag: 20241102
+	Version:    20241102
 	Requires PHP: 5.6.20
 	Text Domain: ga-google-analytics
 	Domain Path: /languages
@@ -65,10 +65,10 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function constants() {
 			
-			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20240308');
+			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20241102');
 			if (!defined('GAP_REQUIRE')) define('GAP_REQUIRE', '4.6');
 			if (!defined('GAP_AUTHOR'))  define('GAP_AUTHOR',  'Jeff Starr');
-			if (!defined('GAP_NAME'))    define('GAP_NAME',    __('GA Google Analytics', 'ga-google-analytics'));
+			if (!defined('GAP_NAME'))    define('GAP_NAME',    'GA Google Analytics');
 			if (!defined('GAP_HOME'))    define('GAP_HOME',    'https://perishablepress.com/ga-google-analytics/');
 			if (!defined('GAP_PATH'))    define('GAP_PATH',    'options-general.php?page=ga-google-analytics');
 			if (!defined('GAP_URL'))     define('GAP_URL',     plugin_dir_url(__FILE__));
@@ -291,14 +291,14 @@ if (!class_exists('GA_Google_Analytics')) {
 					
 					?>
 					
-					<div class="notice notice-success">
+					<div class="notice notice-success notice-margin">
 						<p>
-							<strong><?php esc_html_e('Go Pro!', 'ga-google-analytics'); ?></strong> 
-							<?php esc_html_e('Save 30% on our', 'ga-google-analytics'); ?> 
+							<strong><?php esc_html_e('Fall Sale!', 'ga-google-analytics'); ?></strong> 
+							<?php esc_html_e('Take 25% OFF any of our', 'ga-google-analytics'); ?> 
 							<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'ga-google-analytics'); ?></a> 
 							<?php esc_html_e('and', 'ga-google-analytics'); ?> 
 							<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'ga-google-analytics'); ?></a>. 
-							<?php esc_html_e('Apply code', 'ga-google-analytics'); ?> <code>PLANET24</code> <?php esc_html_e('at checkout. Sale ends 5/25/24.', 'ga-google-analytics'); ?> 
+							<?php esc_html_e('Apply code', 'ga-google-analytics'); ?> <code>FALL2024</code> <?php esc_html_e('at checkout. Sale ends 12/21/24.', 'ga-google-analytics'); ?> 
 							<?php echo $this->dismiss_notice_link(); ?>
 						</p>
 					</div>
@@ -371,13 +371,13 @@ if (!class_exists('GA_Google_Analytics')) {
 			
 			$label = esc_html__('Dismiss', 'ga-google-analytics');
 			
-			echo '<a class="gap-dismiss-notice" href="'. esc_url($href) .'">'. esc_html($label) .'</a>';
+			return '<a class="gap-dismiss-notice" href="'. esc_url($href) .'">'. esc_html($label) .'</a>';
 			
 		}
 		
 		function check_date_expired() {
 			
-			$expires = apply_filters('ga_google_analytics_check_date_expired', '2024-05-25');
+			$expires = apply_filters('ga_google_analytics_check_date_expired', '2024-12-21');
 			
 			return (new DateTime() > new DateTime($expires)) ? true : false;
 			
@@ -491,7 +491,19 @@ if (!class_exists('GA_Google_Analytics')) {
 			
 			if (isset($input['gap_custom_code'])) $input['gap_custom_code'] = wp_strip_all_tags(trim($input['gap_custom_code']));
 			
-			if (isset($input['gap_custom'])) $input['gap_custom'] = stripslashes($input['gap_custom']);
+			if (isset($input['gap_custom'])) {
+				
+				if ((defined('DISALLOW_UNFILTERED_HTML') && DISALLOW_UNFILTERED_HTML) || is_multisite()) {
+					
+					$input['gap_custom'] = null;
+					
+				} else {
+					
+					$input['gap_custom'] = stripslashes($input['gap_custom']);
+					
+				}
+				
+			}
 			
 			return $input;
 			
@@ -521,33 +533,23 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function options_libraries() {
 			
-			$url1 = 'https://developers.google.com/analytics/devguides/collection/analyticsjs/';
-			$url2 = 'https://developers.google.com/analytics/devguides/collection/gtagjs/';
-			$url3 = 'https://developers.google.com/analytics/devguides/collection/gajs/';
-			
-			$link1 = '<a target="_blank" rel="noopener noreferrer" href="'. $url1 .'">'. esc_html__('Universal Analytics', 'ga-google-analytics') .'</a> ';
-			$link2 = '<a target="_blank" rel="noopener noreferrer" href="'. $url2 .'">'. esc_html__('Google Tag', 'ga-google-analytics') .'</a> ';
-			$link3 = '<a target="_blank" rel="noopener noreferrer" href="'. $url3 .'">'. esc_html__('Legacy', 'ga-google-analytics') .'</a> ';
-			
-			$urlUA = 'https://wordpress.org/support/topic/note-about-google-changes/';
-			
-			$linkUA = ' <a target="_blank" rel="noopener noreferrer" href="'. $urlUA .'">'. esc_html__('learn more', 'ga-google-analytics') .'</a>';
-			
 			// do not change numeric keys or values (order only)
+			
 			return array(
 				
 				2 => array(
 					'value' => 2,
-					'label' => $link2 .' <span class="gap-note"> / <span class="gap-code">gtag.js</span> '. esc_html__('(default)', 'ga-google-analytics') .'</span>',
-				), 
+					'label' => '<a target="_blank" rel="noopener noreferrer" href="https://support.google.com/analytics/answer/10089681">'. esc_html__('GA4', 'ga-google-analytics') .'</a> <span class="gap-note"> / '. esc_html__('Google Analytics 4 (default)', 'ga-google-analytics') .'</span>',
+				),
 				1 => array(
 					'value' => 1,
-					'label' => $link1 .' <span class="gap-note"> / <span class="gap-code">analytics.js</span> '. esc_html__('(deprecated,', 'ga-google-analytics') . $linkUA . esc_html__(')', 'ga-google-analytics') .'</span>',
+					'label' => esc_html__('Universal Analytics', 'ga-google-analytics') .' <span class="gap-note">('. esc_html__('deprecated', 'ga-google-analytics') .')</span>',
 				),
 				3 => array(
 					'value' => 3,
-					'label' => $link3 .' <span class="gap-note"> / <span class="gap-code">ga.js</span> '. esc_html__('(deprecated)', 'ga-google-analytics') .'</span>',
+					'label' => esc_html__('Legacy Tracking', 'ga-google-analytics') .' <span class="gap-note">('. esc_html__('deprecated', 'ga-google-analytics') .')</span>'
 				)
+				
 			);
 			
 		}
