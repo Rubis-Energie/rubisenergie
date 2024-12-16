@@ -563,10 +563,12 @@ function dna_acf_settings_current_language( $language ) {
 
 function dna_acf_settings_language( $language ) {
     if (is_admin() && defined('POLYLANG_VERSION')) {
-        $option = get_current_screen();
-        if ($option) {
-            if(strstr($option->base,'option_lang')) {
-                return pll_current_language();
+        if ( function_exists( 'get_current_screen' ) ) {
+            $option = get_current_screen();
+            if ($option) {
+                if(strstr($option->base,'option_lang')) {
+                    return pll_current_language();
+                }
             }
         }
     }
