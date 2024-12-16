@@ -124,11 +124,32 @@ class About_Us extends Abstract_Module {
 		add_submenu_page(
 			$this->about_data['location'],
 			$this->about_data['upgrade_text'],
-			$this->about_data['upgrade_text'],
+			'<span class="tsdk-upg-menu-item">' . $this->about_data['upgrade_text'] . '</span>',
 			'manage_options',
 			$this->about_data['upgrade_link'],
 			'',
 			101
+		);
+		add_action(
+			'admin_footer',
+			function () {
+				?>
+			<style>
+				.tsdk-upg-menu-item {
+					color: #009528;
+				}
+
+				.tsdk-upg-menu-item:hover {
+					color: #008a20;
+				}
+			</style>
+			<script type="text/javascript">
+				jQuery(document).ready(function ($) {
+					$('.tsdk-upg-menu-item').parent().attr('target', '_blank');
+				});
+			</script>
+				<?php
+			} 
 		);
 	}
 
@@ -317,7 +338,7 @@ class About_Us extends Abstract_Module {
 				'name' => 'Otter',
 			],
 			'tweet-old-post'                      => [
-				'name' => 'Revive Old Post',
+				'name' => 'Revive Social',
 			],
 			'feedzy-rss-feeds'                    => [
 				'name' => 'Feedzy',
@@ -350,6 +371,12 @@ class About_Us extends Abstract_Module {
 			'templates-patterns-collection'       => [
 				'name'        => 'Templates Cloud',
 				'description' => Loader::$labels['about_us']['others']['tpc_desc'],
+			],
+			'wp-cloudflare-page-cache'            => [
+				'name' => 'Super Page Cache',
+			],
+			'hyve-lite'                           => [
+				'name' => 'Hyve Lite',
 			],
 		];
 
@@ -388,14 +415,13 @@ class About_Us extends Abstract_Module {
 			}
 
 			$api_data = $this->call_plugin_api( $slug );
-
-			if ( ! isset( $product['icon'] ) ) {
+			if ( ! isset( $product['icon'] ) && ( isset( $api_data->icons['2x'] ) || $api_data->icons['1x'] ) ) {
 				$products[ $slug ]['icon'] = isset( $api_data->icons['2x'] ) ? $api_data->icons['2x'] : $api_data->icons['1x'];
 			}
-			if ( ! isset( $product['description'] ) ) {
+			if ( ! isset( $product['description'] ) && isset( $api_data->short_description ) ) {
 				$products[ $slug ]['description'] = $api_data->short_description;
 			}
-			if ( ! isset( $product['name'] ) ) {
+			if ( ! isset( $product['name'] ) && isset( $api_data->name ) ) {
 				$products[ $slug ]['name'] = $api_data->name;
 			}
 		}

@@ -266,6 +266,7 @@ class Visualizer_Render_Library extends Visualizer_Render {
 
 		// Added by Ash/Upwork
 		$filterBy = ! empty( $_GET['s'] ) ? sanitize_text_field( wp_unslash( $_GET['s'] ) ) : null; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
+
 		// Added by Ash/Upwork
 		echo $this->custom_css;
 
@@ -276,6 +277,7 @@ class Visualizer_Render_Library extends Visualizer_Render {
 		$this->getDisplayForm();
 		echo '</div>';
 		echo '<div id="visualizer-content-wrapper">';
+		echo '<div id="tsdk_banner" class="visualizer-banner"></div>';
 		if ( ! empty( $this->charts ) ) {
 			echo '<div id="visualizer-library" class="visualizer-clearfix">';
 			$count = 0;
@@ -450,7 +452,7 @@ class Visualizer_Render_Library extends Visualizer_Render {
 				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( '6 more chart types', 'visualizer' );
 			} else {
 				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( '11 more chart types', 'visualizer' ) . '</li>';
-				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Manual Data Editor', 'visualizer' ) . '</li>';
+				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Synchronize Data Periodically', 'visualizer' ) . '</li>';
 				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'ChartJS Charts', 'visualizer' ) . '</li>';
 				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Table Google chart', 'visualizer' ) . '</li>';
 				echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Frontend Actions(Print, Export, Copy, Download)', 'visualizer' ) . '</li>';
@@ -464,7 +466,7 @@ class Visualizer_Render_Library extends Visualizer_Render {
 			echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'WPML support for translating charts', 'visualizer' ) . '</li>';
 			echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Integration with Woocommerce Data endpoints', 'visualizer' ) . '</li>';
 			echo '<li><svg class="icon list-icon"><use xlink:href="#list-icon"></use></svg>' . __( 'Auto-sync with online files', 'visualizer' ) . '</li></ul>';
-			echo '<p><a href="' . tsdk_utmify( Visualizer_Plugin::PRO_TEASER_URL, 'sidebarupsell' ) . '" target="_blank" class="button button-primary">' . __( 'View more features', 'visualizer' ) . '</a></p>';
+			echo '<p class="vz-sidebar-box-action"><a href="' . tsdk_utmify( Visualizer_Plugin::PRO_TEASER_URL, 'sidebarMenuUpgrade', 'index' ) . '#pro-features" target="_blank" class="button button-secondary">' . __( 'View more features', 'visualizer' ) . '</a><a href="' . tsdk_utmify( Visualizer_Plugin::PRO_TEASER_URL, 'sidebarMenuUpgrade', 'index' ) . '#pricing" target="_blank" class="button button-primary">' . __( 'Upgrade Now', 'visualizer' ) . '</a></p>';
 			echo '</div>';
 			echo '</div>';
 			echo '</div>';

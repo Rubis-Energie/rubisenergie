@@ -1,3 +1,25 @@
+##### [Version 3.11.8](https://github.com/Codeinwp/visualizer/compare/v3.11.7...v3.11.8) (2024-11-13)
+
+- Updated WordPress core tested up to version
+
+##### [Version 3.11.7](https://github.com/Codeinwp/visualizer/compare/v3.11.6...v3.11.7) (2024-11-07)
+
+- Updated dependencies
+- Enhanced security
+
+##### [Version 3.11.6](https://github.com/Codeinwp/visualizer/compare/v3.11.5...v3.11.6) (2024-08-30)
+
+- Fixed chart overlapping issue with the Gutenberg editor
+
+##### [Version 3.11.5](https://github.com/Codeinwp/visualizer/compare/v3.11.4...v3.11.5) (2024-07-17)
+
+- Updated promotional links and buttons
+
+##### [Version 3.11.4](https://github.com/Codeinwp/visualizer/compare/v3.11.3...v3.11.4) (2024-07-09)
+
+- Fixed broken link in the Map settings of the Geo Chart
+- Fixed the default cron job sync time for data synchronization [PRO]
+
 ##### [Version 3.11.3](https://github.com/Codeinwp/visualizer/compare/v3.11.2...v3.11.3) (2024-05-27)
 
 - Fixed the rendering of Visualizer widgets in the Customizer
