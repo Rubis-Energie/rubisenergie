@@ -4,3 +4,4 @@ dumps/
 .DS_Store
 dumps/.htaccess
 dump-05-10-2024.sql
+/uploads
