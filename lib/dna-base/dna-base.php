@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: @AND - Base / Plugin principal
-Description: Plugin BASE, Global plugin.
+Description: Plugin BASE, Global plugin : Cookies, Paramètres du site, Nettoyage WP du thème, Logs
 Author: Agence AND Digital
 Version: 1.0
 Author URI: https://www.and-digital.fr/
