@@ -6,3 +6,4 @@ dumps/.htaccess
 dump-05-10-2024.sql
 /uploads
 .DS_Store
+/upgrade
