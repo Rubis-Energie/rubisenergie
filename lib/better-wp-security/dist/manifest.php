@@ -1,15 +1,15 @@
 <?php return array (
-  135 => 
+  567 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '135.js',
+      0 => '567.js',
     ),
-    'hash' => '0e8af040479d36339dc7de0f1ec7b4d4',
+    'hash' => '03d3bc8ea3328f26c325925ed4e9ad9c',
     'contentHash' => 
     array (
-      'javascript' => '13693ae5bb35a7359a53',
+      'javascript' => 'dff7302f4d1a3b79e299',
     ),
     'vendors' => 
     array (
@@ -44,10 +44,10 @@
     array (
       0 => '976.js',
     ),
-    'hash' => 'b9483617b942b73c7d95f1864bf03e19',
+    'hash' => '1de7f52e83969a0ac43574524af1ea98',
     'contentHash' => 
     array (
-      'javascript' => 'f33e30e42751a2fa90d2',
+      'javascript' => 'b44a09888a7022df197d',
     ),
     'vendors' => 
     array (
@@ -56,17 +56,17 @@
     array (
     ),
   ),
-  1247 => 
+  1323 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '1247.js',
+      0 => '1323.js',
     ),
-    'hash' => '370f30f445fd88654ee04671eacdc3d1',
+    'hash' => '33318293ec4db5d582bdc2f5b1d2ae83',
     'contentHash' => 
     array (
-      'javascript' => '69d612bb12df41fbf136',
+      'javascript' => '26d84300d7dd8a30aada',
     ),
     'vendors' => 
     array (
@@ -82,10 +82,10 @@
     array (
       0 => '1511.js',
     ),
-    'hash' => '7940c95facb8b865ea0d7b13010af2a0',
+    'hash' => 'cd13f6d4351f2bc7a4f9fd0e5638ceed',
     'contentHash' => 
     array (
-      'javascript' => 'dec11a38f1b0787673d5',
+      'javascript' => '4b4c3049a34fbce97fe3',
     ),
     'vendors' => 
     array (
@@ -101,31 +101,10 @@
     array (
       0 => '1930.js',
     ),
-    'hash' => '2f823ef9f9477bb403ee2cc1222387ff',
+    'hash' => '2e39b3bd02a753e6efba1c28e9b6dc1c',
     'contentHash' => 
     array (
-      'javascript' => '2197d36c731c31158661',
-    ),
-    'vendors' => 
-    array (
-    ),
-    'dependencies' => 
-    array (
-    ),
-  ),
-  2018 => 
-  array (
-    'runtime' => false,
-    'files' => 
-    array (
-      0 => '2018.css',
-      1 => '2018.js',
-    ),
-    'hash' => '873c2ca52b36da13c99e4f0bb34f5cb2',
-    'contentHash' => 
-    array (
-      'css/mini-extract' => 'ce2d0ee888fe3442b7b8',
-      'javascript' => '819d0c9b29195319794a',
+      'javascript' => 'b59fac1e0b742b01267e',
     ),
     'vendors' => 
     array (
@@ -153,17 +132,17 @@
     array (
     ),
   ),
-  2727 => 
+  2704 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '2727.js',
+      0 => '2704.js',
     ),
-    'hash' => '6458e51518005715e09d36308f8229b5',
+    'hash' => '87fb76ac71ea6e6203e7c074f13a6589',
     'contentHash' => 
     array (
-      'javascript' => 'e101b6c23986fd25ccee',
+      'javascript' => 'e815da29ceb52a0c1ca7',
     ),
     'vendors' => 
     array (
@@ -172,17 +151,17 @@
     array (
     ),
   ),
-  2766 => 
+  2762 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '2766.js',
+      0 => '2762.js',
     ),
-    'hash' => 'efb1362eddeb954dbfc8ebb37e093f0f',
+    'hash' => '1fddb1ba118aed92bd3d995c145174ec',
     'contentHash' => 
     array (
-      'javascript' => 'de586227d11c64cc6270',
+      'javascript' => '8565ac4afcd43bf11b48',
     ),
     'vendors' => 
     array (
@@ -191,17 +170,17 @@
     array (
     ),
   ),
-  3344 => 
+  2939 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '3344.js',
+      0 => '2939.js',
     ),
-    'hash' => '2724a9903a91053744362e2978dcfbef',
+    'hash' => 'd0291c3d7125f7f12c197165c5e05ad2',
     'contentHash' => 
     array (
-      'javascript' => '8a586539b355c9fa14b7',
+      'javascript' => '9540b3ac51327e15b3e6',
     ),
     'vendors' => 
     array (
@@ -210,17 +189,93 @@
     array (
     ),
   ),
-  3632 => 
+  3157 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '3632.js',
+      0 => '3157.js',
     ),
-    'hash' => '3e2de929d971b761feab552bdb390e82',
+    'hash' => '11a9f248efb7fdc2ab279cc81e3933ed',
     'contentHash' => 
     array (
-      'javascript' => '4d895649dbbf959f51d6',
+      'javascript' => 'b9e85fd91fb3c6a52760',
+    ),
+    'vendors' => 
+    array (
+    ),
+    'dependencies' => 
+    array (
+    ),
+  ),
+  3627 => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => '3627.js',
+    ),
+    'hash' => '7262304d75ed449a05be1ca5f712bdd4',
+    'contentHash' => 
+    array (
+      'javascript' => '42385746dbd56d293f53',
+    ),
+    'vendors' => 
+    array (
+    ),
+    'dependencies' => 
+    array (
+    ),
+  ),
+  4136 => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => '4136.js',
+    ),
+    'hash' => 'cc165205879d6f4e1fd0b7195c3df150',
+    'contentHash' => 
+    array (
+      'javascript' => 'e619329520b40072dd70',
+    ),
+    'vendors' => 
+    array (
+    ),
+    'dependencies' => 
+    array (
+    ),
+  ),
+  4699 => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => '4699.js',
+    ),
+    'hash' => '81bd701739488e4c3d921108c541b604',
+    'contentHash' => 
+    array (
+      'javascript' => '8ff7bf988e2f707f4b47',
+    ),
+    'vendors' => 
+    array (
+    ),
+    'dependencies' => 
+    array (
+    ),
+  ),
+  5257 => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => '5257.js',
+    ),
+    'hash' => '7b8c2b6c940c0398a9b7f267df9c961f',
+    'contentHash' => 
+    array (
+      'javascript' => '23fc5dfbc588b78ebe94',
     ),
     'vendors' => 
     array (
@@ -248,17 +303,17 @@
     array (
     ),
   ),
-  5429 => 
+  5896 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '5429.js',
+      0 => '5896.js',
     ),
-    'hash' => '199c9520360028c85e9782344a849f89',
+    'hash' => 'baf53e468c13991580d791adda83c1de',
     'contentHash' => 
     array (
-      'javascript' => 'c71cb1b35c9bc31e6a2e',
+      'javascript' => 'c284a9d0dde3f907582a',
     ),
     'vendors' => 
     array (
@@ -274,10 +329,10 @@
     array (
       0 => '6179.js',
     ),
-    'hash' => '707d8c68406ac9082338d220e195c28f',
+    'hash' => '72880d56d35e2ef416eb051fd49e7fbe',
     'contentHash' => 
     array (
-      'javascript' => 'c43d6945515b75d2845c',
+      'javascript' => '4c7109577496ecc4fbec',
     ),
     'vendors' => 
     array (
@@ -286,17 +341,17 @@
     array (
     ),
   ),
-  7789 => 
+  7872 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '7789.js',
+      0 => '7872.js',
     ),
-    'hash' => '1de584bb22ed563992e13410f918162d',
+    'hash' => '014f0d0cdde93fe5347f8abf042c6f67',
     'contentHash' => 
     array (
-      'javascript' => '8a677b5880f5c9b7b4dc',
+      'javascript' => 'e74717e6dd51fed2b591',
     ),
     'vendors' => 
     array (
@@ -305,36 +360,17 @@
     array (
     ),
   ),
-  8006 => 
+  8541 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '8006.js',
+      0 => '8541.js',
     ),
-    'hash' => '1f3d0cedcb3c0838cc0fd79d7972b43b',
+    'hash' => '54d3ca14226b30f604dee44d8b48a678',
     'contentHash' => 
     array (
-      'javascript' => '90b3303b05622bbd625f',
-    ),
-    'vendors' => 
-    array (
-    ),
-    'dependencies' => 
-    array (
-    ),
-  ),
-  8882 => 
-  array (
-    'runtime' => false,
-    'files' => 
-    array (
-      0 => '8882.js',
-    ),
-    'hash' => '9b06976342a5b071b3d961870ca4f9ab',
-    'contentHash' => 
-    array (
-      'javascript' => 'd8dcfea8f533d5317264',
+      'javascript' => '162a7215992f8612e9ef',
     ),
     'vendors' => 
     array (
@@ -362,17 +398,17 @@
     array (
     ),
   ),
-  9443 => 
+  9890 => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => '9443.js',
+      0 => '9890.js',
     ),
-    'hash' => 'b51ed42137e098162774a2076965288e',
+    'hash' => '092e9ef2fb16ea6c1651fcb210c91400',
     'contentHash' => 
     array (
-      'javascript' => '4744e2d23671a9af2924',
+      'javascript' => '5e60b89bbdff35eea7ae',
     ),
     'vendors' => 
     array (
@@ -389,33 +425,79 @@
       0 => 'backup/dashboard.css',
       1 => 'backup/dashboard.js',
     ),
-    'hash' => 'ab9fd41cf32c4b857e8f9694eda4a0df',
+    'hash' => 'ae93143db2ceb6e58aecd22e8ca63f40',
     'contentHash' => 
     array (
       'css/mini-extract' => 'dfca3e09e747c9271eb0',
-      'javascript' => '877cbbcedfa4a27dcb89',
+      'javascript' => '14fadfe5fc320ec1009a',
     ),
     'vendors' => 
     array (
       0 => 'backup/dashboard',
       1 => '1930',
       2 => '5307',
+      3 => '1511',
     ),
     'dependencies' => 
     array (
       0 => '@ithemes/security.dashboard.dashboard',
-      1 => 'lodash',
-      2 => 'react',
-      3 => 'wp-components',
-      4 => 'wp-compose',
-      5 => 'wp-data',
-      6 => 'wp-date',
-      7 => 'wp-element',
-      8 => 'wp-i18n',
-      9 => 'wp-keycodes',
-      10 => 'wp-plugins',
-      11 => 'wp-primitives',
-      12 => 'wp-url',
+      1 => '@ithemes/security.packages.data',
+      2 => 'lodash',
+      3 => 'react',
+      4 => 'wp-components',
+      5 => 'wp-compose',
+      6 => 'wp-data',
+      7 => 'wp-date',
+      8 => 'wp-element',
+      9 => 'wp-i18n',
+      10 => 'wp-keycodes',
+      11 => 'wp-plugins',
+      12 => 'wp-primitives',
+      13 => 'wp-url',
+    ),
+  ),
+  'core/active-lockouts' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'core/active-lockouts.css',
+      1 => 'core/active-lockouts.js',
+    ),
+    'hash' => 'df5f6a10251242608003d381f1e8f266',
+    'contentHash' => 
+    array (
+      'css/mini-extract' => '26580eb2f5c90c6a6426',
+      'javascript' => 'd78ed9538779345ded0c',
+    ),
+    'vendors' => 
+    array (
+      0 => 'core/active-lockouts',
+      1 => 'vendors/routing',
+      2 => '1930',
+      3 => '5307',
+      4 => '5257',
+      5 => '976',
+      6 => '1511',
+      7 => '6179',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.dashboard.dashboard',
+      1 => '@ithemes/security.packages.data',
+      2 => 'lodash',
+      3 => 'react',
+      4 => 'wp-api-fetch',
+      5 => 'wp-components',
+      6 => 'wp-compose',
+      7 => 'wp-data',
+      8 => 'wp-date',
+      9 => 'wp-element',
+      10 => 'wp-i18n',
+      11 => 'wp-is-shallow-equal',
+      12 => 'wp-keycodes',
+      13 => 'wp-primitives',
+      14 => 'wp-url',
     ),
   ),
   'core/admin-notices' => 
@@ -426,11 +508,11 @@
       0 => 'core/admin-notices.css',
       1 => 'core/admin-notices.js',
     ),
-    'hash' => 'c09363f72d5b965cd6255c5094569e7d',
+    'hash' => '6efecbecd27dff679b47c2e64e121158',
     'contentHash' => 
     array (
-      'css/mini-extract' => '750c3c9ca00a594098ba',
-      'javascript' => '88582a61ca26c67eca9c',
+      'css/mini-extract' => '6ef73d0a3818233bc9d8',
+      'javascript' => 'd49130cb6cf437a09d1a',
     ),
     'vendors' => 
     array (
@@ -438,9 +520,11 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
+      4 => '5257',
       5 => '976',
-      6 => '6179',
+      6 => '1511',
+      7 => '6179',
+      8 => '5896',
     ),
     'dependencies' => 
     array (
@@ -470,15 +554,16 @@
     array (
       0 => 'core/admin-notices-api.js',
     ),
-    'hash' => 'a7628a613286bf352c9f1743e8dd3bfb',
+    'hash' => 'cbb881c237e5385b406d9dee37ad2009',
     'contentHash' => 
     array (
-      'javascript' => '14b3cfa459dadd758183',
+      'javascript' => 'f4221e1a41cc88568eae',
     ),
     'vendors' => 
     array (
       0 => 'core/admin-notices-api',
       1 => '5307',
+      2 => '1511',
     ),
     'dependencies' => 
     array (
@@ -499,11 +584,11 @@
       0 => 'core/admin-notices-dashboard-admin-bar.css',
       1 => 'core/admin-notices-dashboard-admin-bar.js',
     ),
-    'hash' => '053a3288febd9ebcebe455082996d110',
+    'hash' => 'ee300cc7f67e6875600e60ac569f81ca',
     'contentHash' => 
     array (
       'css/mini-extract' => '52a91e2c720b1913d898',
-      'javascript' => '4c96861cc700bafa2ebd',
+      'javascript' => 'fa473cc61e819cd9e4f6',
     ),
     'vendors' => 
     array (
@@ -511,10 +596,11 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
+      4 => '5257',
       5 => '976',
-      6 => '6179',
-      7 => '3632',
+      6 => '1511',
+      7 => '6179',
+      8 => '5896',
     ),
     'dependencies' => 
     array (
@@ -536,6 +622,92 @@
       15 => 'wp-url',
     ),
   ),
+  'core/ban-hosts' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'core/ban-hosts.css',
+      1 => 'core/ban-hosts.js',
+    ),
+    'hash' => '1a5da94e0058747304e4bbd86bbff2ad',
+    'contentHash' => 
+    array (
+      'css/mini-extract' => '9618f4dac97d024fd3c3',
+      'javascript' => '012378c120781ae53b48',
+    ),
+    'vendors' => 
+    array (
+      0 => 'core/ban-hosts',
+      1 => 'vendors/routing',
+      2 => '1930',
+      3 => '5307',
+      4 => '5257',
+      5 => '3627',
+      6 => '8541',
+      7 => '2704',
+      8 => '976',
+      9 => '567',
+      10 => '6179',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.packages.data',
+      1 => 'lodash',
+      2 => 'moment',
+      3 => 'react',
+      4 => 'react-dom',
+      5 => 'wp-a11y',
+      6 => 'wp-api-fetch',
+      7 => 'wp-components',
+      8 => 'wp-compose',
+      9 => 'wp-data',
+      10 => 'wp-date',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-is-shallow-equal',
+      14 => 'wp-keycodes',
+      15 => 'wp-primitives',
+      16 => 'wp-url',
+    ),
+  ),
+  'core/dashboard' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'core/dashboard.js',
+    ),
+    'hash' => '1069c9a2b7149ad225992aeea010826c',
+    'contentHash' => 
+    array (
+      'javascript' => '3796743be569a1f7475b',
+    ),
+    'vendors' => 
+    array (
+      0 => 'core/dashboard',
+      1 => '1930',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.core.active-lockouts',
+      1 => '@ithemes/security.core.ban-hosts',
+      2 => '@ithemes/security.dashboard.dashboard',
+      3 => '@ithemes/security.packages.data',
+      4 => 'lodash',
+      5 => 'react',
+      6 => 'wp-components',
+      7 => 'wp-compose',
+      8 => 'wp-data',
+      9 => 'wp-date',
+      10 => 'wp-element',
+      11 => 'wp-i18n',
+      12 => 'wp-keycodes',
+      13 => 'wp-plugins',
+      14 => 'wp-primitives',
+      15 => 'wp-url',
+    ),
+  ),
   'core/global' => 
   array (
     'runtime' => false,
@@ -544,11 +716,11 @@
       0 => 'core/global.css',
       1 => 'core/global.js',
     ),
-    'hash' => '6cece156b3314af83be9da78fcd78daa',
+    'hash' => '238a92d9c9ce04dd8bf76ee5c7d0c542',
     'contentHash' => 
     array (
-      'css/mini-extract' => '554fe02ddac600ff0b2c',
-      'javascript' => 'e1ded36fb613a898522c',
+      'css/mini-extract' => '52a91e2c720b1913d898',
+      'javascript' => '78f5b7e34e82035bf14b',
     ),
     'vendors' => 
     array (
@@ -556,13 +728,14 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '976',
-      7 => '6179',
-      8 => '2018',
-      9 => '8006',
-      10 => '3632',
+      7 => '1511',
+      8 => '567',
+      9 => '6179',
+      10 => '5896',
+      11 => '2939',
     ),
     'dependencies' => 
     array (
@@ -572,19 +745,18 @@
       3 => 'moment',
       4 => 'react',
       5 => 'react-dom',
-      6 => 'wp-a11y',
-      7 => 'wp-api-fetch',
-      8 => 'wp-components',
-      9 => 'wp-compose',
-      10 => 'wp-data',
-      11 => 'wp-date',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-plugins',
-      17 => 'wp-primitives',
-      18 => 'wp-url',
+      6 => 'wp-api-fetch',
+      7 => 'wp-components',
+      8 => 'wp-compose',
+      9 => 'wp-data',
+      10 => 'wp-date',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-is-shallow-equal',
+      14 => 'wp-keycodes',
+      15 => 'wp-plugins',
+      16 => 'wp-primitives',
+      17 => 'wp-url',
     ),
   ),
   'core/packages/components/site-scan-results/style' => 
@@ -609,6 +781,55 @@
     array (
     ),
   ),
+  'core/profile-block' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'core/profile-block.js',
+    ),
+    'hash' => '6748e5813d471a621eda2dbdae9f0c2d',
+    'contentHash' => 
+    array (
+      'javascript' => 'fd71fbbf25d9db810852',
+    ),
+    'vendors' => 
+    array (
+      0 => 'core/profile-block',
+    ),
+    'dependencies' => 
+    array (
+      0 => 'wp-block-editor',
+      1 => 'wp-blocks',
+      2 => 'wp-components',
+      3 => 'wp-element',
+      4 => 'wp-i18n',
+    ),
+  ),
+  'core/profile-front' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'core/profile-front.js',
+    ),
+    'hash' => '8f5122917e502b15d302d3cbfbee7a62',
+    'contentHash' => 
+    array (
+      'javascript' => 'afa69318ea237231de22',
+    ),
+    'vendors' => 
+    array (
+      0 => 'core/profile-front',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.pages.profile',
+      1 => 'wp-dom-ready',
+      2 => 'wp-element',
+      3 => 'wp-plugins',
+    ),
+  ),
   'core/solid-welcome' => 
   array (
     'runtime' => false,
@@ -616,32 +837,42 @@
     array (
       0 => 'core/solid-welcome.js',
     ),
-    'hash' => '32da26711a878e7b4c6ea5048f4a4b25',
+    'hash' => '1e784c657cfac1254105ad19b90fae7f',
     'contentHash' => 
     array (
-      'javascript' => '3595ccdf405b96d92875',
+      'javascript' => 'f237db8d90de2dad5481',
     ),
     'vendors' => 
     array (
       0 => 'core/solid-welcome',
-      1 => '1930',
-      2 => '976',
-      3 => '8006',
+      1 => 'vendors/routing',
+      2 => '1930',
+      3 => '5307',
+      4 => '5257',
+      5 => '3627',
+      6 => '976',
+      7 => '1511',
+      8 => '567',
+      9 => '2939',
     ),
     'dependencies' => 
     array (
       0 => '@ithemes/security.core.admin-notices-api',
       1 => '@ithemes/security.packages.data',
-      2 => 'react',
-      3 => 'wp-components',
-      4 => 'wp-compose',
-      5 => 'wp-data',
-      6 => 'wp-date',
-      7 => 'wp-element',
-      8 => 'wp-i18n',
-      9 => 'wp-keycodes',
-      10 => 'wp-primitives',
-      11 => 'wp-url',
+      2 => 'lodash',
+      3 => 'moment',
+      4 => 'react',
+      5 => 'react-dom',
+      6 => 'wp-api-fetch',
+      7 => 'wp-components',
+      8 => 'wp-compose',
+      9 => 'wp-data',
+      10 => 'wp-date',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-keycodes',
+      14 => 'wp-primitives',
+      15 => 'wp-url',
     ),
   ),
   'dashboard/api' => 
@@ -651,10 +882,10 @@
     array (
       0 => 'dashboard/api.js',
     ),
-    'hash' => 'e5cb49ab54f114f88beb7ba4929032e1',
+    'hash' => '598b8e79164d292abb90745038aafd4a',
     'contentHash' => 
     array (
-      'javascript' => '141f8742ee4072f8b5f2',
+      'javascript' => '47afac4b040a103bab95',
     ),
     'vendors' => 
     array (
@@ -683,11 +914,11 @@
       0 => 'dashboard/dashboard.css',
       1 => 'dashboard/dashboard.js',
     ),
-    'hash' => '68f750bfa3595054fd0444cf1217bc96',
+    'hash' => '1649ab966f1098a4edeada029a8d047f',
     'contentHash' => 
     array (
-      'css/mini-extract' => 'b0ddb0108bebae900244',
-      'javascript' => '67081ca7cf4968eacbd1',
+      'css/mini-extract' => 'a6430b38532bdb963b3d',
+      'javascript' => '6b0641eaac13fa5aa8ce',
     ),
     'vendors' => 
     array (
@@ -696,12 +927,14 @@
       2 => 'vendors/recharts',
       3 => '1930',
       4 => '5307',
-      5 => '9443',
-      6 => '135',
-      7 => '2727',
-      8 => '1247',
-      9 => '976',
-      10 => '6179',
+      5 => '5257',
+      6 => '3627',
+      7 => '8541',
+      8 => '2762',
+      9 => '7872',
+      10 => '976',
+      11 => '567',
+      12 => '6179',
     ),
     'dependencies' => 
     array (
@@ -711,22 +944,21 @@
       3 => 'moment',
       4 => 'react',
       5 => 'react-dom',
-      6 => 'wp-a11y',
-      7 => 'wp-api-fetch',
-      8 => 'wp-components',
-      9 => 'wp-compose',
-      10 => 'wp-data',
-      11 => 'wp-date',
-      12 => 'wp-dom-ready',
-      13 => 'wp-element',
-      14 => 'wp-hooks',
-      15 => 'wp-i18n',
-      16 => 'wp-is-shallow-equal',
-      17 => 'wp-keycodes',
-      18 => 'wp-notices',
-      19 => 'wp-plugins',
-      20 => 'wp-primitives',
-      21 => 'wp-url',
+      6 => 'wp-api-fetch',
+      7 => 'wp-components',
+      8 => 'wp-compose',
+      9 => 'wp-data',
+      10 => 'wp-date',
+      11 => 'wp-dom-ready',
+      12 => 'wp-element',
+      13 => 'wp-hooks',
+      14 => 'wp-i18n',
+      15 => 'wp-is-shallow-equal',
+      16 => 'wp-keycodes',
+      17 => 'wp-notices',
+      18 => 'wp-plugins',
+      19 => 'wp-primitives',
+      20 => 'wp-url',
     ),
   ),
   'file-permissions/tools' => 
@@ -737,11 +969,11 @@
       0 => 'file-permissions/tools.css',
       1 => 'file-permissions/tools.js',
     ),
-    'hash' => 'c8460e26900d9bbef17c5ecc9f400d50',
+    'hash' => '2fc79395b310c28a38afb8681a34333a',
     'contentHash' => 
     array (
       'css/mini-extract' => '63e8888735e846e5451c',
-      'javascript' => 'bed62d48ec8342b51e26',
+      'javascript' => '8ba5b1e14ad7699d3de1',
     ),
     'vendors' => 
     array (
@@ -773,10 +1005,10 @@
     array (
       0 => 'file-writing/tools.js',
     ),
-    'hash' => 'd3a5cbdcc2a19b6a2f1c2b797edab2bc',
+    'hash' => '95c73d6451d38d8cfa9bef476e27bbe0',
     'contentHash' => 
     array (
-      'javascript' => 'adacdb9cc1a6637a4dc5',
+      'javascript' => 'b150486bea25e87c8058',
     ),
     'vendors' => 
     array (
@@ -785,19 +1017,21 @@
     ),
     'dependencies' => 
     array (
-      0 => '@ithemes/security.pages.tools',
-      1 => 'lodash',
-      2 => 'react',
-      3 => 'wp-api-fetch',
-      4 => 'wp-components',
-      5 => 'wp-compose',
-      6 => 'wp-date',
-      7 => 'wp-element',
-      8 => 'wp-i18n',
-      9 => 'wp-keycodes',
-      10 => 'wp-plugins',
-      11 => 'wp-primitives',
-      12 => 'wp-url',
+      0 => '@ithemes/security.packages.data',
+      1 => '@ithemes/security.pages.tools',
+      2 => 'lodash',
+      3 => 'react',
+      4 => 'wp-api-fetch',
+      5 => 'wp-components',
+      6 => 'wp-compose',
+      7 => 'wp-data',
+      8 => 'wp-date',
+      9 => 'wp-element',
+      10 => 'wp-i18n',
+      11 => 'wp-keycodes',
+      12 => 'wp-plugins',
+      13 => 'wp-primitives',
+      14 => 'wp-url',
     ),
   ),
   'global/settings' => 
@@ -808,11 +1042,11 @@
       0 => 'global/settings.css',
       1 => 'global/settings.js',
     ),
-    'hash' => 'adab7fc6d8600bd4b7fb35d019cc6066',
+    'hash' => '2312d33c0c653f8edb399aa5e38236e6',
     'contentHash' => 
     array (
-      'css/mini-extract' => 'ff9191e403b0ff436fa8',
-      'javascript' => 'fd7326ed08d2306ac04c',
+      'css/mini-extract' => '980bc72c2c7f2c16148e',
+      'javascript' => '05a284ea8bc02b2db286',
     ),
     'vendors' => 
     array (
@@ -820,32 +1054,35 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
-      6 => '976',
-      7 => '6179',
-      8 => '2018',
+      4 => '5257',
+      5 => '3627',
+      6 => '8541',
+      7 => '2704',
+      8 => '976',
+      9 => '567',
+      10 => '6179',
     ),
     'dependencies' => 
     array (
       0 => '@ithemes/security.packages.data',
-      1 => 'lodash',
-      2 => 'moment',
-      3 => 'react',
-      4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-element',
-      12 => 'wp-i18n',
-      13 => 'wp-is-shallow-equal',
-      14 => 'wp-keycodes',
-      15 => 'wp-plugins',
-      16 => 'wp-primitives',
-      17 => 'wp-url',
+      1 => '@ithemes/security.pages.settings',
+      2 => 'lodash',
+      3 => 'moment',
+      4 => 'react',
+      5 => 'react-dom',
+      6 => 'wp-a11y',
+      7 => 'wp-api-fetch',
+      8 => 'wp-components',
+      9 => 'wp-compose',
+      10 => 'wp-data',
+      11 => 'wp-date',
+      12 => 'wp-element',
+      13 => 'wp-i18n',
+      14 => 'wp-is-shallow-equal',
+      15 => 'wp-keycodes',
+      16 => 'wp-plugins',
+      17 => 'wp-primitives',
+      18 => 'wp-url',
     ),
   ),
   'network-brute-force/settings' => 
@@ -856,11 +1093,11 @@
       0 => 'network-brute-force/settings.css',
       1 => 'network-brute-force/settings.js',
     ),
-    'hash' => '0d60d48f44d106771a4e0b09f8da1086',
+    'hash' => 'e67eb955947ab8d077805a529d4ba5f8',
     'contentHash' => 
     array (
-      'css/mini-extract' => 'cf6a1d7431b4b61d80f8',
-      'javascript' => 'fb54fc222f3c7b5b8ee6',
+      'css/mini-extract' => '86589f8aa7f9014076cf',
+      'javascript' => '5e300a9885e7377dc879',
     ),
     'vendors' => 
     array (
@@ -868,11 +1105,13 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
-      6 => '976',
-      7 => '6179',
-      8 => '2018',
+      4 => '5257',
+      5 => '3627',
+      6 => '8541',
+      7 => '2704',
+      8 => '976',
+      9 => '567',
+      10 => '6179',
     ),
     'dependencies' => 
     array (
@@ -904,11 +1143,11 @@
       0 => 'notification-center/settings.css',
       1 => 'notification-center/settings.js',
     ),
-    'hash' => 'd5f117c1ad46d22812738c5d3e35ccde',
+    'hash' => '9301407ceaa44a3fd7b7dcdbcca71d69',
     'contentHash' => 
     array (
-      'css/mini-extract' => '1682e1cf566dc47998e1',
-      'javascript' => 'be6a9d2cb0b5c72b3558',
+      'css/mini-extract' => '0ff08025c4f34c66fcc0',
+      'javascript' => '136dde834172041806b4',
     ),
     'vendors' => 
     array (
@@ -916,11 +1155,12 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '976',
-      7 => '6179',
-      8 => '2018',
+      7 => '1511',
+      8 => '567',
+      9 => '6179',
     ),
     'dependencies' => 
     array (
@@ -952,10 +1192,10 @@
     array (
       0 => 'packages/data.js',
     ),
-    'hash' => '905a0da9b60b35f965f7ff4b4a7f4918',
+    'hash' => '06ec8bd6e263abdf0feabb583d56d120',
     'contentHash' => 
     array (
-      'javascript' => '9eff4bed6e367f9d3ccf',
+      'javascript' => '16c20fded9483ea6b95e',
     ),
     'vendors' => 
     array (
@@ -1003,11 +1243,11 @@
       0 => 'pages/firewall.css',
       1 => 'pages/firewall.js',
     ),
-    'hash' => 'eaf680b4e05f185b951e12410fa4fa44',
+    'hash' => '3fb67cb6e4472760e30985a76abd80b4',
     'contentHash' => 
     array (
-      'css/mini-extract' => '656f7cc169316f24e2a8',
-      'javascript' => 'c82b6f85d65181b9753d',
+      'css/mini-extract' => '00b83afd37380f2e5328',
+      'javascript' => '97d6600564c7d2f537c1',
     ),
     'vendors' => 
     array (
@@ -1016,34 +1256,39 @@
       2 => 'vendors/recharts',
       3 => '1930',
       4 => '5307',
-      5 => '9443',
-      6 => '135',
-      7 => '9071',
-      8 => '2727',
-      9 => '976',
-      10 => '6179',
+      5 => '5257',
+      6 => '3627',
+      7 => '8541',
+      8 => '9071',
+      9 => '2762',
+      10 => '976',
+      11 => '567',
     ),
     'dependencies' => 
     array (
-      0 => '@ithemes/security.packages.data',
-      1 => 'lodash',
-      2 => 'moment',
-      3 => 'react',
-      4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-dom-ready',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-plugins',
-      17 => 'wp-primitives',
-      18 => 'wp-url',
+      0 => '@ithemes/security.core.active-lockouts',
+      1 => '@ithemes/security.core.ban-hosts',
+      2 => '@ithemes/security.packages.data',
+      3 => '@ithemes/security.pages.settings',
+      4 => '@ithemes/security.pages.vulnerabilities',
+      5 => '@ithemes/security.user-groups.ui',
+      6 => 'lodash',
+      7 => 'moment',
+      8 => 'react',
+      9 => 'react-dom',
+      10 => 'wp-api-fetch',
+      11 => 'wp-components',
+      12 => 'wp-compose',
+      13 => 'wp-data',
+      14 => 'wp-date',
+      15 => 'wp-dom-ready',
+      16 => 'wp-element',
+      17 => 'wp-i18n',
+      18 => 'wp-keycodes',
+      19 => 'wp-notices',
+      20 => 'wp-plugins',
+      21 => 'wp-primitives',
+      22 => 'wp-url',
     ),
   ),
   'pages/go-pro' => 
@@ -1053,10 +1298,10 @@
     array (
       0 => 'pages/go-pro.js',
     ),
-    'hash' => '642d21e4f4dff21b86910c722d3bd11a',
+    'hash' => '776f007edee0de2774d5fc4bc4fff2a2',
     'contentHash' => 
     array (
-      'javascript' => 'a79f472b6b2f286fc75f',
+      'javascript' => 'cd1bea6fd56d32df5b7c',
     ),
     'vendors' => 
     array (
@@ -1078,6 +1323,42 @@
       9 => 'wp-url',
     ),
   ),
+  'pages/profile' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'pages/profile.js',
+    ),
+    'hash' => 'b15a737d9fdf53ea21e463126953ae81',
+    'contentHash' => 
+    array (
+      'javascript' => 'c2c4aa5ac327e2a69af1',
+    ),
+    'vendors' => 
+    array (
+      0 => 'pages/profile',
+      1 => '1930',
+      2 => '976',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.packages.data',
+      1 => 'lodash',
+      2 => 'react',
+      3 => 'wp-components',
+      4 => 'wp-compose',
+      5 => 'wp-data',
+      6 => 'wp-date',
+      7 => 'wp-dom-ready',
+      8 => 'wp-element',
+      9 => 'wp-i18n',
+      10 => 'wp-keycodes',
+      11 => 'wp-plugins',
+      12 => 'wp-primitives',
+      13 => 'wp-url',
+    ),
+  ),
   'pages/settings' => 
   array (
     'runtime' => false,
@@ -1086,11 +1367,11 @@
       0 => 'pages/settings.css',
       1 => 'pages/settings.js',
     ),
-    'hash' => 'ea42660ad53acaa8617ddee18683d77e',
+    'hash' => '6aa3a2177f028b556dd7c84b0c00940b',
     'contentHash' => 
     array (
-      'css/mini-extract' => 'b1d13ca80a6505abda13',
-      'javascript' => '5bbc831e423ee2595970',
+      'css/mini-extract' => 'e072686ffc1abf41c27f',
+      'javascript' => 'c4aaac7858a36095c840',
     ),
     'vendors' => 
     array (
@@ -1098,11 +1379,15 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
-      6 => '9071',
-      7 => '976',
-      8 => '6179',
+      4 => '5257',
+      5 => '3627',
+      6 => '8541',
+      7 => '9071',
+      8 => '2704',
+      9 => '9890',
+      10 => '976',
+      11 => '567',
+      12 => '6179',
     ),
     'dependencies' => 
     array (
@@ -1137,11 +1422,11 @@
       0 => 'pages/site-scan.css',
       1 => 'pages/site-scan.js',
     ),
-    'hash' => 'be9989fe1412f6e4630c46a8b6d31c0b',
+    'hash' => 'ca3e6f9ee485173a912f31c6d0540981',
     'contentHash' => 
     array (
-      'css/mini-extract' => '29ec5aba9e22a012afc8',
-      'javascript' => 'f67ae7cfb7a0a7df48e4',
+      'css/mini-extract' => '737a55276c950c0404b5',
+      'javascript' => 'c60d96f319d8793112f7',
     ),
     'vendors' => 
     array (
@@ -1149,12 +1434,12 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '9071',
-      7 => '3344',
-      8 => '976',
-      9 => '6179',
+      7 => '976',
+      8 => '1511',
+      9 => '567',
     ),
     'dependencies' => 
     array (
@@ -1163,20 +1448,19 @@
       2 => 'moment',
       3 => 'react',
       4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-dom-ready',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-plugins',
-      17 => 'wp-primitives',
-      18 => 'wp-url',
+      5 => 'wp-api-fetch',
+      6 => 'wp-components',
+      7 => 'wp-compose',
+      8 => 'wp-data',
+      9 => 'wp-date',
+      10 => 'wp-dom-ready',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-keycodes',
+      14 => 'wp-notices',
+      15 => 'wp-plugins',
+      16 => 'wp-primitives',
+      17 => 'wp-url',
     ),
   ),
   'pages/tools' => 
@@ -1187,11 +1471,11 @@
       0 => 'pages/tools.css',
       1 => 'pages/tools.js',
     ),
-    'hash' => '5ba2f4eb784732933b1b045a17060cba',
+    'hash' => 'a53d10d7f83a6e15fb666a3cc4b9c4aa',
     'contentHash' => 
     array (
-      'css/mini-extract' => '40d92411980adaa9d510',
-      'javascript' => '1f5a52c6d88755a73806',
+      'css/mini-extract' => '335a58bbdde0c3e82846',
+      'javascript' => 'ee7912576cabc4cb55e5',
     ),
     'vendors' => 
     array (
@@ -1199,11 +1483,14 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
-      6 => '9071',
-      7 => '976',
-      8 => '6179',
+      4 => '5257',
+      5 => '3627',
+      6 => '8541',
+      7 => '9071',
+      8 => '2704',
+      9 => '976',
+      10 => '567',
+      11 => '6179',
     ),
     'dependencies' => 
     array (
@@ -1236,11 +1523,11 @@
       0 => 'pages/user-security.css',
       1 => 'pages/user-security.js',
     ),
-    'hash' => 'a09f2f49d0b6b0f85eaa1c8e8b18af11',
+    'hash' => '95dd223d313424a77277a93de8b32dec',
     'contentHash' => 
     array (
-      'css/mini-extract' => 'a1c97a8e65db1fff5314',
-      'javascript' => 'c6ec5d8f691cd364033a',
+      'css/mini-extract' => 'ad99482cd8a93cd4457c',
+      'javascript' => '9cb6c6bd7083a5f60308',
     ),
     'vendors' => 
     array (
@@ -1248,11 +1535,13 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '9071',
       7 => '976',
-      8 => '6179',
+      8 => '1511',
+      9 => '567',
+      10 => '6179',
     ),
     'dependencies' => 
     array (
@@ -1261,22 +1550,21 @@
       2 => 'moment',
       3 => 'react',
       4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-dom-ready',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-notices',
-      17 => 'wp-plugins',
-      18 => 'wp-preferences',
-      19 => 'wp-primitives',
-      20 => 'wp-url',
+      5 => 'wp-api-fetch',
+      6 => 'wp-components',
+      7 => 'wp-compose',
+      8 => 'wp-data',
+      9 => 'wp-date',
+      10 => 'wp-dom-ready',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-is-shallow-equal',
+      14 => 'wp-keycodes',
+      15 => 'wp-notices',
+      16 => 'wp-plugins',
+      17 => 'wp-preferences',
+      18 => 'wp-primitives',
+      19 => 'wp-url',
     ),
   ),
   'pages/vulnerabilities' => 
@@ -1287,11 +1575,11 @@
       0 => 'pages/vulnerabilities.css',
       1 => 'pages/vulnerabilities.js',
     ),
-    'hash' => '6a1a0fa282ced42d34c3b0cbfed6d543',
+    'hash' => '5b83767160ac233613b5f7984cf28702',
     'contentHash' => 
     array (
-      'css/mini-extract' => '71f42388af9217c17eb3',
-      'javascript' => '0901db0f2d79e028a2e9',
+      'css/mini-extract' => 'c7567da4117b02d48596',
+      'javascript' => '9fc97d18ea887dad65d3',
     ),
     'vendors' => 
     array (
@@ -1299,11 +1587,12 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '9071',
       7 => '976',
-      8 => '6179',
+      8 => '1511',
+      9 => '567',
     ),
     'dependencies' => 
     array (
@@ -1312,20 +1601,18 @@
       2 => 'moment',
       3 => 'react',
       4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-dom-ready',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-plugins',
-      17 => 'wp-primitives',
-      18 => 'wp-url',
+      5 => 'wp-api-fetch',
+      6 => 'wp-components',
+      7 => 'wp-compose',
+      8 => 'wp-data',
+      9 => 'wp-date',
+      10 => 'wp-dom-ready',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-keycodes',
+      14 => 'wp-plugins',
+      15 => 'wp-primitives',
+      16 => 'wp-url',
     ),
   ),
   'password-requirements/settings' => 
@@ -1336,11 +1623,11 @@
       0 => 'password-requirements/settings.css',
       1 => 'password-requirements/settings.js',
     ),
-    'hash' => '81e932bc6903a5a0b4da50d5888242e8',
+    'hash' => '1c28cb854bb0c85ba0b93ece17c261c0',
     'contentHash' => 
     array (
       'css/mini-extract' => 'fb5dcc8d579f366264dc',
-      'javascript' => '21209e1ed0314453a2c0',
+      'javascript' => 'a975f05f8dfcdb76df49',
     ),
     'vendors' => 
     array (
@@ -1353,44 +1640,71 @@
       2 => 'wp-plugins',
     ),
   ),
+  'promos/components' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'promos/components.js',
+    ),
+    'hash' => 'e1a99d95d7245b4fe8e698e14a84738b',
+    'contentHash' => 
+    array (
+      'javascript' => 'a99f1acfa624b6865e96',
+    ),
+    'vendors' => 
+    array (
+      0 => 'promos/components',
+      1 => '1930',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.packages.data',
+      1 => 'lodash',
+      2 => 'react',
+      3 => 'wp-components',
+      4 => 'wp-compose',
+      5 => 'wp-data',
+      6 => 'wp-date',
+      7 => 'wp-element',
+      8 => 'wp-i18n',
+      9 => 'wp-keycodes',
+      10 => 'wp-primitives',
+      11 => 'wp-url',
+    ),
+  ),
   'promos/dashboard' => 
   array (
     'runtime' => false,
     'files' => 
     array (
-      0 => 'promos/dashboard.css',
-      1 => 'promos/dashboard.js',
+      0 => 'promos/dashboard.js',
     ),
-    'hash' => 'ab0ba2f09c4644563c93da0d90164d7f',
+    'hash' => '2c34fa71500f6e3427c1fd39ad1f61eb',
     'contentHash' => 
     array (
-      'css/mini-extract' => '26580eb2f5c90c6a6426',
-      'javascript' => '8699d0010b4735f58514',
+      'javascript' => '16c94949bd5d9df438dc',
     ),
     'vendors' => 
     array (
       0 => 'promos/dashboard',
-      1 => 'vendors/routing',
-      2 => '1930',
-      3 => '5307',
-      4 => '9443',
-      5 => '976',
-      6 => '6179',
+      1 => '1930',
+      2 => '976',
     ),
     'dependencies' => 
     array (
       0 => '@ithemes/security.dashboard.api',
       1 => '@ithemes/security.dashboard.dashboard',
       2 => '@ithemes/security.packages.data',
-      3 => 'lodash',
-      4 => 'react',
-      5 => 'wp-components',
-      6 => 'wp-compose',
-      7 => 'wp-data',
-      8 => 'wp-date',
-      9 => 'wp-element',
-      10 => 'wp-i18n',
-      11 => 'wp-is-shallow-equal',
+      3 => '@ithemes/security.promos.components',
+      4 => 'lodash',
+      5 => 'react',
+      6 => 'wp-components',
+      7 => 'wp-compose',
+      8 => 'wp-data',
+      9 => 'wp-date',
+      10 => 'wp-element',
+      11 => 'wp-i18n',
       12 => 'wp-keycodes',
       13 => 'wp-plugins',
       14 => 'wp-primitives',
@@ -1402,49 +1716,35 @@
     'runtime' => false,
     'files' => 
     array (
-      0 => 'promos/firewall.css',
-      1 => 'promos/firewall.js',
+      0 => 'promos/firewall.js',
     ),
-    'hash' => '34ecc9259afcf0bf67550e7a88fed068',
+    'hash' => 'da04695a71ad57b8d7bfd1911681086d',
     'contentHash' => 
     array (
-      'css/mini-extract' => '656f7cc169316f24e2a8',
-      'javascript' => '2b5ca95de06a2604553e',
+      'javascript' => '85ef932db445ac7ca1df',
     ),
     'vendors' => 
     array (
       0 => 'promos/firewall',
-      1 => 'vendors/routing',
-      2 => 'vendors/recharts',
-      3 => '1930',
-      4 => '5307',
-      5 => '9443',
-      6 => '135',
-      7 => '9071',
-      8 => '2727',
-      9 => '976',
-      10 => '6179',
+      1 => '1930',
+      2 => '976',
     ),
     'dependencies' => 
     array (
       0 => '@ithemes/security.packages.data',
-      1 => 'lodash',
-      2 => 'moment',
+      1 => '@ithemes/security.pages.firewall',
+      2 => 'lodash',
       3 => 'react',
-      4 => 'react-dom',
-      5 => 'wp-a11y',
-      6 => 'wp-api-fetch',
-      7 => 'wp-components',
-      8 => 'wp-compose',
-      9 => 'wp-data',
-      10 => 'wp-date',
-      11 => 'wp-element',
-      12 => 'wp-i18n',
-      13 => 'wp-is-shallow-equal',
-      14 => 'wp-keycodes',
-      15 => 'wp-plugins',
-      16 => 'wp-primitives',
-      17 => 'wp-url',
+      4 => 'wp-components',
+      5 => 'wp-compose',
+      6 => 'wp-data',
+      7 => 'wp-date',
+      8 => 'wp-element',
+      9 => 'wp-i18n',
+      10 => 'wp-keycodes',
+      11 => 'wp-plugins',
+      12 => 'wp-primitives',
+      13 => 'wp-url',
     ),
   ),
   'promos/site-scan' => 
@@ -1454,10 +1754,10 @@
     array (
       0 => 'promos/site-scan.js',
     ),
-    'hash' => '2f15616e03cea0f7427410bd53e28f52',
+    'hash' => 'ed6653216ce07cb7c87bc5a664f5903c',
     'contentHash' => 
     array (
-      'javascript' => '8dc70c2b66fb9c3b7fd5',
+      'javascript' => 'f7903edf502417b2fb57',
     ),
     'vendors' => 
     array (
@@ -1480,10 +1780,10 @@
     array (
       0 => 'promos/vulnerabilities.js',
     ),
-    'hash' => '1bbc60c66482d364b4c7cf6d4e6af4af',
+    'hash' => '7a5e88441a9178bb6e21328ea581a391',
     'contentHash' => 
     array (
-      'javascript' => '16a63491124a9a60b18b',
+      'javascript' => '0932f2c868fd1f879773',
     ),
     'vendors' => 
     array (
@@ -1534,11 +1834,11 @@
       0 => 'site-scanner/dashboard.css',
       1 => 'site-scanner/dashboard.js',
     ),
-    'hash' => 'cd97eb7d54a0cc504ac5edadc5c96c63',
+    'hash' => '5befabf55e1411ceb91002141d3b1ebd',
     'contentHash' => 
     array (
-      'css/mini-extract' => '9eab409e2905a7848bb1',
-      'javascript' => '3ab65e463351409cc6ed',
+      'css/mini-extract' => 'a11d82644a0817f9c5d9',
+      'javascript' => '3882aa3294fd8a9ce876',
     ),
     'vendors' => 
     array (
@@ -1546,11 +1846,12 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '976',
-      7 => '6179',
-      8 => '2018',
+      7 => '1511',
+      8 => '567',
+      9 => '6179',
     ),
     'dependencies' => 
     array (
@@ -1560,19 +1861,18 @@
       3 => 'moment',
       4 => 'react',
       5 => 'react-dom',
-      6 => 'wp-a11y',
-      7 => 'wp-api-fetch',
-      8 => 'wp-components',
-      9 => 'wp-compose',
-      10 => 'wp-data',
-      11 => 'wp-date',
-      12 => 'wp-element',
-      13 => 'wp-i18n',
-      14 => 'wp-is-shallow-equal',
-      15 => 'wp-keycodes',
-      16 => 'wp-plugins',
-      17 => 'wp-primitives',
-      18 => 'wp-url',
+      6 => 'wp-api-fetch',
+      7 => 'wp-components',
+      8 => 'wp-compose',
+      9 => 'wp-data',
+      10 => 'wp-date',
+      11 => 'wp-element',
+      12 => 'wp-i18n',
+      13 => 'wp-is-shallow-equal',
+      14 => 'wp-keycodes',
+      15 => 'wp-plugins',
+      16 => 'wp-primitives',
+      17 => 'wp-url',
     ),
   ),
   'site-scanner/site-scan' => 
@@ -1582,16 +1882,17 @@
     array (
       0 => 'site-scanner/site-scan.js',
     ),
-    'hash' => '43f1b532602c3595d71eb667b96ae22d',
+    'hash' => '17272c297544fd711741e52d2f0d12b6',
     'contentHash' => 
     array (
-      'javascript' => '8c00e7de5dee43206047',
+      'javascript' => '2c2040906ddae6fd34ef',
     ),
     'vendors' => 
     array (
       0 => 'site-scanner/site-scan',
       1 => '1930',
       2 => '5307',
+      3 => '1511',
     ),
     'dependencies' => 
     array (
@@ -1619,10 +1920,10 @@
     array (
       0 => 'strong-passwords/site-scan.js',
     ),
-    'hash' => '30e887f8b4ad224034b5ac0fece9c6db',
+    'hash' => '592d26dacb3cb69e3215783c930b87fc',
     'contentHash' => 
     array (
-      'javascript' => '8ec881ed7a7db743d37d',
+      'javascript' => '9230c92e0dd09664b8c3',
     ),
     'vendors' => 
     array (
@@ -1646,6 +1947,38 @@
       12 => 'wp-url',
     ),
   ),
+  'two-factor/profile' => 
+  array (
+    'runtime' => false,
+    'files' => 
+    array (
+      0 => 'two-factor/profile.js',
+    ),
+    'hash' => '0d796ac2cf55c15b642a77ed8010ab27',
+    'contentHash' => 
+    array (
+      'javascript' => '620b08e4a0c3721be9d5',
+    ),
+    'vendors' => 
+    array (
+      0 => 'two-factor/profile',
+      1 => '1930',
+    ),
+    'dependencies' => 
+    array (
+      0 => '@ithemes/security.pages.profile',
+      1 => 'react',
+      2 => 'wp-components',
+      3 => 'wp-compose',
+      4 => 'wp-date',
+      5 => 'wp-element',
+      6 => 'wp-i18n',
+      7 => 'wp-keycodes',
+      8 => 'wp-plugins',
+      9 => 'wp-primitives',
+      10 => 'wp-url',
+    ),
+  ),
   'two-factor/site-scan' => 
   array (
     'runtime' => false,
@@ -1653,10 +1986,10 @@
     array (
       0 => 'two-factor/site-scan.js',
     ),
-    'hash' => '3942834c07700294a7b8daf5469f32ab',
+    'hash' => '08331ea6710ef9b6266ce8e3445a10f7',
     'contentHash' => 
     array (
-      'javascript' => 'a1bac928767b65e90500',
+      'javascript' => '61b11db1fa6fdbe37b3e',
     ),
     'vendors' => 
     array (
@@ -1688,11 +2021,11 @@
       0 => 'two-factor/user-security.css',
       1 => 'two-factor/user-security.js',
     ),
-    'hash' => '2dd8f87295cea4c0fca518f9f8128098',
+    'hash' => '581a0be4fee7784fab8a460b50fd5658',
     'contentHash' => 
     array (
       'css/mini-extract' => 'cf6a1d7431b4b61d80f8',
-      'javascript' => '15cc5972b304238c2770',
+      'javascript' => '338289a87d76c33d3cf6',
     ),
     'vendors' => 
     array (
@@ -1724,16 +2057,17 @@
     array (
       0 => 'user-groups/api.js',
     ),
-    'hash' => '010c3fdf60d4718eb717d37c245970e6',
+    'hash' => '72c2174473aaa2c78ff8488ee716ab94',
     'contentHash' => 
     array (
-      'javascript' => 'eda00861df994dddb6a3',
+      'javascript' => '7e24a6f68d628e2d3568',
     ),
     'vendors' => 
     array (
       0 => 'user-groups/api',
       1 => '5307',
       2 => '2388',
+      3 => '1511',
     ),
     'dependencies' => 
     array (
@@ -1754,11 +2088,11 @@
       0 => 'user-groups/settings.css',
       1 => 'user-groups/settings.js',
     ),
-    'hash' => '354d55b397b0f6aad4b7fe0d9516353b',
+    'hash' => 'db5fd4d033353b58a4ac3be8d3cd68bc',
     'contentHash' => 
     array (
-      'css/mini-extract' => '76918c36eb30a2d9cfab',
-      'javascript' => 'b8ffe7ec364b68681a2d',
+      'css/mini-extract' => '92b46f4d9cdc303290e5',
+      'javascript' => '83db69871ac24608c2fb',
     ),
     'vendors' => 
     array (
@@ -1766,11 +2100,13 @@
       1 => 'vendors/routing',
       2 => '1930',
       3 => '5307',
-      4 => '9443',
-      5 => '135',
+      4 => '5257',
+      5 => '3627',
       6 => '9071',
       7 => '976',
-      8 => '6179',
+      8 => '1511',
+      9 => '567',
+      10 => '6179',
     ),
     'dependencies' => 
     array (
@@ -1807,17 +2143,18 @@
       0 => 'user-groups/ui.css',
       1 => 'user-groups/ui.js',
     ),
-    'hash' => '3c499385b3b0bfdc9dca81db6b108047',
+    'hash' => '9bce43bbcb55480008507bf8c72075dd',
     'contentHash' => 
     array (
       'css/mini-extract' => '706920eb666b310b2f7b',
-      'javascript' => '42da27af42792413c60d',
+      'javascript' => '44b6b4d64a90b96052b1',
     ),
     'vendors' => 
     array (
       0 => 'user-groups/ui',
       1 => '1930',
       2 => '5307',
+      3 => '1511',
     ),
     'dependencies' => 
     array (
@@ -1843,10 +2180,10 @@
     array (
       0 => 'user-groups/user-security.js',
     ),
-    'hash' => '600495faf66b92016c85b6c12bd06b4a',
+    'hash' => '41c0faae4ddc5210143f562077abb846',
     'contentHash' => 
     array (
-      'javascript' => '1d30705b247b5d0fe6d2',
+      'javascript' => '236107c88243eb625bc6',
     ),
     'vendors' => 
     array (
@@ -1879,10 +2216,10 @@
     array (
       0 => 'vendors/recharts.js',
     ),
-    'hash' => 'eabb6807a3bd454c03f20f056788c3f3',
+    'hash' => '47118b2cb54bbc7eeb6aeb16ddd302f6',
     'contentHash' => 
     array (
-      'javascript' => 'dd01bff4f6150c9dd13e',
+      'javascript' => '808b8432402f82cf9c43',
     ),
     'vendors' => 
     array (
@@ -1898,10 +2235,10 @@
     array (
       0 => 'vendors/routing.js',
     ),
-    'hash' => '4eecf48c2fceac397288e0326ea5f087',
+    'hash' => '71287b3d55d09304f43004295d2517cc',
     'contentHash' => 
     array (
-      'javascript' => '4f5cc6465f9152d0e095',
+      'javascript' => 'd2b0c3496891e982f1ea',
     ),
     'vendors' => 
     array (

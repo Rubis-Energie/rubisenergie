@@ -529,7 +529,6 @@ if ( ! class_exists( 'ITSEC_Core' ) ) {
 			ITSEC_Modules::register_module( 'wordpress-salts', "$path/modules/salts" );
 			ITSEC_Modules::register_module( 'wordpress-tweaks', "$path/modules/wordpress-tweaks" );
 			ITSEC_Modules::register_module( 'security-check-pro', "$path/modules/security-check-pro" );
-			ITSEC_Modules::register_module( 'sync-connect', "$path/modules/sync-connect" );
 			ITSEC_Modules::register_module( 'site-scanner', "$path/modules/site-scanner" );
 			ITSEC_Modules::register_module( 'malware-scheduling', "$path/modules/malware-scheduling" );
 			ITSEC_Modules::register_module( 'hide-backend', "$path/modules/hide-backend" );
@@ -802,7 +801,7 @@ if ( ! class_exists( 'ITSEC_Core' ) ) {
 		 * @return bool
 		 */
 		public static function has_patchstack(): bool {
-			if ( ! self::is_licensed() ) {
+			if ( ! self::is_licensed() || 'free' === self::get_install_type() ) {
 				return false;
 			}
 
@@ -1018,7 +1017,14 @@ if ( ! class_exists( 'ITSEC_Core' ) ) {
 				$page = 'itsec-' . $page;
 			}
 
-			return network_admin_url( sprintf( 'admin.php?page=%s&path=%s', $page, urlencode( $path ) ) );
+			$parts = explode( '#', $path );
+			$path = $parts[0];
+			$hash = '';
+			if ( count( $parts ) > 1 ) {
+				$hash = '#' . $parts[1];
+			}
+
+			return network_admin_url( sprintf( 'admin.php?page=%s&path=%s%s', $page, urlencode( $path ), $hash ) );
 		}
 
 		/**

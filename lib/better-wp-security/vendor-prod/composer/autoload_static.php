@@ -18,6 +18,10 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
+            'StellarWP\\Telemetry\\Views_Dir\\' => 30,
+            'StellarWP\\Telemetry\\Assets_Dir\\' => 31,
+            'StellarWP\\Telemetry\\' => 20,
+            'StellarWP\\ContainerContract\\' => 28,
         ),
         'P' => 
         array (
@@ -34,6 +38,22 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
+        ),
+        'StellarWP\\Telemetry\\Views_Dir\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stellarwp/telemetry/src/views',
+        ),
+        'StellarWP\\Telemetry\\Assets_Dir\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stellarwp/telemetry/src/resources',
+        ),
+        'StellarWP\\Telemetry\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry',
+        ),
+        'StellarWP\\ContainerContract\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/stellarwp/container-contract/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -94,8 +114,8 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'ITSEC_Core_Admin' => __DIR__ . '/../..' . '/core/modules/core/class-itsec-core-admin.php',
         'ITSEC_Dashboard' => __DIR__ . '/../..' . '/core/modules/dashboard/class-itsec-dashboard.php',
         'ITSEC_Dashboard_Card' => __DIR__ . '/../..' . '/core/modules/dashboard/cards/abstract-class-itsec-dashboard-card.php',
-        'ITSEC_Dashboard_Card_Active_Lockouts' => __DIR__ . '/../..' . '/core/modules/dashboard/cards/class-itsec-dashboard-card-active-lockouts.php',
-        'ITSEC_Dashboard_Card_Banned_Users' => __DIR__ . '/../..' . '/core/modules/dashboard/cards/class-itsec-dashboard-card-banned-users.php',
+        'ITSEC_Dashboard_Card_Active_Lockouts' => __DIR__ . '/../..' . '/core/modules/core/cards/class-itsec-dashboard-card-active-lockouts.php',
+        'ITSEC_Dashboard_Card_Banned_Users' => __DIR__ . '/../..' . '/core/modules/core/cards/class-itsec-dashboard-card-banned-users.php',
         'ITSEC_Dashboard_Card_Database_Backup' => __DIR__ . '/../..' . '/core/modules/backup/cards/class-itsec-dashboard-card-database-backup.php',
         'ITSEC_Dashboard_Card_Line_Graph' => __DIR__ . '/../..' . '/core/modules/dashboard/cards/class-itsec-dashboard-card-line-graph.php',
         'ITSEC_Dashboard_Card_Malware_Scan' => __DIR__ . '/../..' . '/core/modules/site-scanner/cards/class-itsec-dashboard-card-malware-scan.php',
@@ -148,7 +168,6 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'ITSEC_IPCheck_Logs' => __DIR__ . '/../..' . '/core/modules/network-brute-force/logs.php',
         'ITSEC_IPCheck_Setup' => __DIR__ . '/../..' . '/core/modules/network-brute-force/setup.php',
         'ITSEC_IP_Detector' => __DIR__ . '/../..' . '/core/lib/class-itsec-ip-detector.php',
-        'ITSEC_Ithemes_Sync_Upgrader_Skin' => __DIR__ . '/../..' . '/core/modules/sync-connect/includes/upgrader-skin.php',
         'ITSEC_Job' => __DIR__ . '/../..' . '/core/lib/class-itsec-job.php',
         'ITSEC_Lib_Admin_Notices' => __DIR__ . '/../..' . '/core/lib/class-itsec-lib-admin-notices.php',
         'ITSEC_Lib_Browser' => __DIR__ . '/../..' . '/core/lib/class-itsec-lib-browser.php',
@@ -240,8 +259,6 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'ITSEC_Storage' => __DIR__ . '/../..' . '/core/lib/storage.php',
         'ITSEC_Strong_Passwords' => __DIR__ . '/../..' . '/core/modules/strong-passwords/class-itsec-strong-passwords.php',
         'ITSEC_Strong_Passwords_Setup' => __DIR__ . '/../..' . '/core/modules/strong-passwords/setup.php',
-        'ITSEC_Sync_Connect' => __DIR__ . '/../..' . '/core/modules/sync-connect/class-itsec-sync-connect.php',
-        'ITSEC_Sync_Connect_Interstitial' => __DIR__ . '/../..' . '/core/modules/sync-connect/class-itsec-sync-connect-interstitial.php',
         'ITSEC_System_Tweaks' => __DIR__ . '/../..' . '/core/modules/system-tweaks/class-itsec-system-tweaks.php',
         'ITSEC_System_Tweaks_Config_Generators' => __DIR__ . '/../..' . '/core/modules/system-tweaks/config-generators.php',
         'ITSEC_System_Tweaks_Settings' => __DIR__ . '/../..' . '/core/modules/system-tweaks/settings.php',
@@ -280,6 +297,7 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'Two_Factor_Email' => __DIR__ . '/../..' . '/core/modules/two-factor/providers/class.two-factor-email.php',
         'Two_Factor_Provider' => __DIR__ . '/../..' . '/core/modules/two-factor/providers/class.two-factor-provider.php',
         'Two_Factor_Totp' => __DIR__ . '/../..' . '/core/modules/two-factor/providers/class.two-factor-totp.php',
+        'Your\\Namespace\\Container' => __DIR__ . '/..' . '/stellarwp/container-contract/examples/di52/Container.php',
         'iThemesSecurity\\Actor\\Actor' => __DIR__ . '/../..' . '/core/lib/actor/Actor.php',
         'iThemesSecurity\\Actor\\Actor_Factory' => __DIR__ . '/../..' . '/core/lib/actor/Actor_Factory.php',
         'iThemesSecurity\\Actor\\Import' => __DIR__ . '/../..' . '/core/lib/actor/Import.php',
@@ -345,6 +363,7 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'iThemesSecurity\\Lib\\Password_Requirement' => __DIR__ . '/../..' . '/core/lib/Password_Requirement.php',
         'iThemesSecurity\\Lib\\REST\\Geolocation_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Geolocation_Controller.php',
         'iThemesSecurity\\Lib\\REST\\Lockout_Stats_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Lockout_Stats_Controller.php',
+        'iThemesSecurity\\Lib\\REST\\Lockouts_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Lockouts_Controller.php',
         'iThemesSecurity\\Lib\\REST\\Logs_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Logs_Controller.php',
         'iThemesSecurity\\Lib\\REST\\Modules_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Modules_Controller.php',
         'iThemesSecurity\\Lib\\REST\\Settings_Controller' => __DIR__ . '/../..' . '/core/lib/rest/Settings_Controller.php',
@@ -365,6 +384,7 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'iThemesSecurity\\Lib\\Site_Types\\Question\\End_Users_Question_Pack' => __DIR__ . '/../..' . '/core/lib/site-types/Question/End_Users_Question_Pack.php',
         'iThemesSecurity\\Lib\\Site_Types\\Question\\Global_Question_Pack' => __DIR__ . '/../..' . '/core/lib/site-types/Question/Global_Question_Pack.php',
         'iThemesSecurity\\Lib\\Site_Types\\Question\\Login_Security_Question_Pack' => __DIR__ . '/../..' . '/core/lib/site-types/Question/Login_Security_Question_Pack.php',
+        'iThemesSecurity\\Lib\\Site_Types\\Question\\Site_Scan_Question' => __DIR__ . '/../..' . '/core/lib/site-types/Question/Site_Scan_Question.php',
         'iThemesSecurity\\Lib\\Site_Types\\Questions_Provider' => __DIR__ . '/../..' . '/core/lib/site-types/Questions_Provider.php',
         'iThemesSecurity\\Lib\\Site_Types\\Registry' => __DIR__ . '/../..' . '/core/lib/site-types/Registry.php',
         'iThemesSecurity\\Lib\\Site_Types\\Responds' => __DIR__ . '/../..' . '/core/lib/site-types/Responds.php',
@@ -378,6 +398,8 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'iThemesSecurity\\Lib\\Site_Types\\Type\\Network' => __DIR__ . '/../..' . '/core/lib/site-types/Type/Network.php',
         'iThemesSecurity\\Lib\\Site_Types\\Type\\Non_Profit' => __DIR__ . '/../..' . '/core/lib/site-types/Type/Non_Profit.php',
         'iThemesSecurity\\Lib\\Site_Types\\Type\\Portfolio' => __DIR__ . '/../..' . '/core/lib/site-types/Type/Portfolio.php',
+        'iThemesSecurity\\Lib\\Stellar_Container' => __DIR__ . '/../..' . '/core/lib/Stellar_Container.php',
+        'iThemesSecurity\\Lib\\Stringable_Json' => __DIR__ . '/../..' . '/core/lib/Stringable_Json.php',
         'iThemesSecurity\\Lib\\Tools\\Config_Tool' => __DIR__ . '/../..' . '/core/lib/tools/Config_Tool.php',
         'iThemesSecurity\\Lib\\Tools\\Tool' => __DIR__ . '/../..' . '/core/lib/tools/Tool.php',
         'iThemesSecurity\\Lib\\Tools\\Tools_Registry' => __DIR__ . '/../..' . '/core/lib/tools/Tools_Registry.php',
@@ -452,6 +474,30 @@ class ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec
         'iThemesSecurity\\Strauss\\Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerExceptionInterface.php',
         'iThemesSecurity\\Strauss\\Psr\\Container\\ContainerInterface' => __DIR__ . '/..' . '/psr/container/src/ContainerInterface.php',
         'iThemesSecurity\\Strauss\\Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/..' . '/psr/container/src/NotFoundExceptionInterface.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\ContainerContract\\ContainerInterface' => __DIR__ . '/..' . '/stellarwp/container-contract/src/ContainerInterface.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Admin\\Admin_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Admin/Admin_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Admin\\Resources' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Admin/Resources.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Config' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Config.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Contracts\\Abstract_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Contracts/Abstract_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Contracts\\Data_Provider' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Contracts/Data_Provider.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Contracts\\Runnable' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Contracts/Runnable.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Contracts\\Subscriber_Interface' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Contracts/Subscriber_Interface.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Contracts\\Template_Interface' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Contracts/Template_Interface.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Core' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Core.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Data_Providers\\Debug_Data' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Data_Providers/Debug_Data.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Data_Providers\\Null_Data_Provider' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Data_Providers/Null_Data_Provider.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Events\\Event' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Events/Event.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Events\\Event_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Events/Event_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Exit_Interview\\Exit_Interview_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Exit_Interview/Exit_Interview_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Exit_Interview\\Template' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Exit_Interview/Template.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Last_Send\\Last_Send' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Last_Send/Last_Send.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Last_Send\\Last_Send_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Last_Send/Last_Send_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Opt_In\\Opt_In_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Opt_In\\Opt_In_Template' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Opt_In\\Status' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Opt_In/Status.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Telemetry\\Telemetry' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Telemetry/Telemetry.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Telemetry\\Telemetry_Subscriber' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Telemetry/Telemetry_Subscriber.php',
+        'iThemesSecurity\\Strauss\\StellarWP\\Telemetry\\Uninstall' => __DIR__ . '/..' . '/stellarwp/telemetry/src/Telemetry/Uninstall.php',
         'iThemesSecurity\\Strauss\\Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'iThemesSecurity\\Strauss\\ZxcvbnPhp\\Feedback' => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src/Feedback.php',
         'iThemesSecurity\\Strauss\\ZxcvbnPhp\\Matcher' => __DIR__ . '/..' . '/bjeavons/zxcvbn-php/src/Matcher.php',

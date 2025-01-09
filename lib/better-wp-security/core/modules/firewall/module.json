@@ -25,10 +25,8 @@
       }
     }
   },
-  "feature-flags": {
-    "customFirewallRules": {
-      "title": "Custom Firewall Rules",
-      "description": "Enables a UI to create custom firewall rules."
-    }
+  "telemetry-settings": {
+    "max_attempts_host": true,
+    "check_period": true
   }
 }

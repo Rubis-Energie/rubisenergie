@@ -9,6 +9,7 @@ class Users_Controller_Extension implements Runnable {
 	public function run() {
 		add_filter( 'rest_user_collection_params', [ $this, 'register_collection_params' ] );
 		add_filter( 'rest_user_query', [ $this, 'apply_collection_params' ], 10, 2 );
+		add_filter( 'rest_prepare_user', [ $this, 'add_user_links' ], 10, 2 );
 		$this->register_fields();
 	}
 
@@ -171,6 +172,29 @@ class Users_Controller_Extension implements Runnable {
 	}
 
 	/**
+	 * Adds links to the user object.
+	 *
+	 * @param \WP_REST_Response $response
+	 * @param \WP_User          $user
+	 *
+	 * @return \WP_REST_Response
+	 */
+	public function add_user_links( \WP_REST_Response $response, \WP_User $user ): \WP_REST_Response {
+		if (
+			\ITSEC_Core::current_user_can_manage() &&
+			\ITSEC_Lib_Fingerprinting::is_current_fingerprint_safe() &&
+			\ITSEC_Lib_Fingerprinting::applies_to_user( $user )
+		) {
+			$response->add_link(
+				\ITSEC_Lib_REST::get_link_relation( 'trusted-devices' ),
+				rest_url( '/ithemes-security/v1/trusted-devices/' . $user->ID ),
+			);
+		}
+
+		return $response;
+	}
+
+	/**
 	 * Registers the REST API fields.
 	 *
 	 * @return void
@@ -233,10 +257,6 @@ class Users_Controller_Extension implements Runnable {
 		] );
 		register_rest_field( 'user', 'solid_2fa', [
 			'get_callback' => function ( $data ) {
-				if ( ! \ITSEC_Core::current_user_can_manage() ) {
-					return null;
-				}
-
 				if ( ! \ITSEC_Modules::is_active( 'two-factor' ) ) {
 					return null;
 				}
@@ -247,12 +267,21 @@ class Users_Controller_Extension implements Runnable {
 					return null;
 				}
 
+				if (
+					! \ITSEC_Core::current_user_can_manage() &&
+					$user->ID !== get_current_user_id()
+				) {
+					return null;
+				}
+
 				$two_factor = \ITSEC_Two_Factor::get_instance();
 
 				if ( $two_factor->get_available_providers_for_user( $user, false ) ) {
 					return 'enabled';
 				} elseif ( $two_factor->get_available_providers_for_user( $user, true ) ) {
 					return 'enforced-not-configured';
+				} elseif ( ! $two_factor->get_allowed_provider_instances_for_user( $user ) ) {
+					return 'not-available';
 				}
 
 				return 'not-enabled';
@@ -260,11 +289,12 @@ class Users_Controller_Extension implements Runnable {
 			},
 			'schema'       => [
 				'type'      => [ 'string', 'null' ],
-				'enum'      => [ 'enabled', 'not-enabled', 'enforced-not-configured' ],
+				'enum'      => [ 'enabled', 'not-enabled', 'enforced-not-configured', 'not-available' ],
 				'enumNames' => [
 					__( 'Configured Two-Factor', 'better-wp-security' ),
 					__( 'Not Configured Two-Factor', 'better-wp-security' ),
 					__( 'Two-Factor Enforced', 'better-wp-security' ),
+					__( 'Two-Factor Not Available', 'better-wp-security' ),
 				],
 				'context'   => [ 'edit' ],
 				'readonly'  => true,
