@@ -396,9 +396,7 @@ h3 {
 
 header {
     .headerMobile {
-        @media (min-width: 991px) {
-            display: none;
-        }
+
         padding: 10px 0;
         background-color: $white;
         position: fixed;
@@ -406,6 +404,11 @@ header {
         left: 0;
         right: 0;
         z-index: 1;
+
+        @media (min-width: 991px) {
+            display: none;
+        }
+
         .col-header {
             display: flex;
             align-items: center;

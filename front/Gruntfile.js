@@ -1,9 +1,13 @@
+const sass = require('sass');
+
+
 module.exports = function(grunt) {
   grunt.initConfig({
         pathTheme: 'rubis',
         sass: {
           dist: {
             options: {
+              implementation: sass,
               style: "expanded",
             },
             files: [
@@ -66,7 +70,7 @@ module.exports = function(grunt) {
     });
 
   // Import du package
-  grunt.loadNpmTasks("grunt-contrib-sass");
+  grunt.loadNpmTasks("grunt-sass");
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks('grunt-image');
