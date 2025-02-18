@@ -1,6 +1,7 @@
 
 wp-config.php
-dumps/
+/upgrade-temp-backup
+/dumps
 .DS_Store
 dumps/.htaccess
 dump-05-10-2024.sql
@@ -8,3 +9,4 @@ uploads
 .DS_Store
 /upgrade
 node_modules
+/app/updraft
