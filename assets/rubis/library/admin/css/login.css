@@ -24,14 +24,14 @@ body {
 .login .message {
   background: #FBFBFB;
 }
-.login h1 a {
+/* .login h1 a {
   background: url(../images/login-logo.png) no-repeat top center;
   width: 143px;
   height: 145px;
   text-indent: -9999px;
   overflow: hidden;
   padding-bottom: 5px;
-  display: block; }
+  display: block; } */
 
 form {
   margin-left: 8px;
