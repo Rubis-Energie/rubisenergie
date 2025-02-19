@@ -42,7 +42,7 @@ class Dna_Rubis_Load {
 
         /* Add Menu To Rubis */
         add_theme_support( 'menus' );
-        add_action( 'init', array( &$this, 'register_menu' ) );
+
 	}
 
 	/**
@@ -146,16 +146,6 @@ class Dna_Rubis_Load {
         }
     }
 
-    /**
-     * Create Rubis Menu
-     *
-     * @since 1.0
-     */
-    function register_menu() {
-    	register_nav_menu('header-menu', __( 'Menu principal' ));
-    	register_nav_menu('footer-menu', __( 'Menu pied de page' ));
-    	register_nav_menu('footer-secondary-menu', __( 'Menu secondaire pied de page' ));
-    }
 }
 
 $dna_theme_load = new Dna_Rubis_Load();
