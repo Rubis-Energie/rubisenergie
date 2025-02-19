@@ -46,3 +46,10 @@ function my_acf_init() {
 }
 
 add_action('acf/init', 'my_acf_init');
+
+
+register_nav_menus(
+	array(
+		'main-menu' => esc_html__( 'Menu Header', 'rubisenergie' ),
+	)
+);

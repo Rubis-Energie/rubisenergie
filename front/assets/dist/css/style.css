@@ -26611,20 +26611,24 @@ header nav.mainMenu .row-mainMenu section.nav-mainMenu {
   justify-content: space-between;
   align-items: center;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label {
-  color: #4a58c1;
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item {
   padding: 30px 0;
+}
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item, header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link {
+  color: #4a58c1;
   font-weight: 500;
   position: relative;
   transition: 0.3s ease;
   cursor: pointer;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label.active {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item::after, header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link::after {
+  content: none;
+}
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item:hover .nav-link {
   color: #73e6a3;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label .subMenu {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu {
   position: absolute;
-  width: 390px;
   padding: 15px 20px;
   top: 100%;
   background-color: #fff;
@@ -26634,21 +26638,27 @@ header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label .subMenu 
   z-index: 2;
   pointer-events: none;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label .subMenu a {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu .dropdown-item {
+  padding: 0;
+}
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu .dropdown-item:hover {
+  background-color: transparent;
+}
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu .dropdown-item a {
   width: 100%;
   color: #4a58c1;
   padding: 10px 0;
   transition: 0.3s ease;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label .subMenu a:hover {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu .dropdown-item a:hover {
   color: #73e6a3;
   transition: 0.3s ease;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label:hover {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item:hover {
   color: #73e6a3;
   transition: 0.3s ease;
 }
-header nav.mainMenu .row-mainMenu section.nav-mainMenu .mainMenu-label:hover .subMenu {
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item:hover .subMenu {
   opacity: 1;
   transition: 0.3s ease;
   pointer-events: inherit;
@@ -26685,22 +26695,26 @@ header nav.mainMenu .row-mainMenu .lastBtn {
     margin-bottom: 30px;
     padding-bottom: 15px;
   }
-  header nav.mainMenu section.nav-mainMenu .mainMenu-label {
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item {
     padding: 15px 0 !important;
     overflow: hidden;
     transition: 0.3s ease;
+    height: 54px;
   }
-  header nav.mainMenu section.nav-mainMenu .mainMenu-label.openSub {
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item.openSub {
     transition: 0.3s ease;
   }
-  header nav.mainMenu section.nav-mainMenu .mainMenu-label .containerSubmenu {
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link {
+    padding: 0;
+  }
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .containerSubmenu {
     height: 0;
     overflow: hidden;
   }
-  header nav.mainMenu section.nav-mainMenu .mainMenu-label .containerSubmenu.openSub {
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .containerSubmenu.openSub {
     transition: 0.3s ease;
   }
-  header nav.mainMenu section.nav-mainMenu .mainMenu-label .subMenu {
+  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .subMenu {
     position: inherit !important;
     opacity: 1 !important;
     border-top: inherit !important;

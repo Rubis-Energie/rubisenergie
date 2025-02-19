@@ -529,19 +529,28 @@ header {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .mainMenu-label {
-                    color: $blue;
+                .dropdown.nav-item {
                     padding: 30px 0;
-                    font-weight: 500;
-                    position: relative;
-                    transition: 0.3s ease;
-                    cursor: pointer;
-                    &.active {
+
+                    &, .nav-link {
+                        color: $blue;
+                        font-weight: 500;
+                        position: relative;
+                        transition: 0.3s ease;
+                        cursor: pointer;
+
+                        &::after {
+                            content: none;
+                        }
+
+                    }
+
+                    &:hover .nav-link {
                         color: $green;
                     }
                     .subMenu {
                         position: absolute;
-                        width: 390px;
+                        // width: 390px;
                         padding: 15px 20px;
                         top: 100%;
                         background-color: $white;
@@ -550,14 +559,22 @@ header {
                         transition: 0.3s ease;
                         z-index: 2;
                         pointer-events: none;
-                        a {
-                            width: 100%;
-                            color: $blue;
-                            padding: 10px 0;
-                            transition: 0.3s ease;
+
+                        .dropdown-item {
+                            padding: 0;
                             &:hover {
-                                color: $green;
+                                background-color: transparent;
+                            }
+
+                            a {
+                                width: 100%;
+                                color: $blue;
+                                padding: 10px 0;
                                 transition: 0.3s ease;
+                                &:hover {
+                                    color: $green;
+                                    transition: 0.3s ease;
+                                }
                             }
                         }
                     }
@@ -603,13 +620,19 @@ header {
                 border-bottom: 1px solid $green;
                 margin-bottom: 30px;
                 padding-bottom: 15px;
-                .mainMenu-label {
+                .dropdown.nav-item {
                     padding: 15px 0 !important;
                     overflow: hidden;
                     transition: 0.3s ease;
+                    height: 54px;
+
                     &.openSub {
                         transition: 0.3s ease;
                     }
+                    .nav-link {
+                        padding: 0;
+                    }
+                    
                     .containerSubmenu {
                         height: 0;
                         overflow: hidden;

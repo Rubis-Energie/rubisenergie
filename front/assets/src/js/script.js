@@ -94,10 +94,10 @@ $(document).ready(function(){
 
     if (window.matchMedia("(max-width: 991px)").matches) {
 
-        $('.mainMenu-label').click(function() {
+        $('.dropdown.nav-item').click(function() {
             var heightSubMenu = $(this).find('.subMenu').outerHeight(true);
             console.log(heightSubMenu);
-            var heightLabel = $(this).find('.labelSub').outerHeight(true) + 30;
+            var heightLabel = $(this).find('.nav-link.dropdown-toggle').outerHeight(true) + 30;
             console.log(heightLabel);
             $(this).toggleClass('openSub');
             $(this).find('.containerSubmenu').toggleClass('openSub');

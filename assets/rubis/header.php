@@ -63,6 +63,19 @@
 <?php $body_class = get_dna_body_class(); ?>
 <body>
 
+<?php 
+    class Sublevel_Walker extends Walker_Nav_Menu {
+        function start_lvl( &$output, $depth = 0, $args = array() ) {
+            $indent = str_repeat("\t", $depth);
+            $output .= "\n$indent<div class='containerSubmenu'><ul class='subMenu'>\n";
+        }
+        function end_lvl( &$output, $depth = 0, $args = array() ) {
+            $indent = str_repeat("\t", $depth);
+            $output .= "$indent</ul></div>\n";
+        }
+    }
+?>
+
 <header>
     <div class="headerMobile">
         <div class="container">
@@ -120,83 +133,50 @@
                     </div>
                 <?php endif ?>
 
-                <?php if (fol('main_menu')): ?>
-                    <?php $menus = fol('main_menu'); ?>
-                    <?php $nb_items = count($menus); ?>
-                    <?php $i = 1; ?>
-                    <div class="col-lg-6">
-                        <section class="nav-mainMenu">
-                            <?php foreach ($menus as $menu): ?>
-                                <?php $class = get_item_menu_active(get_the_ID(), $menu["link"]); ?>
-                                <?php if ($menu["is_sub_menu"]): ?>
-                                    <div class="mainMenu-label <?php echo $class; ?>">
-                                        <div class="labelSub">
-                                            <?php esc_html_e($menu["label"]) ?>
-                                        </div>
-                                        <div class="containerSubmenu">
-                                            <div class="subMenu">
-                                                <?php foreach ($menu["sub_menu"] as $sub_menu): ?>
-                                                    <a target="<?php esc_html_e($sub_menu["link"]["target"]); ?>" href="<?php esc_html_e($sub_menu["link"]["url"]); ?>">
-                                                        <?php esc_html_e($sub_menu["link"]["title"]); ?>
-                                                    </a>
-                                                <?php endforeach ?>
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="col-lg-6">
+                    <?php
+                        wp_nav_menu(array(
+                            'theme_location' => 'main-menu',
+                            'menu_class' => 'nav-mainMenu',
+                            'container' => 'section',
+                            'items_wrap' => '<section class="nav-mainMenu">%3$s</section>',
+                            'submenu_class' => 'mainMenu-label',
+                            'walker' => new Sublevel_Walker()
+                        ));
+                    ?>
+                </div>
 
-                                <?php else : ?>
-
-                                    <?php if ($i == $nb_items): //last item menu ?>
-
-                                        <a class="mainMenu-label <?php echo $class; ?>" target="<?php esc_html_e($menu["link"]["target"]); ?>" href="<?php esc_html_e($menu["link"]["url"]); ?>">
-                                            <?php esc_html_e($menu["link"]["title"]); ?>
-                                        </a>
-
-                                    <?php else :  ?>
-
-                                        <a class="mainMenu-label" target="<?php esc_html_e($menu["link"]["target"]); ?>" href="<?php esc_html_e($menu["link"]["url"]); ?>">
-                                            <?php esc_html_e($menu["link"]["title"]); ?>
-                                        </a>
-
-                                    <?php endif; ?>
-
-                                <?php endif ?>
-                                <?php $i++; ?>
-                            <?php endforeach ?>
-                        </section>
-
-                    </div>
-                    <?php if (fol('last_btn')): ?>
-                        <div class="col-lg-3">
-                            <div class="lastBtn">
-                                <?php $btn = fol('last_btn'); ?>
-                                <a class="cta green" target="<?php esc_html_e($btn["target"]); ?>" href="<?php esc_html_e($btn["url"]); ?>">
-                                    <?php esc_html_e($btn["title"]); ?>
-                                </a>
-                            </div>
+                <?php if (fol('last_btn')): ?>
+                    <div class="col-lg-3">
+                        <div class="lastBtn">
+                            <?php $btn = fol('last_btn'); ?>
+                            <a class="cta green" target="<?php esc_html_e($btn["target"]); ?>" href="<?php esc_html_e($btn["url"]); ?>">
+                                <?php esc_html_e($btn["title"]); ?>
+                            </a>
                         </div>
-                    <?php endif; ?>
+                    </div>
+                <?php endif; ?>
 
-                    <?php if (fol('before_menu')): ?>
-                        <section class="beforeMobile">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12 col-menu">
-                                        <div class="menu">
-                                            <?php foreach (fol('before_menu') as $b_menu): ?>
-                                                <a target="<?php esc_html_e($b_menu["link"]["target"]); ?>" href="<?php esc_html_e($b_menu["link"]["url"]); ?>">
-                                                    <?php esc_html_e($b_menu["link"]["title"]); ?>
-                                                </a>
-                                            <?php endforeach ?>
-                                        </div>
-                                        <div class="containerLang">
-                                            <?php pll_the_languages(array('display_names_as' => 'slug')); ?>
-                                        </div>
+
+                <?php if (fol('before_menu')): ?>
+                    <section class="beforeMobile">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-menu">
+                                    <div class="menu">
+                                        <?php foreach (fol('before_menu') as $b_menu): ?>
+                                            <a target="<?php esc_html_e($b_menu["link"]["target"]); ?>" href="<?php esc_html_e($b_menu["link"]["url"]); ?>">
+                                                <?php esc_html_e($b_menu["link"]["title"]); ?>
+                                            </a>
+                                        <?php endforeach ?>
+                                    </div>
+                                    <div class="containerLang">
+                                        <?php pll_the_languages(array('display_names_as' => 'slug')); ?>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-                    <?php endif ?>
+                        </div>
+                    </section>
                 <?php endif ?>
             </div>
         </div>
