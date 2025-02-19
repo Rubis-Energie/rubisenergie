@@ -51,5 +51,6 @@ add_action('acf/init', 'my_acf_init');
 register_nav_menus(
 	array(
 		'main-menu' => esc_html__( 'Menu Header', 'rubisenergie' ),
+		'sup-menu' => esc_html__( 'Sur Menu Header', 'rubisenergie' ),
 	)
 );

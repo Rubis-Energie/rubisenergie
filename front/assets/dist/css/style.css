@@ -26548,21 +26548,24 @@ header section.beforeMenu .col-menu {
 }
 header section.beforeMenu .col-menu .menu {
   margin-right: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+header section.beforeMenu .col-menu .menu li:first-child {
+  position: relative;
+}
+header section.beforeMenu .col-menu .menu li:first-child a::after {
+  content: "-";
+  position: absolute;
+  right: -5px;
+  top: 0px;
 }
 header section.beforeMenu .col-menu .menu a {
   padding: 0 10px;
   color: #000;
   font-size: 13px;
   font-weight: 700;
-}
-header section.beforeMenu .col-menu .menu a:first-child {
-  position: relative;
-}
-header section.beforeMenu .col-menu .menu a:first-child::after {
-  content: "-";
-  position: absolute;
-  right: -5px;
-  top: 0px;
 }
 header section.beforeMenu .col-menu .cta.green {
   text-transform: uppercase;
@@ -26623,6 +26626,9 @@ header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item, heade
 }
 header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item::after, header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link::after {
   content: none;
+}
+header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link {
+  padding: 0;
 }
 header nav.mainMenu .row-mainMenu section.nav-mainMenu .dropdown.nav-item:hover .nav-link {
   color: #73e6a3;
@@ -26703,9 +26709,6 @@ header nav.mainMenu .row-mainMenu .lastBtn {
   }
   header nav.mainMenu section.nav-mainMenu .dropdown.nav-item.openSub {
     transition: 0.3s ease;
-  }
-  header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .nav-link {
-    padding: 0;
   }
   header nav.mainMenu section.nav-mainMenu .dropdown.nav-item .containerSubmenu {
     height: 0;

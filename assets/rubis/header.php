@@ -103,13 +103,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-menu">
-                        <div class="menu">
-                            <?php foreach (fol('before_menu') as $b_menu): ?>
-                                <a target="<?php esc_html_e($b_menu["link"]["target"]); ?>" href="<?php esc_html_e($b_menu["link"]["url"]); ?>">
-                                    <?php esc_html_e($b_menu["link"]["title"]); ?>
-                                </a>
-                            <?php endforeach ?>
-                        </div>
+                            <?php
+                                wp_nav_menu(array(
+                                    'theme_location' => 'sup-menu',
+                                    'menu_class' => 'menu',
+                                    'submenu_class' => 'mainMenu-label',
+                                ));
+                            ?>
                         <div class="containerLang">
                             <?php pll_the_languages(array('display_names_as' => 'slug')); ?>
                         </div>
@@ -163,13 +163,13 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 col-menu">
-                                    <div class="menu">
-                                        <?php foreach (fol('before_menu') as $b_menu): ?>
-                                            <a target="<?php esc_html_e($b_menu["link"]["target"]); ?>" href="<?php esc_html_e($b_menu["link"]["url"]); ?>">
-                                                <?php esc_html_e($b_menu["link"]["title"]); ?>
-                                            </a>
-                                        <?php endforeach ?>
-                                    </div>
+                                    <?php
+                                        wp_nav_menu(array(
+                                            'theme_location' => 'sup-menu',
+                                            'menu_class' => 'menu',
+                                            'submenu_class' => 'mainMenu-label',
+                                        ));
+                                    ?>
                                     <div class="containerLang">
                                         <?php pll_the_languages(array('display_names_as' => 'slug')); ?>
                                     </div>
