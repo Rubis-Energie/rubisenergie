@@ -27813,20 +27813,24 @@ footer .row .footerMenu {
     justify-content: center;
   }
 }
+footer .row .footerMenu li a::after {
+  content: "-";
+  position: absolute;
+  right: 0;
+}
+footer .row .footerMenu li:last-child {
+  margin-right: 0;
+}
+footer .row .footerMenu li:last-child a::after {
+  display: none;
+}
 footer .row .footerMenu a {
+  position: relative;
   font-size: 11px;
   color: #000;
   font-weight: 600;
-  margin-right: 4px;
-}
-footer .row .footerMenu a::after {
-  content: "-";
-}
-footer .row .footerMenu a:last-child {
-  margin-right: 0;
-}
-footer .row .footerMenu a:last-child::after {
-  display: none;
+  margin-right: 3px;
+  padding: 0 7px 0 0;
 }
 
 .container404 {

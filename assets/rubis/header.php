@@ -103,13 +103,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-menu">
-                            <?php
-                                wp_nav_menu(array(
-                                    'theme_location' => 'sup-menu',
-                                    'menu_class' => 'menu',
-                                    'submenu_class' => 'mainMenu-label',
-                                ));
-                            ?>
+                        <?php
+                            wp_nav_menu(array(
+                                'theme_location' => 'header-sup-menu',
+                                'menu_class' => 'menu',
+                                'submenu_class' => 'mainMenu-label',
+                            ));
+                        ?>
                         <div class="containerLang">
                             <?php pll_the_languages(array('display_names_as' => 'slug')); ?>
                         </div>
@@ -136,7 +136,7 @@
                 <div class="col-lg-6">
                     <?php
                         wp_nav_menu(array(
-                            'theme_location' => 'main-menu',
+                            'theme_location' => 'header-main-menu',
                             'menu_class' => 'nav-mainMenu',
                             'container' => 'section',
                             'items_wrap' => '<section class="nav-mainMenu">%3$s</section>',
@@ -165,7 +165,7 @@
                                 <div class="col-12 col-menu">
                                     <?php
                                         wp_nav_menu(array(
-                                            'theme_location' => 'sup-menu',
+                                            'theme_location' => 'header-sup-menu',
                                             'menu_class' => 'menu',
                                             'submenu_class' => 'mainMenu-label',
                                         ));

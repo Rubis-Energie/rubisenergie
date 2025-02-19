@@ -1800,20 +1800,26 @@ footer {
             @media (max-width: 991px) {
                 justify-content: center;
             }
-            a {
-                font-size: 11px;
-                color: $black;
-                font-weight: 600;
-                margin-right: 4px;
-                &::after {
+            li {
+                a::after {
                     content: "-";
+                    position: absolute;
+                    right: 0;
                 }
                 &:last-child {
                     margin-right: 0;
-                    &::after {
+                    a::after {
                         display: none;
                     }
                 }
+            }
+            a {
+                position: relative;
+                font-size: 11px;
+                color: $black;
+                font-weight: 600;
+                margin-right: 3px;
+                padding: 0 7px 0 0;
             }
         }
     }

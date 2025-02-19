@@ -61,13 +61,20 @@
 					<?php endif ?>
 
 					<?php if (fol('footer_menu')): ?>
-						<div class="footerMenu">
-							<?php foreach (fol('footer_menu') as $f_menu): ?>
+						<!-- <div class="footerMenu"> -->
+							<!-- <?php foreach (fol('footer_menu') as $f_menu): ?>
 								<a target="<?php esc_html_e($f_menu["link"]["target"]); ?>" href="<?php esc_html_e($f_menu["link"]["url"]); ?>">
 									<?php esc_html_e($f_menu["link"]["title"]); ?>
 								</a>
-							<?php endforeach ?>
-						</div>
+							<?php endforeach ?> -->
+
+							<?php
+								wp_nav_menu(array(
+									'theme_location' => 'footer-main-menu',
+									'menu_class' => 'footerMenu',
+								));
+							?>
+						<!-- </div> -->
 					<?php endif ?>
 				</div>
 			</div>
