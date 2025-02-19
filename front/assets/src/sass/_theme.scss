@@ -540,6 +540,12 @@ header {
                 .dropdown.nav-item {
                     padding: 30px 0;
 
+                    &.current-page {
+                        a {
+                            color: $green;
+                        }
+                    }
+
                     &, .nav-link {
                         color: $blue;
                         font-weight: 500;
