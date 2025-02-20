@@ -26171,7 +26171,7 @@ html, body {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Source Serif 4", serif;
 }
 body.openMenu {
   overflow-y: hidden;
@@ -26246,20 +26246,25 @@ a:hover {
 }
 
 h1 {
-  font-family: "Gilda Display", serif;
+  font-family: "Barlow", serif;
   margin-bottom: 30px;
 }
 
 h2 {
-  font-family: "Gilda Display", serif;
+  font-family: "Barlow", serif;
   font-size: 50px;
   margin-bottom: 20px;
 }
 
 h3 {
+  font-family: "Barlow", serif;
   color: black;
   font-size: 18px;
   font-weight: 700;
+}
+
+h4 {
+  font-family: "Barlow", serif;
 }
 
 .img {
@@ -26269,6 +26274,7 @@ h3 {
 }
 
 .cta {
+  font-family: "Barlow", serif;
   font-size: 14px;
   padding: 8px 20px;
   font-weight: 500;
@@ -26482,6 +26488,9 @@ h3 {
   transition: 0.3s ease;
 }
 
+header {
+  font-family: "Barlow", serif;
+}
 header .headerMobile {
   padding: 10px 0;
   background-color: #fff;
@@ -27484,7 +27493,7 @@ section.listingActus section.listing .col-eachCardActu .date {
 }
 section.listingActus section.listing .col-eachCardActu h2 {
   color: #000;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Source Serif 4", serif;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -27641,7 +27650,7 @@ section.mapImplantation .col-right .eachTextCountry .back {
   cursor: pointer;
   position: relative;
   padding-left: 20px;
-  font-family: "Gilda Display", serif;
+  font-family: "Barlow", serif;
   transition: 0.3s ease;
 }
 @media (max-width: 768px) {
@@ -27713,7 +27722,7 @@ section.mapImplantation .col-right .eachTextCountry .pictos img:last-child {
   margin-right: 0;
 }
 section.mapImplantation .col-right .eachTextCountry li {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Source Serif 4", serif;
 }
 section.mapImplantation .col-right .eachTextCountry .otherSubsidiaries {
   margin-top: 30px;

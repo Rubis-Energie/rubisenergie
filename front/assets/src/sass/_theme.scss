@@ -28,8 +28,10 @@
 //-------- VARIABLES --------//
 //---------------------------//
 
-$fontTitle: 'Gilda Display', serif;
-$fontBody: 'Quicksand', sans-serif;
+// $fontTitle: 'Gilda Display', serif;
+// $fontBody: 'Quicksand', sans-serif;
+$fontTitle: 'Barlow', serif;
+$fontBody: "Source Serif 4", serif;
 $Lora: 'Lora', serif;
 
 $black: #000;
@@ -150,10 +152,17 @@ h2 {
     margin-bottom: 20px;
 }
 
+
+
 h3 {
+    font-family: $fontTitle;
     color: black;
     font-size: 18px;
     font-weight: 700;
+}
+
+h4 {
+    font-family: $fontTitle;
 }
 
 .img {
@@ -163,7 +172,7 @@ h3 {
 }
 
 .cta {
-
+    font-family: $fontTitle;
     font-size: 14px;
     padding: 8px 20px;
     font-weight: 500;
@@ -395,6 +404,7 @@ h3 {
 //---------------------------//
 
 header {
+    font-family: $fontTitle;
     .headerMobile {
 
         padding: 10px 0;
