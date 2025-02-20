@@ -33,6 +33,10 @@ body {
   padding-bottom: 5px;
   display: block; } */
 
+.login .wp-login-logo .logo {
+  width: 150px;
+}
+
 form {
   margin-left: 8px;
   padding: 26px 24px 46px;
