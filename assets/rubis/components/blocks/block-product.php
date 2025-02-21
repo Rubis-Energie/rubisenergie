@@ -1,16 +1,20 @@
+<?php
+    $product = $args['product'];
+?>
+
 <section class="blockProduct">
     <div class="container">
         <div class="row">
             <div class="col-lg-5">
                 <div class="title">
-                    <h2><?php esc_html_e($block_prd["title"]); ?></h2>
+                    <h2><?php esc_html_e($product["title"]); ?></h2>
 
-                    <?php echo $block_prd["text"]; ?>
+                    <?php echo $product["text"]; ?>
                 </div>
 
-                <?php if ($block_prd["products"]): ?>
+                <?php if ($product["products"]): ?>
                 <?php $i = 0;?>
-                <?php foreach ($block_prd["products"] as $prd): ?>
+                <?php foreach ($product["products"] as $prd): ?>
 
                     <?php if (is_singular('products') && get_the_ID() == $prd->ID): ?>
                         <?php continue; ?>
@@ -26,11 +30,11 @@
             </div>
 
             <div class="col-lg-6 offset-lg-1 colImg">
-                <div id="imgBg" class="img" style="background-image: url('<?php esc_html_e($block_prd["img"]["url"]); ?>')"></div>
+                <div id="imgBg" class="img" style="background-image: url('<?php esc_html_e($product["img"]["url"]); ?>')"></div>
 
-                <?php if ($block_prd["products"]): ?>
+                <?php if ($product["products"]): ?>
                 <?php $i = 0;?>
-                <?php foreach ($block_prd["products"] as $prd): ?>
+                <?php foreach ($product["products"] as $prd): ?>
 
                     <?php if (is_singular('products') && get_the_ID() == $prd->ID): ?>
                         <?php continue; ?>
