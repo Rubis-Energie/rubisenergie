@@ -4,6 +4,52 @@ function recaptchaCallback() {
 
 $(document).ready(function(){
 
+    /*------------------------------------*\
+        STICKY MENU
+    \*------------------------------------*/
+    
+    var didScroll;
+    var lastScrollTop = 0;
+    var delta = 20;
+    var header = document.querySelector('header');    
+    
+    var documentIsScrolling = function () {
+        didScroll = true;
+    
+        setInterval(function() {
+            if (didScroll) {
+                handleScrollForMenu();
+                didScroll = false;
+            }
+        }, 250);
+    }
+    
+    var handleScrollForMenu = function () {
+        var st = window.scrollY;
+    
+        // Make sure they scroll more than delta
+        if (Math.abs(lastScrollTop - st) <= delta) return;
+        
+        if ( st < 100 ) {
+            // console.log('documentIsScrolling BACKTOTHETOP');
+            header.classList.remove('-out');
+        }
+        else if (st > lastScrollTop ){
+            // console.log('documentIsScrolling DOWN');
+            header.classList.add('-out');
+        } 
+        else {
+            // console.log('documentIsScrolling UP');
+            header.classList.remove('-out');
+        }
+    
+        lastScrollTop = st;
+    }
+    
+    document.addEventListener("scroll", documentIsScrolling, false);
+    
+
+
     fileInput  = $('.input-file');
     button     = $( ".input-file-trigger" );
     the_return = $(".file-return");
