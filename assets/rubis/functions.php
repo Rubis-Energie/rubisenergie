@@ -14,6 +14,11 @@
 /**
  * Constants Definitions
  **/
+
+if ( ! defined( '_S_VERSION' ) ) {
+	// Replace the version number of the theme on each release.
+	define( '_S_VERSION', '1.0.0' );
+}
 define('PATH', STYLESHEETPATH);
 define('FUNCTIONS_PATH', PATH . '/library/');
 define('HELPER_PATH', PATH . '/library/helpers/');
@@ -55,3 +60,16 @@ register_nav_menus(
 		'footer-main-menu' => esc_html__( 'Menu principal Footer', 'rubisenergie' ),
 	)
 );
+
+
+function rubis_styles_scripts() {
+	// Enqueue main stylesheet
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/style.min.css', array(), _S_VERSION );
+
+
+	// Enqueue custom script
+	wp_enqueue_script( 'lib', get_template_directory_uri() . '/assets/js/lib.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/app.min.js', array('lib'), _S_VERSION, true );
+}
+
+add_action('wp_enqueue_scripts', 'rubis_styles_scripts');

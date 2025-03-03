@@ -82,8 +82,6 @@
 	</footer>
 
 	<?php wp_footer(); ?>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/lib.min.js"></script>
-	<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/app.min.js"></script>
 
 </body>
 </html>
