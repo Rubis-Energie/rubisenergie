@@ -13,9 +13,9 @@ module.exports = function(grunt) {
             files: [
                 {
                     expand : true,
-                    cwd : "assets/src/sass",
+                    cwd : "assets/<%= pathTheme %>/assets/sass",
                     src : ["*.scss"],
-                    dest : "assets/dist/css/",
+                    dest : "assets/<%= pathTheme %>/assets/css",
                     ext : ".css",
                 },
             ],
@@ -26,9 +26,9 @@ module.exports = function(grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'assets/dist/css',
+                        cwd: 'assets/<%= pathTheme %>/assets/css',
                         src: ['*.css'],
-                        dest: '../assets/<%= pathTheme %>/css',
+                        dest: 'assets/<%= pathTheme %>/assets/css',
                         ext: '.min.css'
                     },
                 ],
@@ -39,31 +39,31 @@ module.exports = function(grunt) {
             separator: ";",
           },
           js: {
-            src: ["assets/src/js/script.js"],
-            dest: "../assets/<%= pathTheme %>/js/app.min.js",
+            src: ["assets/<%= pathTheme %>/assets/js/script.js"],
+            dest: "assets/<%= pathTheme %>/assets/js/app.min.js",
           },
           jslib: {
-              src: ["assets/src/js/libs/*"],
-              dest: "../assets/<%= pathTheme %>/js/lib.min.js",
+              src: ["assets/<%= pathTheme %>/assets/js/libs/*"],
+              dest: "assets/<%= pathTheme %>/assets/js/lib.min.js",
           }
         },
         image: {
           dynamic: {
               files: [{
                   expand: true,
-                  cwd: "assets/src/img/",
+                  cwd: "assets/<%= pathTheme %>/assets/img/",
                   src: ["*.{png,jpg,gif,svg}"],
-                  dest: '../assets/<%= pathTheme %>/img'
+                  dest: 'assets/<%= pathTheme %>/assets/img'
               }]
           }
         },
         watch: {
             scripts: {
-                files: "assets/src/js/script.js",
+                files: "assets/<%= pathTheme %>/assets/js/script.js",
                 tasks: ["uglify:js"]
             },
             styles: {
-                files: "assets/src/sass/*.scss",
+                files: "assets/<%= pathTheme %>/assets/sass/*.scss",
                 tasks: ["sass:dist", "cssmin:dist"]
             }
         }

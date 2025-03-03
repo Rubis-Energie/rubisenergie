@@ -32,7 +32,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css" type="text/css" media="all"/>
 
     <?php if (fo('code_ua')): ?>
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>

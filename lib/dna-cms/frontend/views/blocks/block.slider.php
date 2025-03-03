@@ -11,10 +11,10 @@
                     <?php if (count($block["slider"]) > 1) : ?>
                         <div class="navBtn">
                             <div class="prevBtn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/white_arrow.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/white_arrow.png" alt="">
                             </div>
                             <div class="nextBtn">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/white_arrow.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/white_arrow.png" alt="">
                             </div>
                         </div>
                     <?php endif; ?>

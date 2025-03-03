@@ -2,8 +2,9 @@ function recaptchaCallback() {
     $('#f_recaptcha').valid();
 }
 
-$(document).ready(function(){
 
+$(document).ready(function(){
+    
     /*------------------------------------*\
         STICKY MENU
     \*------------------------------------*/
