@@ -1,3 +1,8 @@
+<?php
+    $list = $args['list'];
+    $themes = $args['themes'];
+?>
+
 <section class="listingActus">
     <section class="filter">
         <div class="container">

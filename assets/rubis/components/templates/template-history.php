@@ -1,3 +1,7 @@
+<?php
+    $fields = $args['fields'];
+?>
+
 <section class="history">
     <div class="container">
         <div class="row">

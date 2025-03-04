@@ -61,7 +61,9 @@
 
 <?php if ($fields_hp["is_block_prd"]): ?>
 
-    <?php render('block_product', 'Products'); ?>
+    <?php get_template_part('components/blocks/block', 'product', array(
+        'product' => fol('block_prd'),
+    ));?>
 
 <?php endif; ?>
 

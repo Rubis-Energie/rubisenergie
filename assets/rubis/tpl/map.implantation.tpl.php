@@ -9,7 +9,7 @@
 ?>
 <?php get_header(); ?>
 
-<?php get_template_part('../components/modules/module', 'header-page', array(
+<?php get_template_part('components/modules/module', 'header-page', array(
     'header_page' => get_field('header_page'),
 )); ?>
 

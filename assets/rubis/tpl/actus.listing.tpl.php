@@ -9,11 +9,32 @@
 ?>
 <?php get_header(); ?>
 
-<?php render('listing_actus', 'Rubis'); ?>
+<?php 
+
+    global $wp_query;
+    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+    $args = array(
+        'post_type' => 'post',
+        'posts_per_page' => 9,
+        'paged' => $paged,
+    );
+
+    if (isset($_GET["cat"]) && $_GET["cat"] != "false") {
+        $args["category_name"] = $_GET["cat"];
+    }
+
+    get_template_part('components/templates/template', 'listing-actus', array(
+        'list' => new WP_Query($args);,
+        'themes' => get_terms('category'),
+    )); 
+
+?>
 
 <?php if (get_field("is_block_map")): ?>
 
-    <?php render('block_map', 'Rubis'); ?>
+    <?php get_template_part('components/blocks/block', 'map', array(
+        'map' => fol('block_map'),
+    )); ?>
 
 <?php endif; ?>
 
