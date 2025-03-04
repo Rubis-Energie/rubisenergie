@@ -24,7 +24,9 @@
 
 <?php if (get_field("is_block_map")): ?>
 
-    <?php render('block_map', 'Rubis'); ?>
+    <?php get_template_part('components/blocks/block', 'map', array(
+        'map' => fol('block_map'),
+    )); ?>
 
 <?php endif; ?>
 

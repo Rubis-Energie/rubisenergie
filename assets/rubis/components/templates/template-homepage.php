@@ -1,3 +1,8 @@
+
+<?php
+    $fields_hp = $args['fields_hp'];
+?>
+
 <?php if ($fields_hp["block_hp"]): ?>
     <section class="blockHeaderPage" style="background-color:<?php esc_html_e($fields_hp["block_hp"]["color"]); ?>;">
         <div class="container">
@@ -108,6 +113,8 @@
 
 <?php if ($fields_hp["is_block_map"]): ?>
 
-    <?php render('block_map', 'Rubis'); ?>
+    <?php get_template_part('components/blocks/block', 'map', array(
+        'map' => fol('block_map'),
+    )); ?>
 
 <?php endif; ?>

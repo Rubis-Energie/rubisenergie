@@ -1,0 +1,267 @@
+0000.002 (0) Opened log file at time: Tue, 04 Mar 2025 09:52:53 +0000 on https://rubisenergie.local:8890/app
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.2.0 (apache2handler, Darwin Alexis-MacBook-Air.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:06 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8103 arm64) MySQL: 5.7.39 (max packet size=134217728) WPLANG: fr_FR Server: Apache/2.4.54 (Unix) mod_fastcgi/mod_fastcgi-SNAP-0910052141 PHP/8.2.0 OpenSSL/1.0.2u mod_wsgi/3.5 Python/2.7.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63.5M | 66.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 49790.3 MB
+0000.009 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.011 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.028 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1740995767, seconds_ago=86206)
+0000.031 (0) Set semaphore last lock (d) time to 2025-03-04 09:52:53
+0000.032 (0) Semaphore lock (d) complete
+0000.038 (0) Backup run: resumption=0, nonce=25705b739c92, file_nonce=25705b739c92 begun at=1741081973 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 600 seconds (1741082573) in case this run gets aborted
+0000.069 (0) This backup run is not intended for files - skipping
+0000.070 (0) Beginning creation of database dump (WordPress DB)
+0000.072 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.111 (0) Table wprubis_options: Total expected rows (via COUNT): 608
+0000.150 (0) Table wprubis_options: Rows added in this batch (next record: 664463): 604 (uncompressed bytes in this segment=212862) in 0.05 seconds
+0000.160 (0) Table wprubis_options: finishing file(s) (2, 42.2 KB)
+0000.169 (0) Table wprubis_users: Total expected rows (via COUNT): 7
+0000.170 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.175 (0) Table wprubis_users: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=2499) in 0.01 seconds
+0000.182 (0) Table wprubis_users: finishing file(s) (2, 1.1 KB)
+0000.190 (0) Table wprubis_usermeta: Total expected rows (via COUNT): 228
+0000.191 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.201 (0) Table wprubis_usermeta: Rows added in this batch (next record: 322): 228 (uncompressed bytes in this segment=16642) in 0.01 seconds
+0000.214 (0) Table wprubis_usermeta: finishing file(s) (2, 4.4 KB)
+0000.221 (0) Table wprubis_commentmeta: Total expected rows (via COUNT): 0
+0000.222 (0) Table wprubis_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=715) in 0.00 seconds
+0000.227 (0) Table wprubis_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.232 (0) Table wprubis_comments: Total expected rows (via COUNT): 0
+0000.234 (0) Table wprubis_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1735) in 0.00 seconds
+0000.238 (0) Table wprubis_comments: finishing file(s) (2, 0.5 KB)
+0000.247 (0) Table wprubis_itsec_bans: Total expected rows (via COUNT): 0
+0000.248 (0) Table wprubis_itsec_bans: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=906) in 0.00 seconds
+0000.256 (0) Table wprubis_itsec_bans: finishing file(s) (2, 0.4 KB)
+0000.261 (0) Table wprubis_itsec_dashboard_events: Total expected rows (via COUNT): 45
+0000.261 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.264 (0) Table wprubis_itsec_dashboard_events: Rows added in this batch (next record: 202): 45 (uncompressed bytes in this segment=3541) in 0.00 seconds
+0000.268 (0) Table wprubis_itsec_dashboard_events: finishing file(s) (2, 0.8 KB)
+0000.273 (0) Table wprubis_itsec_dashboard_lockouts: Total expected rows (via COUNT): 1
+0000.274 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.278 (0) Table wprubis_itsec_dashboard_lockouts: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=812) in 0.01 seconds
+0000.285 (0) Table wprubis_itsec_dashboard_lockouts: finishing file(s) (2, 0.4 KB)
+0000.296 (0) Table wprubis_itsec_distributed_storage: Total expected rows (via COUNT): 0
+0000.300 (0) Table wprubis_itsec_distributed_storage: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=945) in 0.01 seconds
+0000.312 (0) Table wprubis_itsec_distributed_storage: finishing file(s) (2, 0.4 KB)
+0000.327 (0) Table wprubis_itsec_fingerprints: Total expected rows (via COUNT): 0
+0000.329 (0) Table wprubis_itsec_fingerprints: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1253) in 0.01 seconds
+0000.339 (0) Table wprubis_itsec_fingerprints: finishing file(s) (2, 0.5 KB)
+0000.346 (0) Table wprubis_itsec_firewall_rules: Total expected rows (via COUNT): 0
+0000.348 (0) Table wprubis_itsec_firewall_rules: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1020) in 0.00 seconds
+0000.356 (0) Table wprubis_itsec_firewall_rules: finishing file(s) (2, 0.4 KB)
+0000.364 (0) Table wprubis_itsec_geolocation_cache: Total expected rows (via COUNT): 0
+0000.366 (0) Table wprubis_itsec_geolocation_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.00 seconds
+0000.376 (0) Table wprubis_itsec_geolocation_cache: finishing file(s) (2, 0.4 KB)
+0000.383 (0) Table wprubis_itsec_lockouts: Total expected rows (via COUNT): 0
+0000.386 (0) Table wprubis_itsec_lockouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1239) in 0.00 seconds
+0000.393 (0) Table wprubis_itsec_lockouts: finishing file(s) (2, 0.5 KB)
+0000.410 (0) Table wprubis_itsec_logs: Total expected rows (via COUNT): 655
+0000.458 (0) Table wprubis_itsec_logs: Rows added in this batch (next record: 3192): 655 (uncompressed bytes in this segment=372781) in 0.06 seconds
+0000.462 (0) Table wprubis_itsec_logs: finishing file(s) (2, 26.9 KB)
+0000.466 (0) Table wprubis_itsec_mutexes: Total expected rows (via COUNT): 0
+0000.466 (0) Table wprubis_itsec_mutexes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0000.469 (0) Table wprubis_itsec_mutexes: finishing file(s) (2, 0.4 KB)
+0000.471 (0) Table wprubis_itsec_opaque_tokens: Total expected rows (approximate): 0
+0000.473 (0) Table wprubis_itsec_opaque_tokens: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=797) in 0.00 seconds
+0000.477 (0) Table wprubis_itsec_opaque_tokens: finishing file(s) (2, 0.4 KB)
+0000.481 (0) Table wprubis_itsec_temp: Total expected rows (via COUNT): 0
+0000.482 (0) Table wprubis_itsec_temp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=933) in 0.00 seconds
+0000.485 (0) Table wprubis_itsec_temp: finishing file(s) (2, 0.4 KB)
+0000.487 (0) Table wprubis_itsec_user_groups: Total expected rows (approximate): 6
+0000.488 (0) Table wprubis_itsec_user_groups: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=1529) in 0.00 seconds
+0000.491 (0) Table wprubis_itsec_user_groups: finishing file(s) (2, 0.7 KB)
+0000.493 (0) Table wprubis_itsec_vulnerabilities: Total expected rows (approximate): 0
+0000.494 (0) Table wprubis_itsec_vulnerabilities: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=1072) in 0.00 seconds
+0000.496 (0) Table wprubis_itsec_vulnerabilities: finishing file(s) (2, 0.4 KB)
+0000.498 (0) Table wprubis_links: Total expected rows (via COUNT): 0
+0000.498 (0) Table wprubis_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1340) in 0.00 seconds
+0000.500 (0) Table wprubis_links: finishing file(s) (2, 0.5 KB)
+0000.527 (0) Table wprubis_postmeta: Total expected rows (approximate): 12761
+0000.932 (0) Table wprubis_postmeta: Rows added in this batch (next record: 23319): 15796 (uncompressed bytes in this segment=3391043) in 0.43 seconds
+0000.938 (0) Table wprubis_postmeta: finishing file(s) (2, 1126.2 KB)
+0000.949 (0) Table wprubis_posts: Total expected rows (approximate): 1721
+0001.024 (0) Table wprubis_posts: Rows added in this batch (next record: 2939): 1910 (uncompressed bytes in this segment=731356) in 0.08 seconds
+0001.031 (0) Table wprubis_posts: finishing file(s) (2, 125.1 KB)
+0001.034 (0) Table wprubis_term_relationships: Total expected rows (approximate): 787
+0001.039 (0) Table wprubis_term_relationships: Rows added in this batch (next record: 100000): 837 (uncompressed bytes in this segment=13568) in 0.01 seconds
+0001.041 (0) Table wprubis_term_relationships: finishing file(s) (2, 2.8 KB)
+0001.045 (0) Table wprubis_term_taxonomy: Total expected rows (via COUNT): 137
+0001.045 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.048 (0) Table wprubis_term_taxonomy: Rows added in this batch (next record: 211): 137 (uncompressed bytes in this segment=10942) in 0.00 seconds
+0001.051 (0) Table wprubis_term_taxonomy: finishing file(s) (2, 2.1 KB)
+0001.055 (0) Table wprubis_termmeta: Total expected rows (via COUNT): 2
+0001.055 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.057 (0) Table wprubis_termmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=8189) in 0.00 seconds
+0001.061 (0) Table wprubis_termmeta: finishing file(s) (2, 1.8 KB)
+0001.063 (0) Table wprubis_terms: Total expected rows (via COUNT): 137
+0001.063 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.065 (0) Table wprubis_terms: Rows added in this batch (next record: 211): 137 (uncompressed bytes in this segment=7780) in 0.00 seconds
+0001.068 (0) Table wprubis_terms: finishing file(s) (2, 2.2 KB)
+0001.072 (0) Table wprubis_redirection_404: Total expected rows (via COUNT): 0
+0001.074 (0) Table wprubis_redirection_404: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1075) in 0.00 seconds
+0001.076 (0) Table wprubis_redirection_404: finishing file(s) (2, 0.5 KB)
+0001.080 (0) Table wprubis_redirection_groups: Total expected rows (via COUNT): 2
+0001.080 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.082 (0) Table wprubis_redirection_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=999) in 0.00 seconds
+0001.084 (0) Table wprubis_redirection_groups: finishing file(s) (2, 0.5 KB)
+0001.087 (0) Table wprubis_redirection_items: Total expected rows (via COUNT): 100
+0001.087 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.092 (0) Table wprubis_redirection_items: Rows added in this batch (next record: 101): 100 (uncompressed bytes in this segment=32992) in 0.01 seconds
+0001.094 (0) Table wprubis_redirection_items: finishing file(s) (2, 4.1 KB)
+0001.097 (0) Table wprubis_redirection_logs: Total expected rows (via COUNT): 0
+0001.097 (0) Table wprubis_redirection_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1228) in 0.00 seconds
+0001.099 (0) Table wprubis_redirection_logs: finishing file(s) (2, 0.5 KB)
+0001.101 (0) Table wprubis_wpdatacharts: Total expected rows (via COUNT): 1
+0001.101 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.104 (0) Table wprubis_wpdatacharts: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1619) in 0.00 seconds
+0001.109 (0) Table wprubis_wpdatacharts: finishing file(s) (2, 0.7 KB)
+0001.114 (0) Table wprubis_wpdatatables: Total expected rows (via COUNT): 3
+0001.115 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.115 (0) Table wprubis_wpdatatables: Rows added in this batch (next record: 5): 3 (uncompressed bytes in this segment=3383) in 0.00 seconds
+0001.121 (0) Table wprubis_wpdatatables: finishing file(s) (2, 0.9 KB)
+0001.125 (0) Table wprubis_wpdatatables_columns: Total expected rows (via COUNT): 4
+0001.126 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.126 (0) Table wprubis_wpdatatables_columns: Rows added in this batch (next record: 11): 4 (uncompressed bytes in this segment=3336) in 0.00 seconds
+0001.130 (0) Table wprubis_wpdatatables_columns: finishing file(s) (2, 0.9 KB)
+0001.134 (0) Table wprubis_wpdatatables_rows: Total expected rows (via COUNT): 3
+0001.134 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.135 (0) Table wprubis_wpdatatables_rows: Rows added in this batch (next record: 9): 3 (uncompressed bytes in this segment=978) in 0.00 seconds
+0001.136 (0) Table wprubis_wpdatatables_rows: finishing file(s) (2, 0.4 KB)
+0001.150 (0) Table wprubis_yoast_indexable: Total expected rows (via COUNT): 354
+0001.150 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.178 (0) Table wprubis_yoast_indexable: Rows added in this batch (next record: 1871): 354 (uncompressed bytes in this segment=279020) in 0.04 seconds
+0001.183 (0) Table wprubis_yoast_indexable: finishing file(s) (2, 50.7 KB)
+0001.187 (0) Table wprubis_yoast_indexable_hierarchy: Total expected rows (approximate): 342
+0001.192 (0) Table wprubis_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 342 (uncompressed bytes in this segment=6731) in 0.01 seconds
+0001.199 (0) Table wprubis_yoast_indexable_hierarchy: finishing file(s) (2, 1.3 KB)
+0001.213 (0) Table wprubis_yoast_migrations: Total expected rows (via COUNT): 24
+0001.214 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.221 (0) Table wprubis_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0001.227 (0) Table wprubis_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0001.229 (0) Table wprubis_yoast_primary_term: Total expected rows (via COUNT): 102
+0001.230 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.232 (0) Table wprubis_yoast_primary_term: Rows added in this batch (next record: 111): 102 (uncompressed bytes in this segment=8904) in 0.00 seconds
+0001.236 (0) Table wprubis_yoast_primary_term: finishing file(s) (2, 1.9 KB)
+0001.244 (0) Table wprubis_yoast_seo_links: Total expected rows (via COUNT): 1
+0001.244 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.245 (0) Table wprubis_yoast_seo_links: Rows added in this batch (next record: 4): 1 (uncompressed bytes in this segment=1208) in 0.00 seconds
+0001.249 (0) Table wprubis_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0001.249 (0) PHP event: code E_WARNING: filemtime(): stat failed for /Users/alexis/Sites/thomas/rubisenergie/updraft/backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz (line 1923, /Users/alexis/Sites/thomas/rubisenergie/lib/updraftplus/backup.php)
+0001.250 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_options.table.tmpr664464.gz (1/39/fopen): adding to final database dump
+0001.251 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_options.table.gz (2/39/fopen): adding to final database dump
+0001.251 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_users.table.tmpr8.gz (3/39/fopen): adding to final database dump
+0001.251 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_users.table.gz (4/39/fopen): adding to final database dump
+0001.252 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_usermeta.table.tmpr323.gz (5/39/fopen): adding to final database dump
+0001.252 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_usermeta.table.gz (6/39/fopen): adding to final database dump
+0001.252 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_commentmeta.table.tmpr0.gz (7/39/fopen): adding to final database dump
+0001.252 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_commentmeta.table.gz (8/39/fopen): adding to final database dump
+0001.253 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_comments.table.tmpr0.gz (9/39/fopen): adding to final database dump
+0001.253 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_comments.table.gz (10/39/fopen): adding to final database dump
+0001.253 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_bans.table.tmpr0.gz (11/39/fopen): adding to final database dump
+0001.253 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_bans.table.gz (12/39/fopen): adding to final database dump
+0001.254 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_dashboard_events.table.tmpr203.gz (13/39/fopen): adding to final database dump
+0001.254 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_dashboard_events.table.gz (14/39/fopen): adding to final database dump
+0001.254 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_dashboard_lockouts.table.tmpr2.gz (15/39/fopen): adding to final database dump
+0001.255 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_dashboard_lockouts.table.gz (16/39/fopen): adding to final database dump
+0001.255 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_distributed_storage.table.tmpr0.gz (17/39/fopen): adding to final database dump
+0001.255 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_distributed_storage.table.gz (18/39/fopen): adding to final database dump
+0001.255 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_fingerprints.table.tmpr0.gz (19/39/fopen): adding to final database dump
+0001.256 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_fingerprints.table.gz (20/39/fopen): adding to final database dump
+0001.259 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_firewall_rules.table.tmpr0.gz (21/39/fopen): adding to final database dump
+0001.259 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_firewall_rules.table.gz (22/39/fopen): adding to final database dump
+0001.260 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_geolocation_cache.table.tmpr0.gz (23/39/fopen): adding to final database dump
+0001.260 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_geolocation_cache.table.gz (24/39/fopen): adding to final database dump
+0001.260 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_lockouts.table.tmpr0.gz (25/39/fopen): adding to final database dump
+0001.261 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_lockouts.table.gz (26/39/fopen): adding to final database dump
+0001.261 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_logs.table.tmpr3193.gz (27/39/fopen): adding to final database dump
+0001.262 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_logs.table.gz (28/39/fopen): adding to final database dump
+0001.262 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_mutexes.table.tmpr0.gz (29/39/fopen): adding to final database dump
+0001.263 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_mutexes.table.gz (30/39/fopen): adding to final database dump
+0001.264 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_opaque_tokens.table.tmpr1.gz (31/39/fopen): adding to final database dump
+0001.266 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_opaque_tokens.table.gz (32/39/fopen): adding to final database dump
+0001.267 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_temp.table.tmpr0.gz (33/39/fopen): adding to final database dump
+0001.268 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_temp.table.gz (34/39/fopen): adding to final database dump
+0001.268 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_user_groups.table.tmpr1001.gz (35/39/fopen): adding to final database dump
+0001.269 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_user_groups.table.gz (36/39/fopen): adding to final database dump
+0001.269 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_vulnerabilities.table.tmpr1.gz (37/39/fopen): adding to final database dump
+0001.269 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_itsec_vulnerabilities.table.gz (38/39/fopen): adding to final database dump
+0001.269 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_links.table.tmpr0.gz (39/39/fopen): adding to final database dump
+0001.270 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_links.table.gz (40/39/fopen): adding to final database dump
+0001.271 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_postmeta.table.tmpr23320.gz (41/39/fopen): adding to final database dump
+0001.287 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_postmeta.table.gz (42/39/fopen): adding to final database dump
+0001.287 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_posts.table.tmpr2940.gz (43/39/fopen): adding to final database dump
+0001.289 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_posts.table.gz (44/39/fopen): adding to final database dump
+0001.289 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_term_relationships.table.tmpr100001.gz (45/39/fopen): adding to final database dump
+0001.289 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_term_relationships.table.gz (46/39/fopen): adding to final database dump
+0001.290 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_term_taxonomy.table.tmpr212.gz (47/39/fopen): adding to final database dump
+0001.290 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_term_taxonomy.table.gz (48/39/fopen): adding to final database dump
+0001.290 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_termmeta.table.tmpr3.gz (49/39/fopen): adding to final database dump
+0001.291 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_termmeta.table.gz (50/39/fopen): adding to final database dump
+0001.295 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_terms.table.tmpr212.gz (51/39/fopen): adding to final database dump
+0001.296 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_terms.table.gz (52/39/fopen): adding to final database dump
+0001.296 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_404.table.tmpr0.gz (53/39/fopen): adding to final database dump
+0001.296 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_404.table.gz (54/39/fopen): adding to final database dump
+0001.296 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_groups.table.tmpr3.gz (55/39/fopen): adding to final database dump
+0001.297 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_groups.table.gz (56/39/fopen): adding to final database dump
+0001.297 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_items.table.tmpr102.gz (57/39/fopen): adding to final database dump
+0001.297 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_items.table.gz (58/39/fopen): adding to final database dump
+0001.298 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_logs.table.tmpr0.gz (59/39/fopen): adding to final database dump
+0001.299 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_redirection_logs.table.gz (60/39/fopen): adding to final database dump
+0001.299 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatacharts.table.tmpr2.gz (61/39/fopen): adding to final database dump
+0001.302 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatacharts.table.gz (62/39/fopen): adding to final database dump
+0001.302 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables.table.tmpr6.gz (63/39/fopen): adding to final database dump
+0001.302 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables.table.gz (64/39/fopen): adding to final database dump
+0001.303 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables_columns.table.tmpr12.gz (65/39/fopen): adding to final database dump
+0001.303 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables_columns.table.gz (66/39/fopen): adding to final database dump
+0001.303 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables_rows.table.tmpr10.gz (67/39/fopen): adding to final database dump
+0001.303 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_wpdatatables_rows.table.gz (68/39/fopen): adding to final database dump
+0001.303 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_indexable.table.tmpr1872.gz (69/39/fopen): adding to final database dump
+0001.304 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_indexable.table.gz (70/39/fopen): adding to final database dump
+0001.304 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_indexable_hierarchy.table.tmpr1001.gz (71/39/fopen): adding to final database dump
+0001.305 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_indexable_hierarchy.table.gz (72/39/fopen): adding to final database dump
+0001.305 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_migrations.table.tmpr25.gz (73/39/fopen): adding to final database dump
+0001.305 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_migrations.table.gz (74/39/fopen): adding to final database dump
+0001.305 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_primary_term.table.tmpr112.gz (75/39/fopen): adding to final database dump
+0001.306 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_primary_term.table.gz (76/39/fopen): adding to final database dump
+0001.306 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_seo_links.table.tmpr5.gz (77/39/fopen): adding to final database dump
+0001.306 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db-table-wprubis_yoast_seo_links.table.gz (78/39/fopen): adding to final database dump
+0001.359 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz: finished writing out complete database file (1406.1 KB)
+0001.398 (0) Total database tables backed up: 39 (backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz, size: 1439967, sha1: cc621d87e800e70675ef6dcfba001499483ef347, sha256: e98d55c4d40d68aa9157fc5761eaee5613bbfc124855228fb00ac1c618512b77)
+0001.407 (0) backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz: db: This file has not yet been successfully uploaded: will queue
+0001.407 (0) Saving backup history. Total backup size: 1.4 MB
+0001.408 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0001.410 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0001.411 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7a7f5c7195071185eca69dffdec98c1e)
+0001.411 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0002.138 (0) Successfully updated and refreshed the access token
+0002.143 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0002.526 (0) Dropbox: quota usage: used=147105.9 MB, total=2101888 MB, available=1954782.1 MB
+0002.528 (0) Dropbox: Attempt to upload: backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz to: backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz
+0003.627 (0) Dropbox chunked upload: 72.8 % uploaded (pid_upload_session:ABII6XSqj96cFoJrZQE-cX0Czs_2t4DJJsROxh_24fKrSou9_g, 1048576, 4608 KB)
+0005.706 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABII6XSqj96cFoJrZQE-cX0Czs_2t4DJJsROxh_24fKrSou9_g, 1439967, 4608 KB)
+0006.923 (0) Recording as successfully uploaded: backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz
+0006.928 (0) Deleting local file: backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz: OK
+0006.930 (0) Dropbox: File upload success (backup_2025-03-04-1052_Rubis_Energie_25705b739c92-db.gz): 1406 KB in 4s (319 KB/s)
+0006.938 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+0006.941 (0) Number of backup sets in history: 3; groups (db): 1
+0006.942 (0) Examining (for databases) backup set with group_id=0, nonce=25705b739c92, datestamp=1741081973 (Mar 04 2025 09:52:53)
+0006.943 (0) This backup set is the backup set just made, so will not be deleted.
+0006.943 (0) Examining (for databases) backup set with group_id=0, nonce=9b61083879a3, datestamp=1740996676 (Mar 03 2025 10:11:16)
+0006.943 (0) Examining (for databases) backup set with group_id=0, nonce=f9a4a07609a4, datestamp=1740995767 (Mar 03 2025 09:56:07)
+0006.943 (0) 1740995767: db: this set includes a database (backup_2025-03-03-1056_Rubis_Energie_f9a4a07609a4-db.gz); db count is now 1
+0006.943 (0) 1740995767: db: over retain limit (1); will delete this database
+0006.945 (0) Dropbox: request deletion: backup_2025-03-03-1056_Rubis_Energie_f9a4a07609a4-db.gz
+0010.348 (0) Dropbox: deletion succeeded
+0010.358 (0) This backup set is now empty; will remove from history
+0010.360 (0) Deleting log file (log.f9a4a07609a4.txt)
+0010.362 (0) Number of backup sets in history: 2; groups (files): 1
+0010.364 (0) Examining (for files) backup set with nonce=25705b739c92, datestamp=1741081973 (Mar 04 2025 09:52:53)
+0010.366 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0010.367 (0) Examining (for files) backup set with nonce=9b61083879a3, datestamp=1740996676 (Mar 03 2025 10:11:16)
+0010.367 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0010.369 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0010.380 (0) Resume backup (25705b739c92, 0): finish run
+0010.382 (0) Decremented the semaphore (d) by 1
+0010.384 (0) Semaphore (d) unlocked
+0010.385 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.393 (0) No email will/can be sent - the user has not configured an email address.
+0010.394 (0) The backup succeeded and is now complete

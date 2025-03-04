@@ -17,21 +17,17 @@
 
 <?php if (get_field("is_block_prd")): ?>
 
-    <?php 
-        get_template_part('components/blocks/block', 'product', array(
-            'product' => fol('block_prd'),
-        ));
-    ?>
+    <?php get_template_part('components/blocks/block', 'product', array(
+        'product' => fol('block_prd'),
+    ));?>
     
 <?php endif; ?>
 
 <?php if (get_field("is_block_map")): ?>
 
-    <?php 
-        get_template_part('components/blocks/block', 'map', array(
-            'map' => fol('block_map'),
-        ));
-    ?>
+    <?php get_template_part('components/blocks/block', 'map', array(
+        'map' => fol('block_map'),
+    )); ?>
 
 <?php endif; ?>
 

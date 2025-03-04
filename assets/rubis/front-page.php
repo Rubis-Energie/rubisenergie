@@ -9,6 +9,8 @@
 ?>
 <?php get_header(); ?>
 
-<?php render('homepage', 'Rubis'); ?>
+<?php get_template_part('components/templates/template', 'homepage', array(
+    'fields_hp' => get_fields(),
+)); ?>
 
 <?php get_footer(); ?>

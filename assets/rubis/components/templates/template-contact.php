@@ -1,3 +1,7 @@
+<?php
+    $fields = $args['fields'];
+?>
+
 <section class="contact">
     <div class="img" style="background-image: url('<?php esc_html_e(get_the_post_thumbnail_url()); ?>')"></div>
     <div class="container">
