@@ -24,7 +24,7 @@
     }
 
     get_template_part('components/templates/template', 'listing-actus', array(
-        'list' => new WP_Query($args);,
+        'list' => new WP_Query($args),
         'themes' => get_terms('category'),
     )); 
 
