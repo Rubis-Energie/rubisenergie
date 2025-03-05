@@ -118,7 +118,7 @@ class Dna_Products {
          */
         function dna_include_acf_fields()
         {
-            require_once(DNA_PRODUCTS_INCLUDES_DIR . '/acf-fields/block.product.fields.php');
+            // require_once(DNA_PRODUCTS_INCLUDES_DIR . '/acf-fields/block.product.fields.php');
         }
 
 

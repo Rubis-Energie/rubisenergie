@@ -1,0 +1,460 @@
+{
+    "key": "group_5d132ddae6aeb",
+    "title": "Forms",
+    "fields": [
+        {
+            "key": "field_5d1dce0696bbd",
+            "label": "Configuration des champs",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_5d132de989ffb",
+            "label": "Champs formulaire",
+            "name": "form_fields",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "5d132debd5edb": {
+                    "key": "5d132debd5edb",
+                    "name": "text.fields",
+                    "label": "Champ texte",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132e0b89ffc",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d132897732f3"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d132f0bd1e58": {
+                    "key": "layout_5d132f0bd1e58",
+                    "name": "email.fields",
+                    "label": "Champ email",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132f1bd1e59",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d1dc2a52a300"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d132f31d1e5a": {
+                    "key": "layout_5d132f31d1e5a",
+                    "name": "textarea.fields",
+                    "label": "Champ message",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132f48d1e5b",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d1dc2f548ff8"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d132f81d1e5c": {
+                    "key": "layout_5d132f81d1e5c",
+                    "name": "select.fields",
+                    "label": "Champ liste déroulante",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132f8dd1e5d",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d1dc33651ddf"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d132f9cd1e5e": {
+                    "key": "layout_5d132f9cd1e5e",
+                    "name": "radio.fields",
+                    "label": "Champ boutons radio",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132fb5d1e5f",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d1dc390a9c03"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5d132fd8d1e60": {
+                    "key": "layout_5d132fd8d1e60",
+                    "name": "checkbox.fields",
+                    "label": "Champ case à cocher",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d132feed1e61",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5d1dc3d4bc511"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5df0bf4e50bce": {
+                    "key": "layout_5df0bf4e50bce",
+                    "name": "file.fields",
+                    "label": "Champ fichier",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5df0bf5e50bcf",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5df0beb7c1a62"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_5df74ae7d097f": {
+                    "key": "layout_5df74ae7d097f",
+                    "name": "hidden.fields",
+                    "label": "Champ caché",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5df74af6d0980",
+                            "label": "Champs",
+                            "name": "fields",
+                            "aria-label": "",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_5df74a3b192c7"
+                            ],
+                            "display": "group",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 1
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Ajouter un élément",
+            "min": "",
+            "max": ""
+        },
+        {
+            "key": "field_5d1330df4d1d5",
+            "label": "Label du bouton de validation",
+            "name": "submit_label",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_606586a738daf",
+            "label": "Message de confirmation",
+            "name": "success_message",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5d1dce2896bbe",
+            "label": "Configuration mail",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_5d1dce4396bbf",
+            "label": "Destinataires",
+            "name": "mail_to",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Si aucun mails renseignés, l'adresse par défaut sera utilisé ! ( Réglages > Général > Adresse de messagerie )",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Ajouter un élément",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_5d1dce5296bc0",
+                    "label": "Mail",
+                    "name": "mail",
+                    "aria-label": "",
+                    "type": "email",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_5d1dce4396bbf"
+                }
+            ]
+        },
+        {
+            "key": "field_5d1dce8796bc1",
+            "label": "Objet du mail",
+            "name": "mail_object",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d1dceb496bc2",
+            "label": "Phrase d'entête",
+            "name": "headline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "forms"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1741188382
+}

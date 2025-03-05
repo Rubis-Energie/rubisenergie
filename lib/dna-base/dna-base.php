@@ -161,7 +161,7 @@ class Dna_Base_Load {
 	 * @since 1.0
 	 */
 	function dna_include_acf_fields() {
-		require_once( DNA_BASE_INCLUDES_DIR . '/acf-fields/acf-relationships.php' );
+		// require_once( DNA_BASE_INCLUDES_DIR . '/acf-fields/acf-relationships.php' );
 	}
 
 	/**

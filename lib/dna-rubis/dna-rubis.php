@@ -115,14 +115,14 @@ class Dna_Rubis_Load {
 		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/home.fields.php' );
 		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/header.fields.php' );
 		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/footer.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/google.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/social.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/block.map.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/display.blocks.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/header.page.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/contact.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/history.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/post.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/google.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/social.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/block.map.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/display.blocks.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/header.page.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/contact.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/history.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/post.fields.php' );
 	}
 
 	public function acf_load_relationship_base_field_choices( $field ) {
