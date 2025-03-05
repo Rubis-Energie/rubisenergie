@@ -8,7 +8,14 @@ $translate_cont = array(
     'Amérique du Nord' => 'North America',
     'Amérique du Sud' => 'South America',
 );
+
+$cont = $args['cont'];
+$implantations = $args['implantations'];
+$countries = $args['countries'];
+$countries_sort_cont = $args['countries_sort_cont'];
+
 ?>
+
 
 <section class="mapImplantation">
     <div class="container">
