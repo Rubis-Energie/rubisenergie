@@ -153,6 +153,12 @@ $dna_theme_load = new Dna_Rubis_Load();
 
 
 
+
+/**
+ * Loads And Save ACF Fields
+ *
+ * @since 1.0
+ */
 function rubismecenat_acf_load_json($paths){
     $paths = array(
         DNA_RUBIS_PLUGIN_DIR . '/acf-json'
