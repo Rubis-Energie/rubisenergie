@@ -112,9 +112,9 @@ class Dna_Rubis_Load {
 	 * @since 1.0
 	 */
 	function dna_include_acf_fields() {
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/home.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/header.fields.php' );
-		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/footer.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/home.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/header.fields.php' );
+		// require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/footer.fields.php' );
 		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/google.fields.php' );
 		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/social.fields.php' );
 		require_once( DNA_RUBIS_INCLUDES_DIR . '/acf-fields/block.map.fields.php' );
@@ -149,3 +149,33 @@ class Dna_Rubis_Load {
 }
 
 $dna_theme_load = new Dna_Rubis_Load();
+
+
+
+
+function rubismecenat_acf_load_json($paths){
+    $paths = array(
+        DNA_RUBIS_PLUGIN_DIR . '/acf-json'
+    );
+    return $paths;
+}
+
+function rubismecenat_acf_save_json($paths) {
+    $paths = DNA_RUBIS_PLUGIN_DIR . '/acf-json';
+    return $paths;
+}
+
+
+add_filter('acf/settings/save_json', 'rubismecenat_acf_save_json');
+add_filter('acf/settings/load_json', 'rubismecenat_acf_load_json');
+
+add_filter('acf/save_post', function ($post_id) {
+    $format = function (&$date) {
+        $tmp = sanitize_text_field($date);
+        if (!empty($tmp)) {
+            preg_match('~(\d{4})(\d{2})(\d{2})~', $tmp, $match);
+            array_shift($match);
+            $date = implode('-', $match);
+        }
+    };
+}, 1, 1);
