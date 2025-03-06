@@ -26320,7 +26320,9 @@ h4 {
 
 /* on prépare le label */
 [type=checkbox]:not(:checked) + label,
-[type=checkbox]:checked + label {
+[type=checkbox]:checked + label,
+[type=checkbox]:not(:checked) + span,
+[type=checkbox]:checked + span {
   position: relative; /* permet de positionner les pseudo-éléments */
   padding-left: 30px; /* fait un peu d'espace pour notre case à venir */
   cursor: pointer; /* affiche un curseur adapté */
@@ -26333,7 +26335,8 @@ h4 {
 
 /* Aspect des checkboxes */
 /* :before sert à créer la case à cocher */
-[type=checkbox]:not(:checked) + label:before {
+[type=checkbox]:not(:checked) + label:before,
+[type=checkbox]:not(:checked) + span:before {
   content: "";
   position: absolute;
   left: 1px;
@@ -26345,7 +26348,8 @@ h4 {
   transition: 0.3s ease;
 }
 
-[type=checkbox]:checked + label:before {
+[type=checkbox]:checked + label:before,
+[type=checkbox]:checked + span:before {
   content: "";
   position: absolute;
   left: 1px;
@@ -26357,37 +26361,45 @@ h4 {
 }
 
 /* Aspect si "pas cochée" */
-[type=checkbox]:not(:checked) + label:after {
+[type=checkbox]:not(:checked) + label:after,
+[type=checkbox]:not(:checked) + span:after {
   opacity: 0; /* coche invisible */
   transform: scale(0); /* mise à l'échelle à 0 */
 }
 
 /* Aspect si "cochée" */
-[type=checkbox]:checked + label:after {
+[type=checkbox]:checked + label:after,
+[type=checkbox]:checked + span:after {
   opacity: 1; /* coche opaque */
   transform: scale(1); /* mise à l'échelle 1:1 */
 }
 
 /* aspect désactivée */
 [type=checkbox]:disabled:not(:checked) + label:before,
-[type=checkbox]:disabled:checked + label:before {
+[type=checkbox]:disabled:checked + label:before,
+[type=checkbox]:disabled:not(:checked) + span:before,
+[type=checkbox]:disabled:checked + span:before {
   box-shadow: none;
   border-color: #bbb;
 }
 
 /* styles de la coche (si cochée/désactivée) */
-[type=checkbox]:disabled:checked + label:after {
+[type=checkbox]:disabled:checked + label:after,
+[type=checkbox]:disabled:checked + span:after {
   color: #999;
 }
 
 /* on style aussi le label quand désactivé */
-[type=checkbox]:disabled + label {
+[type=checkbox]:disabled + label,
+[type=checkbox]:disabled + span {
   color: #aaa;
 }
 
 /* aspect au focus de l'élément */
 [type=checkbox]:checked:focus + label:before,
-[type=checkbox]:not(:checked):focus + label:before {
+[type=checkbox]:not(:checked):focus + label:before,
+[type=checkbox]:checked:focus + span:before,
+[type=checkbox]:not(:checked):focus + span:before {
   border: 1px dotted #4a58c1;
 }
 
@@ -27229,6 +27241,9 @@ section.blockForm .required {
   opacity: 0.8;
   font-size: 14px;
   margin-bottom: 20px;
+}
+section.blockForm.no-marge {
+  padding: 0;
 }
 section.blockForm h2 {
   font-size: 40px;
