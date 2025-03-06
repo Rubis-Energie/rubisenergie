@@ -22,17 +22,18 @@ module.exports = function(grunt) {
           },
         },
         cssmin: {
-            dist: {
-                files: [
-                    {
-                        expand: true,
-                        cwd: 'assets/<%= pathTheme %>/assets/css',
-                        src: ['*.css'],
-                        dest: 'assets/<%= pathTheme %>/assets/css',
-                        ext: '.min.css'
-                    },
-                ],
+          dist: {
+            options: {
+              style: 'compressed',
+              compass: false,
+              sourcemap: false
             },
+            files: {
+              'assets/<%= pathTheme %>/assets/css/style.min.css': [
+                  'assets/<%= pathTheme %>/assets/css/style.css'
+              ]
+            }
+          }
         },
         uglify: {
           options: {
