@@ -154,6 +154,7 @@ $dna_theme_load = new Dna_Rubis_Load();
 
 // Load Custom Post Type
 require_once(DNA_RUBIS_PLUGIN_DIR.'/cpt/cpt-product.php');
+require_once(DNA_RUBIS_PLUGIN_DIR.'/cpt/cpt-implantation.php');
 
 
 

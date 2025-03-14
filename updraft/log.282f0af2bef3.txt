@@ -1928,3 +1928,67 @@
 1926.110 (4) Dropbox: This is a resumption: 220200960 bytes had already been uploaded
 1926.111 (4) Dropbox: Attempt to upload: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip to: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip
 1941.263 (4) Dropbox chunked upload: 54.7 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 230686720, 10240 KB)
+2841.982 (4) Dropbox chunked upload: 57.2 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 241172480, 10240 KB)
+2844.496 (4) Dropbox chunked upload: 59.7 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 251658240, 10240 KB)
+2846.585 (4) Dropbox chunked upload: 62.2 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 262144000, 10240 KB)
+2848.908 (4) Dropbox chunked upload: 64.7 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 272629760, 10240 KB)
+2851.378 (4) Dropbox chunked upload: 67.2 % uploaded (pid_upload_session:ABII8zI82d6ZTv8SAkPoOEi59rfmnrsjQe_jx7A5bNVba0z7jw, 283115520, 10240 KB)
+4258.894 (5) Opened log file at time: Fri, 14 Mar 2025 11:29:18 +0000 on https://rubisenergie.local:8890/app
+4258.895 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.1 WP: 6.7.1 PHP: 8.2.0 (apache2handler, Darwin Alexis-MacBook-Air.local 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:06 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T8103 arm64) MySQL: 5.7.39 (max packet size=134217728) WPLANG: fr_FR Server: Apache/2.4.54 (Unix) mod_fastcgi/mod_fastcgi-SNAP-0910052141 PHP/8.2.0 OpenSSL/1.0.2u mod_wsgi/3.5 Python/2.7.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 59.2M | 62.5M) multisite: N openssl: OpenSSL 1.0.2u  20 Dec 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+4258.896 (5) Free space on disk containing Updraft's temporary directory: 42596.7 MB
+4258.897 (5) Requesting backup semaphore lock (282f0af2bef3)
+4258.897 (5) [Info] Lock (updraft_lock_282f0af2bef3, wprubis_options) acquired
+4258.899 (5) Backup run: resumption=5, nonce=282f0af2bef3, file_nonce=282f0af2bef3 begun at=1741947499 (4259s ago), job type=backup, previous check-in=925.78s
+4258.901 (5) Scheduling a resumption (6) after 978 seconds (1741952736) in case this run gets aborted
+4258.910 (5) Checking if we have a zip executable available
+4258.911 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+4258.912 (5) Creation of backups of directories: already finished
+4258.912 (5) Saving backup status to database (elements: 4)
+4258.917 (5) No database backup (wp) - not part of this run
+4258.919 (5) backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads.zip: uploads: This file has already been successfully uploaded
+4258.919 (5) backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+4258.920 (5) backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads3.zip: uploads: This file has already been successfully uploaded
+4258.920 (5) backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads4.zip: uploads: This file has already been successfully uploaded
+4258.920 (5) Saving backup history. Total backup size: Unknown
+4258.922 (5) Requesting upload of the files that have not yet been successfully uploaded (1)
+4258.923 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+4258.923 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-7a7f5c7195071185eca69dffdec98c1e)
+4258.923 (5) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+4258.944 (5) Dropbox: access gained; setting chunk size to: 10240 KB
+4259.410 (5) Dropbox: quota usage: used=159039 MB, total=2101888 MB, available=1942849 MB
+4259.412 (5) Dropbox: This is a resumption: 283115520 bytes had already been uploaded
+4259.413 (5) Dropbox: Attempt to upload: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip to: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip
+4260.769 (5) Recording as successfully uploaded: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip
+4260.780 (5) Deleting local file: backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip: OK
+4260.782 (5) Dropbox: File upload success (backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip): 0 KB in 1s (0 KB/s)
+4260.799 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=1, retain_db=1
+4260.803 (5) Number of backup sets in history: 3; groups (db): 1
+4260.805 (5) Examining (for databases) backup set with group_id=0, nonce=282f0af2bef3, datestamp=1741947499 (Mar 14 2025 10:18:19)
+4260.807 (5) Examining (for databases) backup set with group_id=0, nonce=258fe2296436, datestamp=1741947492 (Mar 14 2025 10:18:12)
+4260.807 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+4260.813 (5) Examining (for databases) backup set with group_id=0, nonce=9b61083879a3, datestamp=1740996676 (Mar 03 2025 10:11:16)
+4260.813 (5) Number of backup sets in history: 3; groups (files): 1
+4260.817 (5) Examining (for files) backup set with nonce=282f0af2bef3, datestamp=1741947499 (Mar 14 2025 10:18:19)
+4260.818 (5) This backup set is the backup set just made, so will not be deleted.
+4260.820 (5) This backup set remains non-empty (f=1/d=0); will retain in history
+4260.822 (5) Examining (for files) backup set with nonce=258fe2296436, datestamp=1741947492 (Mar 14 2025 10:18:12)
+4260.822 (5) This backup set remains non-empty (f=0/d=1); will retain in history
+4260.824 (5) Examining (for files) backup set with nonce=9b61083879a3, datestamp=1740996676 (Mar 03 2025 10:11:16)
+4260.824 (5) uploads: over retain limit (1); will delete this file entity
+4260.825 (5) Dropbox: request deletion: backup_2025-03-03-1111_Rubis_Energie_9b61083879a3-uploads.zip
+4261.442 (5) Dropbox: deletion succeeded
+4261.443 (5) Dropbox: request deletion: backup_2025-03-03-1111_Rubis_Energie_9b61083879a3-uploads2.zip
+4262.086 (5) Dropbox: deletion succeeded
+4262.087 (5) Dropbox: request deletion: backup_2025-03-03-1111_Rubis_Energie_9b61083879a3-uploads3.zip
+4262.819 (5) Dropbox: deletion succeeded
+4262.827 (5) This backup set is now empty; will remove from history
+4262.829 (5) Deleting log file (log.9b61083879a3.txt)
+4262.976 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4262.985 (5) Resume backup (282f0af2bef3, 5): finish run
+4262.988 (5) [Info] Lock option (updraft_lock_282f0af2bef3, wprubis_options) released
+4262.989 (5) There were no errors in the uploads, so the 'resume' event (6) is being unscheduled
+4263.003 (5) Deleting zip manifest (backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads.zip.list.tmp)
+4263.049 (5) Deleting zip manifest (backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads2.zip.list.tmp)
+4263.054 (5) Deleting zip manifest (backup_2025-03-14-1118_Rubis_Energie_282f0af2bef3-uploads4.zip.list.tmp)
+4263.056 (5) No email will/can be sent - the user has not configured an email address.
+4263.057 (5) The backup succeeded and is now complete
