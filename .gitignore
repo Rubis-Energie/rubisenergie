@@ -10,3 +10,4 @@ uploads
 /upgrade
 node_modules
 /app/updraft
+.DS_Store
