@@ -30,9 +30,11 @@
 
 // $fontTitle: 'Gilda Display', serif;
 // $fontBody: 'Quicksand', sans-serif;
-$fontTitle: 'Barlow', serif;
-$fontBody: "Source Serif 4", serif;
 $Lora: 'Lora', serif;
+$Barlow: 'Barlow', sans-serif;
+
+$fontTitle: $Barlow;
+$fontBody: $Barlow;
 
 $black: #000;
 $white: #fff;
@@ -77,7 +79,7 @@ li {
     }
 
     h2 {
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         width: 100%;
     }
 
@@ -87,7 +89,7 @@ li {
     }
 
     li {
-        font-family: $Lora;
+        font-family: $fontBody;
         position: relative;
         padding-left: 20px;
         &::before {
@@ -143,12 +145,14 @@ a{
 h1 {
     font-family: $fontTitle;
     margin-bottom: 30px;
+    line-height: 1;
 }
 
 h2 {
     font-family: $fontTitle;
     font-size: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    line-height: 1;
 }
 
 
@@ -158,10 +162,12 @@ h3 {
     color: black;
     font-size: 18px;
     font-weight: 700;
+    line-height: 1;
 }
 
 h4 {
     font-family: $fontTitle;
+    line-height: 1;
 }
 
 .img {
@@ -231,7 +237,7 @@ h4 {
 	margin-bottom: 30px;
 	max-width: 600px;
 	color: $black;
-    font-family: $Lora;
+    font-family: $fontBody;
 }
 
 /* Aspect des checkboxes */
@@ -792,12 +798,12 @@ section.blockHeaderPage {
                 padding: 40px 0;
             }
             h1 {
-                // max-width: 340px;
-                font-size: 50px;
+                font-size: 60px;
                 color: $green;
+                font-weight: 300;
             }
             p {
-                font-family: $Lora;
+                font-family: $fontBody;
                 color: $white;
                 line-height: 30px;
                 font-size: 16px;
@@ -826,7 +832,7 @@ section.engagement {
             color: $darkGreen;
         }
         p {
-            font-family: $Lora;
+            font-family: $fontBody;
             font-size: 16px;
             line-height: 28px;
         }
@@ -944,7 +950,7 @@ section.actusHp {
         .date {
             font-size: 14px;
             color: black;
-            font-family: $Lora;
+            font-family: $fontBody;
             margin-bottom: 3px;
         }
         h3 {
@@ -954,7 +960,7 @@ section.actusHp {
             color: $black;
             font-size: 16px;
             line-height: 27px;
-            font-family: $Lora;
+            font-family: $fontBody;
         }
         .hypertext {
             color: $black;
@@ -996,7 +1002,7 @@ section.blockProduct {
                 color: $white;
             }
             p {
-                font-family: $Lora;
+                font-family: $fontBody;
                 line-height: 27px;
                 font-size: 16px;
             }
@@ -1005,7 +1011,7 @@ section.blockProduct {
             width: 100%;
             color: $white;
             font-weight: 700;
-            font-size: 18px;
+            font-size: 16px;
             padding: 4px 0;
             margin: 3px 0;
             position: relative;
@@ -1135,8 +1141,7 @@ section.contact {
             .content {
                 margin-bottom: 30px;
                 p {
-                    font-family: $Lora;
-                    font-family: Lora,serif;
+                    font-family: $fontBody;
                     font-weight: 400;
                     line-height: 27px;
                     margin-bottom: 0;
@@ -1151,7 +1156,7 @@ section.contact {
                     position: initial;
                 }
                 .phone {
-                    font-family: $Lora;
+                    font-family: $fontBody;
                     font-size: 14px;
                     margin-bottom: 5px;
                     a {
@@ -1160,7 +1165,7 @@ section.contact {
                     }
                 }
                 .link {
-                    font-family: $Lora;
+                    font-family: $fontBody;
                     font-size: 14px;
                     color: $white;
                     border-bottom: 1px solid $white;
@@ -1198,7 +1203,7 @@ section.blockForm {
         font-size: 40px;
     }
     .content {
-        font-family: $Lora;
+        font-family: $fontBody;
         font-size: 16px;
         line-height: 27px;
     }
@@ -1248,7 +1253,7 @@ section.blockText {
         font-size: 40px;
     }
     p {
-        font-family: $Lora;
+        font-family: $fontBody;
         font-size: 16px;
         line-height: 27px;
     }
@@ -1267,7 +1272,7 @@ section.blockTwoCol, section.blockThreeCol {
         height: auto;
     }
     p {
-        font-family: $Lora;
+        font-family: $fontBody;
     }
 }
 
@@ -1382,7 +1387,7 @@ section.history {
             display: flex;
             position: relative;
             margin-bottom: 10px;
-            font-family: $Lora;
+            font-family: $fontBody;
             .year {
                 min-width: 40px;
                 color: $blue;
@@ -1495,7 +1500,7 @@ section.listingActus {
             .date {
                 font-size: 14px;
                 color: $black;
-                font-family: $Lora;
+                font-family: $fontBody;
                 margin-bottom: 3px;
             }
             h2 {
@@ -1510,7 +1515,7 @@ section.listingActus {
                 font-size: 16px;
                 line-height: 27px;
                 margin-bottom: 10px;
-                font-family: $Lora;
+                font-family: $fontBody;
             }
             .link {
                 color: $black;

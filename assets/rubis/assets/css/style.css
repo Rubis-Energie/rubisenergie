@@ -26170,7 +26170,7 @@ html, body {
 }
 
 body {
-  font-family: "Source Serif 4", serif;
+  font-family: "Barlow", sans-serif;
 }
 body.openMenu {
   overflow-y: hidden;
@@ -26187,7 +26187,7 @@ li {
   font-style: italic;
 }
 .wysiwyg h2 {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   width: 100%;
 }
 .wysiwyg h3 {
@@ -26195,7 +26195,7 @@ li {
   margin-bottom: 15px;
 }
 .wysiwyg li {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   position: relative;
   padding-left: 20px;
 }
@@ -26245,25 +26245,29 @@ a:hover {
 }
 
 h1 {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   margin-bottom: 30px;
+  line-height: 1;
 }
 
 h2 {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  line-height: 1;
 }
 
 h3 {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   color: black;
   font-size: 18px;
   font-weight: 700;
+  line-height: 1;
 }
 
 h4 {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
+  line-height: 1;
 }
 
 .img {
@@ -26273,7 +26277,7 @@ h4 {
 }
 
 .cta {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 14px;
   padding: 8px 20px;
   font-weight: 500;
@@ -26330,7 +26334,7 @@ h4 {
   margin-bottom: 30px;
   max-width: 600px;
   color: #000;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
 }
 
 /* Aspect des checkboxes */
@@ -26504,7 +26508,7 @@ h4 {
 }
 
 header {
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -26848,11 +26852,12 @@ section.blockHeaderPage .row {
   }
 }
 section.blockHeaderPage .row .text h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #73e6a3;
+  font-weight: 300;
 }
 section.blockHeaderPage .row .text p {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   color: #fff;
   line-height: 30px;
   font-size: 16px;
@@ -26882,7 +26887,7 @@ section.engagement .title h2 {
   color: #01614d;
 }
 section.engagement .title p {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 28px;
 }
@@ -27005,7 +27010,7 @@ section.actusHp .col-eachCardActu .containerImg .img {
 section.actusHp .col-eachCardActu .date {
   font-size: 14px;
   color: black;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   margin-bottom: 3px;
 }
 section.actusHp .col-eachCardActu h3 {
@@ -27015,7 +27020,7 @@ section.actusHp .col-eachCardActu .content {
   color: #000;
   font-size: 16px;
   line-height: 27px;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
 }
 section.actusHp .col-eachCardActu .hypertext {
   color: #000;
@@ -27049,7 +27054,7 @@ section.blockProduct .row .title h2 {
   color: #fff;
 }
 section.blockProduct .row .title p {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   line-height: 27px;
   font-size: 16px;
 }
@@ -27057,7 +27062,7 @@ section.blockProduct .row .textHover {
   width: 100%;
   color: #fff;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   padding: 4px 0;
   margin: 3px 0;
   position: relative;
@@ -27190,8 +27195,7 @@ section.contact .col-blockMap .col-text .content {
   margin-bottom: 30px;
 }
 section.contact .col-blockMap .col-text .content p {
-  font-family: "Lora", serif;
-  font-family: Lora, serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 0;
@@ -27208,7 +27212,7 @@ section.contact .col-blockMap .col-text .bottomText {
   }
 }
 section.contact .col-blockMap .col-text .bottomText .phone {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -27217,7 +27221,7 @@ section.contact .col-blockMap .col-text .bottomText .phone a {
   padding-left: 10px;
 }
 section.contact .col-blockMap .col-text .bottomText .link {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 14px;
   color: #fff;
   border-bottom: 1px solid #fff;
@@ -27249,7 +27253,7 @@ section.blockForm h2 {
   font-size: 40px;
 }
 section.blockForm .content {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 27px;
 }
@@ -27288,7 +27292,7 @@ section.blockText h2 {
   font-size: 40px;
 }
 section.blockText p {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 27px;
 }
@@ -27302,7 +27306,7 @@ section.blockTwoCol img, section.blockThreeCol img {
   height: auto;
 }
 section.blockTwoCol p, section.blockThreeCol p {
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
 }
 
 section.blockSlider .owl-slider .img, section.blockSlider .owl-sliderNone .img {
@@ -27413,7 +27417,7 @@ section.history .eachDecade .detailDecade {
   display: flex;
   position: relative;
   margin-bottom: 10px;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
 }
 section.history .eachDecade .detailDecade .year {
   min-width: 40px;
@@ -27515,12 +27519,12 @@ section.listingActus section.listing .col-eachCardActu .containerImg .img {
 section.listingActus section.listing .col-eachCardActu .date {
   font-size: 14px;
   color: #000;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
   margin-bottom: 3px;
 }
 section.listingActus section.listing .col-eachCardActu h2 {
   color: #000;
-  font-family: "Source Serif 4", serif;
+  font-family: "Barlow", sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -27530,7 +27534,7 @@ section.listingActus section.listing .col-eachCardActu .content {
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 10px;
-  font-family: "Lora", serif;
+  font-family: "Barlow", sans-serif;
 }
 section.listingActus section.listing .col-eachCardActu .link {
   color: #000;
@@ -27677,7 +27681,7 @@ section.mapImplantation .col-right .eachTextCountry .back {
   cursor: pointer;
   position: relative;
   padding-left: 20px;
-  font-family: "Barlow", serif;
+  font-family: "Barlow", sans-serif;
   transition: 0.3s ease;
 }
 @media (max-width: 768px) {
@@ -27749,7 +27753,7 @@ section.mapImplantation .col-right .eachTextCountry .pictos img:last-child {
   margin-right: 0;
 }
 section.mapImplantation .col-right .eachTextCountry li {
-  font-family: "Source Serif 4", serif;
+  font-family: "Barlow", sans-serif;
 }
 section.mapImplantation .col-right .eachTextCountry .otherSubsidiaries {
   margin-top: 30px;
