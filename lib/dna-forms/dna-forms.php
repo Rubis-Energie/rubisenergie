@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:  @AND - Forms
-Description: Plugin forms
+Description: Plugin forms // NO MORE NEEDED
 Author: Agence AND Digital
 Version: 1.0
 Author URI: https://www.and-digital.fr/

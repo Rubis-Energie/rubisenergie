@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: @AND - Base / Plugin principal
-Description: Plugin BASE, Global plugin : Cookies, Paramètres du site, Nettoyage WP du thème, Logs
+Plugin Name: @RubisEnergie - Base / Plugin principal
+Description: Plugin BASE, Global plugin : Cookies, Paramètres du site, Nettoyage WP du thème, Logs /// Cleaned
 Author: Agence AND Digital
-Version: 1.0
+Version: 2.0
 Author URI: https://www.and-digital.fr/
 *
 

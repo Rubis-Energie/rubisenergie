@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name:  @AND - Cms
-Description: Plugin cms
+Plugin Name:  @RubisEnergie - Blocs 
+Description: Blocks for rendering /// Cleaned
 Author: Agence AND Digital
 Version: 1.0
 Author URI: https://www.and-digital.fr/
@@ -30,13 +30,13 @@ class Dna_Cms {
         // add_action('init', array(&$this, 'dna_post_types'), 11);
 
         /* Include common files. */
-        add_action('plugins_loaded', array(&$this, 'dna_cms_include'), 10);
+        // add_action('plugins_loaded', array(&$this, 'dna_cms_include'), 10);
         /* Load the frontend files. */
         add_action('plugins_loaded', array(&$this, 'dna_cms_frontend'), 20);
         /* Load the admin files. */
-        add_action('plugins_loaded', array(&$this, 'dna_cms_admin'), 30);
+        // add_action('plugins_loaded', array(&$this, 'dna_cms_admin'), 30);
         /* Include acf fields. */
-        add_action('plugins_loaded', array(&$this, 'dna_include_acf_fields'), 40);
+        // add_action('plugins_loaded', array(&$this, 'dna_include_acf_fields'), 40);
     }
 
 

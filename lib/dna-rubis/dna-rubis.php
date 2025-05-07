@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: @AND - Rubis
-Description: Plugin Rubis
+Plugin Name: @RubisEnergie - Contents
+Description: Custom Post Types - ACF fields /// Cleaned
 Author: Agence AND Digital
-Version: 1.0
+Version: 2.0
 Author URI: https://www.and-digital.fr/
 *
 
