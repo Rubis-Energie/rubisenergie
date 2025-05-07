@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: @AND - Design
-Description: Plugin Theme
+Plugin Name: @RubisEnergie - Design
+Description: Content Parts - Captcha - Messages /// Cleaned
 Author: Agence AND Digital
-Version: 1.0
+Version: 2.0
 Author URI: https://www.and-digital.fr/
 *
 
