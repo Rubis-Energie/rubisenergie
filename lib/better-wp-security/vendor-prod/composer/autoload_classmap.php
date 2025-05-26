@@ -6,9 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ComposerAutoloaderInit30f4a1a7f1523625c670c10bf8b5f4ec' => $vendorDir . '/composer/autoload_real.php',
+    'ComposerAutoloaderInit21d5536de7b0f1825cc8669e43c80018' => $vendorDir . '/composer/autoload_real.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
-    'Composer\\Autoload\\ComposerStaticInit30f4a1a7f1523625c670c10bf8b5f4ec' => $vendorDir . '/composer/autoload_static.php',
+    'Composer\\Autoload\\ComposerStaticInit21d5536de7b0f1825cc8669e43c80018' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'ITSEC_Admin_Notice' => $baseDir . '/core/lib/admin-notices/interface-itsec-admin-notice.php',
     'ITSEC_Admin_Notice_Action' => $baseDir . '/core/lib/admin-notices/actions/interface-itsec-admin-notice-action.php',
@@ -57,7 +57,6 @@ return array(
     'ITSEC_Debug' => $baseDir . '/core/lib/debug.php',
     'ITSEC_Email_Confirmation' => $baseDir . '/core/modules/email-confirmation/class-itsec-email-confirmation.php',
     'ITSEC_File_Change' => $baseDir . '/core/modules/file-change/class-itsec-file-change.php',
-    'ITSEC_File_Change_Admin' => $baseDir . '/core/modules/file-change/admin.php',
     'ITSEC_File_Change_Chunk_Scanner' => $baseDir . '/core/modules/file-change/lib/chunk-scanner.php',
     'ITSEC_File_Change_Hash_Comparator' => $baseDir . '/core/modules/file-change/lib/hash-comparator.php',
     'ITSEC_File_Change_Hash_Comparator_Chain' => $baseDir . '/core/modules/file-change/lib/hash-comparator-chain.php',
