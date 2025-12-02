@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 20250326
-Version:    20250326
+Tested up to: 6.9
+Stable tag: 20251120
+Version:    20251120
 Requires PHP: 5.6.20
 Text Domain: ga-google-analytics
 Domain Path: /languages
@@ -129,7 +129,7 @@ I develop and maintain this free plugin with love for the WordPress community. T
 
 And/or purchase one of my premium WordPress plugins:
 
-* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Super fast WordPress firewall
+* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Blazing fast WordPress firewall
 * [Blackhole Pro](https://plugin-planet.com/blackhole-pro/) - Automatically block bad bots
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
@@ -184,9 +184,9 @@ Google Analytics tracking methods [change over time](https://onward.justia.com/h
 
 ### Plugin Upgrades ###
 
-To upgrade GA Google Analytics, remove the old version and replace with the new version. Or just click "Update" from the Plugins screen and let WordPress do it for you automatically.
+Visit the WordPress Plugins screen, locate the plugin, and click "Update" :)
 
-__Note:__ uninstalling the plugin from the WP Plugins screen results in the removal of all settings from the WP database. 
+__Note:__ Deleting this plugin via the WordPress Plugins screen will remove all of its settings from the WordPress database.
 
 For more information, visit the [GA Plugin Homepage](https://perishablepress.com/google-analytics-plugin/).
 
@@ -198,7 +198,7 @@ To restore default plugin options, either uninstall/reinstall the plugin, or vis
 
 ### Uninstalling ###
 
-GA Google Analytics cleans up after itself. All plugin settings will be removed from your database when the plugin is uninstalled via the Plugins screen. Your collected GA data will remain in your Google account.
+This plugin cleans up after itself. All plugin settings will be removed from the WordPress database when the plugin is uninstalled via the Plugins screen. Your collected GA data will remain in your Google account.
 
 
 ### Pro Version ###
@@ -324,15 +324,13 @@ If you like GA Google Analytics, please take a moment to [give a 5-star rating](
 > ✨ Pro version available! Check out [GA Pro &raquo;](https://plugin-planet.com/ga-google-analytics-pro/)
 
 
-**20250326**
+**20251120**
 
-* Removes `load_i18n()` function
-* Adds function to check for active pro version
-* Adds uninstall option `ga-google-analytics-dismiss-notice`
-* Bumps minimum required WP version
+* Restores `load_i18n()`
 * Updates plugin settings page
+* Improves readme.txt documentation
 * Generates new language template
-* Tests on WordPress 6.8
+* Tests on WordPress 6.9 (beta)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/ga-google-analytics.txt](https://plugin-planet.com/wp/changelog/ga-google-analytics.txt)
