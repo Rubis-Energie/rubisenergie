@@ -10,15 +10,13 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 6.9
-	Stable tag: 20251120
-	Version:    20251120
+	Stable tag: 20260209
+	Version:    20260209
 	Requires PHP: 5.6.20
 	Text Domain: ga-google-analytics
 	Domain Path: /languages
 	License: GPL v2 or later
-*/
-
-/*
+	
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 
@@ -32,7 +30,7 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2025 Monzilla Media. All rights reserved.
+	Copyright 2012-2026 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
@@ -66,7 +64,7 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function constants() {
 			
-			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20251120');
+			if (!defined('GAP_VERSION')) define('GAP_VERSION', '20260209');
 			if (!defined('GAP_REQUIRE')) define('GAP_REQUIRE', '4.7');
 			if (!defined('GAP_AUTHOR'))  define('GAP_AUTHOR',  'Jeff Starr');
 			if (!defined('GAP_NAME'))    define('GAP_NAME',    'GA Google Analytics');
@@ -314,12 +312,9 @@ if (!class_exists('GA_Google_Analytics')) {
 					
 					<div class="notice notice-success notice-lh">
 						<p>
-							<strong><?php esc_html_e('Fall Sale!', 'ga-google-analytics'); ?></strong> 
-							<?php esc_html_e('Take 25% OFF any of our', 'ga-google-analytics'); ?> 
-							<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'ga-google-analytics'); ?></a> 
-							<?php esc_html_e('and', 'ga-google-analytics'); ?> 
-							<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'ga-google-analytics'); ?></a>. 
-							<?php esc_html_e('Apply code', 'ga-google-analytics'); ?> <code>FALL2025</code> <?php esc_html_e('at checkout. Sale ends 1/11/2026.', 'ga-google-analytics'); ?> 
+							<strong><?php esc_html_e('🚀 SAVE 30% on Google Analytics Pro!', 'ga-google-analytics'); ?></strong> 
+							<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/ga-google-analytics-pro/"><?php esc_html_e('Level up with visitor opt-out and multiple tracking codes', 'ga-google-analytics'); ?></a>. 
+							<?php esc_html_e('Apply code', 'ga-google-analytics'); ?> <code>GAPRO</code> <?php esc_html_e('at checkout. Sale ends 3/28/2026.', 'ga-google-analytics'); ?> 
 							<?php echo $this->dismiss_notice_link(); ?>
 						</p>
 					</div>
@@ -398,7 +393,7 @@ if (!class_exists('GA_Google_Analytics')) {
 		
 		function check_date_expired() {
 			
-			$expires = apply_filters('ga_google_analytics_check_date_expired', '2026-01-11');
+			$expires = apply_filters('ga_google_analytics_check_date_expired', '2026-03-28');
 			
 			return (new DateTime() > new DateTime($expires)) ? true : false;
 			
