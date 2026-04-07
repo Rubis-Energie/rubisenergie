@@ -321,7 +321,6 @@ class Visualizer_Source_Json extends Visualizer_Source {
 		}
 
 		return $rows;
-
 	}
 
 	/**
@@ -331,7 +330,7 @@ class Visualizer_Source_Json extends Visualizer_Source {
 	 *
 	 * @access private
 	 */
-	private function getNextPage( $array ) {
+	private function getNextPage( $data ) {
 		if ( empty( $this->_paging ) ) {
 			return null;
 		}
@@ -339,10 +338,10 @@ class Visualizer_Source_Json extends Visualizer_Source {
 		$root   = explode( self::TAG_SEPARATOR, $this->_paging );
 		// get rid of the first element as that is the faux root element indicator
 		array_shift( $root );
-		$leaf   = $array;
+		$leaf   = $data;
 		foreach ( $root as $tag ) {
 			if ( array_key_exists( $tag, $leaf ) ) {
-				$leaf = $array[ $tag ];
+				$leaf = $leaf[ $tag ];
 			} else {
 				// if the tag does not exist, we assume it is present in the 0th element of the current array.
 				// TODO: we may want to change this to a filter later.
@@ -362,19 +361,19 @@ class Visualizer_Source_Json extends Visualizer_Source {
 	 *
 	 * @access private
 	 */
-	private function getRootElements( $parent, $now, $root, $array ) {
-		if ( is_null( $array ) ) {
+	private function getRootElements( $parent_key, $now, $root, $data ) {
+		if ( is_null( $data ) ) {
 			return null;
 		}
 
-		$root[] = $parent;
-		foreach ( $array as $key => $value ) {
+		$root[] = $parent_key;
+		foreach ( $data as $key => $value ) {
 			if ( is_array( $value ) && ! empty( $value ) ) {
 				if ( ! is_numeric( $key ) ) {
-					$now = sprintf( '%s%s%s', $parent, self::TAG_SEPARATOR, $key );
+					$now = sprintf( '%s%s%s', $parent_key, self::TAG_SEPARATOR, $key );
 					$root[] = $now;
 				} else {
-					$now = $parent;
+					$now = $parent_key;
 				}
 				$root = $this->getRootElements( $now, $key, $root, $value );
 			}
@@ -442,7 +441,7 @@ class Visualizer_Source_Json extends Visualizer_Source {
 			$this->_additional_headers = array_filter( $this->_additional_headers );
 			if ( ! empty( $this->_additional_headers ) ) {
 				$this->_additional_headers = array_map(
-					function( $headers ) {
+					function ( $headers ) {
 						$headers = explode( ':', $headers );
 						$headers = array_map( 'trim', $headers );
 						return $headers;
@@ -455,6 +454,17 @@ class Visualizer_Source_Json extends Visualizer_Source {
 					$args['headers'][ $header_key ] = $header_value;
 				}
 			}
+		}
+
+		// Check if this is a WooCommerce endpoint request and add verification token.
+		if ( $this->is_woocommerce_request( $url ) ) {
+			// Generate a unique token for this specific request.
+			$token = wp_generate_password( 32, false );
+			set_transient( 'visualizer_wc_token_' . $token, time(), 60 );
+			if ( ! isset( $args['headers'] ) ) {
+				$args['headers'] = array();
+			}
+			$args['headers']['X-Visualizer-Token'] = $token;
 		}
 
 		do_action( 'themeisle_log_event', Visualizer_Plugin::NAME, sprintf( 'Connecting to %s with args = %s ', $url, print_r( $args, true ) ), 'debug', __FILE__, __LINE__ );
@@ -489,6 +499,51 @@ class Visualizer_Source_Json extends Visualizer_Source {
 	}
 
 	/**
+	 * Check if the URL is a WooCommerce endpoint request.
+	 *
+	 * @access private
+	 * @param string $url The URL to check.
+	 * @return bool True if it's a WooCommerce request, false otherwise.
+	 */
+	private function is_woocommerce_request( $url ) {
+		if ( empty( $url ) ) {
+			return false;
+		}
+
+		$parsed_url = function_exists( 'wp_parse_url' ) ? wp_parse_url( $url ) : parse_url( $url );
+		if ( empty( $parsed_url ) || empty( $parsed_url['host'] ) || empty( $parsed_url['path'] ) ) {
+			return false;
+		}
+
+		$site_url   = function_exists( 'home_url' ) ? home_url() : ( function_exists( 'site_url' ) ? site_url() : '' );
+		$site_parts = $site_url ? ( function_exists( 'wp_parse_url' ) ? wp_parse_url( $site_url ) : parse_url( $site_url ) ) : array();
+		if ( empty( $site_parts['host'] ) ) {
+			return false;
+		}
+
+		$target_host = strtolower( $parsed_url['host'] );
+		$site_host   = strtolower( $site_parts['host'] );
+		if ( $target_host !== $site_host ) {
+			return false;
+		}
+
+		$path        = '/' . ltrim( $parsed_url['path'], '/' );
+		$wc_patterns = array(
+			'/wp-json/wc/',
+			'/wp-json/wc-analytics/',
+			'/wc-analytics/',
+		);
+
+		foreach ( $wc_patterns as $pattern ) {
+			if ( strpos( $path, $pattern ) !== false ) {
+				return true;
+			}
+		}
+
+		return false;
+	}
+
+	/**
 	 * Returns source name.
 	 *
 	 * @since 1.0.0
@@ -499,5 +554,4 @@ class Visualizer_Source_Json extends Visualizer_Source {
 	public function getSourceName() {
 		return __CLASS__;
 	}
-
 }

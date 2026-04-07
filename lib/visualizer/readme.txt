@@ -2,28 +2,30 @@
 Contributors: codeinwp,themeisle,marius2012,marius_codeinwp,hardeepasrani,rozroz,Madalin_ThemeIsle
 Tags: tables, charts, pie, visualization, graphs
 Requires at least: 5.2
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
 Stable tag: trunk
 License: GPL v2.0 or later
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
-A simple yet powerful WordPress chart plugin to effortlessly create and embed responsive charts & tables into your site, supporting multiple data sources for enhanced data presentation.
+Create responsive charts and tables manually or let the built-in AI build them from a simple text prompt. Supports multiple chart types and flexible data sources.
 
 ## Description ##
 
-<p><a href="https://themeisle.com/plugins/visualizer-charts-and-graphs/?utm_source=wpadmin&utm_medium=readme&utm_campaign=description" rel="nofollow">Visualizer: Tables and Charts Manager for WordPress</a> is a powerful and easy to use plugin used to create, manage and embed interactive, responsive charts & tables into your WordPress posts and pages.</p>
+<p><a href="https://themeisle.com/plugins/visualizer-charts-and-graphs/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=description" rel="nofollow">Visualizer: Tables and Charts Manager for WordPress</a> is a powerful and easy to use plugin used to create, manage and embed interactive, responsive charts & tables into your WordPress posts and pages.</p>
 
-The plugin leverages the Google Visualization API, DataTables.net, and ChartJS libraries to deliver responsive and animated charts, graphs, and tables, ensuring excellent cross-browser compatibility and a seamless mobile experience. You can fully customize all aspects of the charts and tables to suit your needs. For enhanced data management features, including importing from Excel, CSV, Google Sheets, and more, consider exploring the [PRO version](https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wpadmin&utm_medium=readme&utm_campaign=pro-cta).
+The plugin leverages the Google Visualization API, DataTables.net, and ChartJS libraries to deliver responsive and animated charts, graphs, and tables, ensuring excellent cross-browser compatibility and a seamless mobile experience. It also comes with a built-in AI chart builder powered by D3.js that turns a plain text description into a publish-ready chart in seconds, no setup required. You can fully customize all aspects of the charts and tables to suit your needs. For enhanced data management features, including importing from Excel, CSV, Google Sheets, and more, consider exploring the [PRO version](https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=pro-cta).
 
 ### 🔗 HELPFUL LINKS ###
 
 - Want to see Visualizer in action before installing? <a href="https://demo.themeisle.com/visualizer/">View Visualizer Demo</a> [You can also try <b>Live Preview</b> button above]
 - Need any help with setup? <a href="https://docs.themeisle.com/collection/1560-visualizer-charts-and-graphs">Check Documentation</a>
 - Don’t like reading? <a href="https://youtube.com/playlist?list=PLmRasCVwuvpT0Gu1myGW-Dyt2oh-BPuci&si=S3o4BIyo3AYNh95w">Check YouTube Playlist</a>
-- Interested in Visualizer Pro? <a href="https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wpadmin&utm_medium=readme&utm_campaign=pro-cta">Know more about Visualizer PRO</a>
+- Interested in Visualizer Pro? <a href="https://themeisle.com/plugins/visualizer-charts-and-graphs/upgrade/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=pro-cta">Know more about Visualizer PRO</a>
 
 ### Why You’ll Love Visualizer ###
+
+- **AI-Powered Chart Generation:** Describe the chart you need in plain everyday language, and Visualizer AI builds it for you instantly. No API key, no setup, and no technical knowledge required. Whether you are a blogger, educator, or small business owner, you can go from a simple text prompt to a fully customizable, ready-to-embed chart in seconds, completely free.
 
 - **Diverse Chart Options:** Begin with essential chart types like line, pie, bar, and table in the free version. Elevate your data presentation with advanced chart types such as scatter, area, and geo available in the Pro version. The free version offers a comprehensive range of options that are perfect for various visualization needs.
 
@@ -41,9 +43,20 @@ These versatile data handling capabilities ensure that Visualizer Free is equipp
 
 *The above descriptions were partially taken from the Google Visualization API site*
 
-### CHECK OUT A QUICK OVERVIEW OF VISUALIZER ### 
 
-https://youtu.be/hQO_evnb_tQ
+### Build Charts Faster with Visualizer AI ###
+
+Chart creation has always been the most time-consuming part of working with data. Picking the right chart type, entering values manually, and tweaking settings until it looks right. Visualizer AI changes that entirely.
+
+Just describe what you want, and Visualizer builds it for you. Preview it live, refine it with follow-up prompts, and publish when it looks right. No coding, no configuration, and no API key required. It is available to all users, completely free, the moment you activate the plugin.
+
+Here is what you can do with it:
+
+📊 Turn a sales spreadsheet into a chart in seconds. Upload your data, type something like "create a bar chart showing monthly revenue by region," and watch Visualizer build it live.
+📋 Visualize survey results without the manual work. Got a CSV of responses? Upload it, describe the breakdown you want to see, and let AI handle the rest.
+🎨 Match your brand without touching the settings. Mention your brand colors in your prompt, and Visualizer styles the chart accordingly, no manual color picking needed.
+🖼️ Build from a reference image. See a chart style you like somewhere? Upload it as a reference, and Visualizer will use it as inspiration with your own data.
+
 
 ### ✨ YOU SHOULD USE VISUALIZER IF: ###
 
@@ -92,6 +105,8 @@ If you’re already benefiting from Visualizer, why not take your website to the
 
 - **Import Data from Files:** Upload CSV files directly into Visualizer. This feature is ideal for those who prepare data in spreadsheet tools like Microsoft Excel or Google Sheets, allowing for quick and easy data visualization.
 
+- **Import Data from Excel (XLSX):** Upload Excel spreadsheets directly into Visualizer without any conversion steps. Simply export your workbook and import it as-is. Your column headers, values, and structure are automatically mapped to your chart or table, saving you time and eliminating formatting headaches.
+
 - **Import Data from URLs:** Keep your charts updated by importing data dynamically from external sources in CSV or JSON formats via URLs. This powerful feature is essential for displaying real-time or frequently updated data, reducing the need for manual updates.
 
 - **Import from Other Charts:** Seamlessly integrate data from other charts into new visualizations, facilitating easy data consolidation and comparison.
@@ -108,7 +123,7 @@ If you’re already benefiting from Visualizer, why not take your website to the
 
 Unlock these premium features and more with Visualizer PRO!
 
-**Still have questions?** Ask your pre-sales questions [here](https://themeisle.com/contact/?utm_source=wpadmin&utm_medium=readme&utm_campaign=pre-sales), and we will get back to you promptly. Or, purchase with confidence and try it for yourself—we offer **a 30-day no-questions-asked 100% money-back guarantee**.
+**Still have questions?** Ask your pre-sales questions [here](https://themeisle.com/contact/?utm_source=wordpressorg&utm_medium=readme&utm_campaign=pre-sales), and we will get back to you promptly. Or, purchase with confidence and try it for yourself—we offer **a 30-day no-questions-asked 100% money-back guarantee**.
 
 **WE’RE HERE FOR YOU, AND WE TAKE ALL FEEDBACK SERIOUSLY**
 
@@ -211,17 +226,61 @@ Pay attention that to turn your shortcodes into graphs, your theme has to have `
 
 [http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables](http://docs.themeisle.com/article/691-how-to-use-google-visualization-variables)
 
+### How to report a security issue? ###
+ 
+Plugin security is a core priority for us. If you identify a potential vulnerability, we ask that you disclose it responsibly.
+
+Please follow the reporting protocols outlined on our [Security Page](https://themeisle.com/security/).
+
 ## Screenshots ##
 
-1. Charts Selection
-2. Quick Actions
-3. Import Options
-4. Bar Chart
-5. Bar Chart Settings
-6. Line Chart Settings
-7. Block editor - Chart Library
+1. AI Chart Creation
+2. Charts Selection
+3. Quick Actions
+4. Import Options
+5. Bar Chart
+6. Bar Chart Settings
+7. Line Chart Settings
+8. Block editor - Chart Library
 
 == Changelog ==
+
+##### [Version 4.0.1](https://github.com/Codeinwp/visualizer/compare/v4.0.0...v4.0.1) (2026-03-31)
+
+- Internal update to ensure compatibility and improve system consistency.
+
+
+
+
+#### [Version 4.0.0](https://github.com/Codeinwp/visualizer/compare/v3.11.15...v4.0.0) (2026-03-31)
+
+### New Features
+- Introducing AI chart creation powered by D3.js  
+- You can now import XLSX files natively  
+- The charts library now includes a grid and list view for easier browsing  
+- Added a new Elementor widget for displaying Visualizer charts  
+- Improved auto-sync reliability by replacing WP-Cron with Action Scheduler  
+
+### Improvements
+- Cleaned up legacy block controls in the Block Editor  
+
+### Bug Fixes
+- Resolved an issue where lazy charts didn’t render when already in the viewport on page load  
+- Fixed a fatal error on servers with broken FTP filesystem configuration  
+- Addressed errors occurring in the getCSV method  
+- Fixed an intermittent sidebar scroll issue in Chrome  
+- Prevented a double clipboard alert when copying  
+- Fixed a bubble chart crash on window resize when using named series in manual configuration
+
+
+
+
+##### [Version 3.11.15](https://github.com/Codeinwp/visualizer/compare/v3.11.14...v3.11.15) (2026-03-04)
+
+- Enhanced security
+
+
+
 
 ##### [Version 3.11.14](https://github.com/Codeinwp/visualizer/compare/v3.11.13...v3.11.14) (2025-11-28)
 
