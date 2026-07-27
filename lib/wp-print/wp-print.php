@@ -1,17 +1,16 @@
 <?php
 /*
 Plugin Name: WP-Print
-Plugin URI: http://lesterchan.net/portfolio/programming/php/
+Plugin URI: https://lesterchan.net/portfolio/programming/php/
 Description: Displays a printable version of your WordPress blog's post/page.
-Version: 2.58.2
+Version: 2.58.3
 Author: Lester 'GaMerZ' Chan
-Author URI: http://lesterchan.net
+Author URI: https://lesterchan.net
 Text Domain: wp-print
 */
 
-
 /*
-	Copyright 2020  Lester Chan  (email : lesterchan@gmail.com)
+	Copyright 2026  Lester Chan  (email : lesterchan@gmail.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -106,23 +105,26 @@ function print_link($print_post_text = '', $print_page_text = '', $echo = true) 
 		$print_link = $print_link.'&amp;print=1';
 	}
 	unset($print_options);
+	$print_link_esc = esc_url($print_link);
+	$print_icon_esc = esc_url($print_icon);
+	$print_text_attr = esc_attr($print_text);
 	switch($print_style) {
 		// Icon + Text Link
 		case 1:
-			$output = '<a href="'.$print_link.'" title="'.$print_text.'" rel="nofollow"><img class="WP-PrintIcon" src="'.$print_icon.'" alt="'.$print_text.'" title="'.$print_text.'" style="border: 0px;" /></a>&nbsp;<a href="'.$print_link.'" title="'.$print_text.'" rel="nofollow">'.$print_text.'</a>';
+			$output = '<a href="'.$print_link_esc.'" title="'.$print_text_attr.'" rel="nofollow"><img class="WP-PrintIcon" src="'.$print_icon_esc.'" alt="'.$print_text_attr.'" title="'.$print_text_attr.'" style="border: 0px;" /></a>&nbsp;<a href="'.$print_link_esc.'" title="'.$print_text_attr.'" rel="nofollow">'.$print_text.'</a>';
 			break;
 		// Icon Only
 		case 2:
-			$output = '<a href="'.$print_link.'" title="'.$print_text.'" rel="nofollow"><img class="WP-PrintIcon" src="'.$print_icon.'" alt="'.$print_text.'" title="'.$print_text.'" style="border: 0px;" /></a>';
+			$output = '<a href="'.$print_link_esc.'" title="'.$print_text_attr.'" rel="nofollow"><img class="WP-PrintIcon" src="'.$print_icon_esc.'" alt="'.$print_text_attr.'" title="'.$print_text_attr.'" style="border: 0px;" /></a>';
 			break;
 		// Text Link Only
 		case 3:
-			$output = '<a href="'.$print_link.'" title="'.$print_text.'" rel="nofollow">'.$print_text.'</a>';
+			$output = '<a href="'.$print_link_esc.'" title="'.$print_text_attr.'" rel="nofollow">'.$print_text.'</a>';
 			break;
 		case 4:
-			$print_html = str_replace("%PRINT_URL%", $print_link, $print_html);
+			$print_html = str_replace("%PRINT_URL%", $print_link_esc, $print_html);
 			$print_html = str_replace("%PRINT_TEXT%", $print_text, $print_html);
-			$print_html = str_replace("%PRINT_ICON_URL%", $print_icon, $print_html);
+			$print_html = str_replace("%PRINT_ICON_URL%", $print_icon_esc, $print_html);
 			$output = $print_html;
 			break;
 	}
@@ -220,9 +222,9 @@ function print_content($display = true) {
 				$content = str_replace_one($link_match, "<a href=\"$link_url\" rel=\"external\">".$link_text.'</a> <sup>['.number_format_i18n($link_number).']</sup>', $content);
 				if ($new_link) {
 					if(preg_match('/<img(.+?)src=[\"\'](.+?)[\"\'](.*?)>/',$link_text)) {
-						$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.__('Image', 'wp-print').': <b><span dir="ltr">'.$link_url.'</span></b></p>';
+						$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.__('Image', 'wp-print').': <strong><span dir="ltr">'.$link_url.'</span></strong></p>';
 					} else {
-						$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.$link_text.': <b><span dir="ltr">'.$link_url.'</span></b></p>';
+						$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.$link_text.': <strong><span dir="ltr">'.$link_url.'</span></strong></p>';
 					}
 				}
 			}
@@ -264,6 +266,7 @@ function print_comments_content($display = true) {
 		for ($i=0; $i < count($matches[0]); $i++) {
 			$link_match = $matches[0][$i];
 			$link_url = $matches[2][$i];
+			$link_text = $matches[4][$i];
 			if(stristr($link_url, 'https://')) {
 				 $link_url =(strtolower(substr($link_url,0,8)) != 'https://') ?get_option('home') . $link_url : $link_url;
 			} else if(stristr($link_url, 'mailto:')) {
@@ -285,9 +288,9 @@ function print_comments_content($display = true) {
 			$content = str_replace_one($link_match, "<a href=\"$link_url\" rel=\"external\">".$link_text.'</a> <sup>['.number_format_i18n($link_number).']</sup>', $content);
 			if ($new_link) {
 				if(preg_match('/<img(.+?)src=[\"\'](.+?)[\"\'](.*?)>/',$link_text)) {
-					$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.__('Image', 'wp-print').': <b><span dir="ltr">'.$link_url.'</span></b></p>';
+					$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.__('Image', 'wp-print').': <strong><span dir="ltr">'.$link_url.'</span></strong></p>';
 				} else {
-					$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.$link_text.': <b><span dir="ltr">'.$link_url.'</span></b></p>';
+					$links_text .= '<p style="margin: 2px 0;">['.number_format_i18n($link_number).'] '.$link_text.': <strong><span dir="ltr">'.$link_url.'</span></strong></p>';
 				}
 			}
 		}
